@@ -3,5 +3,58 @@ layout: base.njk
 title: Skate Spots — Skate And the City
 permalink: /spots/
 ---
-<h1 class="text-3xl font-bold text-skate-accent mb-6">Skate Spots</h1>
-<p class="text-gray-400">Coming soon — spots data loading from <code>/data/spots.json</code>.</p>
+<h1 class="text-3xl font-bold text-skate-accent mb-2">Skate Spots</h1>
+<p class="text-gray-400 mb-8">{{ allSpots.length }} spots across NYC's five boroughs.</p>
+
+{# Filter by borough #}
+<div class="flex flex-wrap gap-2 mb-8" id="filters">
+  <button onclick="filterSpots('all')" class="filter-btn active px-3 py-1 rounded-full text-sm bg-skate-accent text-black font-semibold" data-filter="all">All</button>
+  <button onclick="filterSpots('Manhattan')" class="filter-btn px-3 py-1 rounded-full text-sm bg-skate-surface text-gray-300 border border-skate-accent/30 hover:border-skate-accent transition" data-filter="Manhattan">Manhattan</button>
+  <button onclick="filterSpots('Brooklyn')" class="filter-btn px-3 py-1 rounded-full text-sm bg-skate-surface text-gray-300 border border-skate-accent/30 hover:border-skate-accent transition" data-filter="Brooklyn">Brooklyn</button>
+  <button onclick="filterSpots('Bronx')" class="filter-btn px-3 py-1 rounded-full text-sm bg-skate-surface text-gray-300 border border-skate-accent/30 hover:border-skate-accent transition" data-filter="Bronx">Bronx</button>
+  <button onclick="filterSpots('Queens')" class="filter-btn px-3 py-1 rounded-full text-sm bg-skate-surface text-gray-300 border border-skate-accent/30 hover:border-skate-accent transition" data-filter="Queens">Queens</button>
+  <button onclick="filterSpots('Staten Island')" class="filter-btn px-3 py-1 rounded-full text-sm bg-skate-surface text-gray-300 border border-skate-accent/30 hover:border-skate-accent transition" data-filter="Staten Island">Staten Island</button>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="spots-grid">
+  {% for spot in allSpots %}
+  <a href="{{ '/spots/' + spot.id + '/' | url }}" 
+     class="spot-card block bg-skate-surface rounded-lg p-4 border border-skate-accent/20 hover:border-skate-accent/60 transition group"
+     data-borough="{{ spot.borough }}">
+    <div class="flex items-start justify-between mb-2">
+      <h2 class="text-lg font-semibold text-white group-hover:text-skate-accent transition">{{ spot.name }}</h2>
+      {% if spot.status == "active" %}
+        <span class="px-2 py-0.5 text-xs rounded bg-green-900/50 text-green-400 shrink-0">Active</span>
+      {% elif spot.status == "restricted" %}
+        <span class="px-2 py-0.5 text-xs rounded bg-yellow-900/50 text-yellow-400 shrink-0">Restricted</span>
+      {% elif spot.status == "demolished" %}
+        <span class="px-2 py-0.5 text-xs rounded bg-red-900/50 text-red-400 shrink-0">Demolished</span>
+      {% else %}
+        <span class="px-2 py-0.5 text-xs rounded bg-gray-700 text-gray-300 shrink-0">{{ spot.status }}</span>
+      {% endif %}
+    </div>
+    <p class="text-sm text-gray-400 mb-3">{{ spot.neighborhood }}, {{ spot.borough }}</p>
+    <div class="flex items-center gap-3 text-xs text-gray-500">
+      <span>{{ spot.type | capitalize }}</span>
+      <span>·</span>
+      <span>{% for i in range(1, 6) %}{% if i <= spot.difficulty %}★{% else %}☆{% endif %}{% endfor %}</span>
+      <span>·</span>
+      <span>{{ spot.features.length }} features</span>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+
+<script>
+function filterSpots(borough) {
+  document.querySelectorAll('.spot-card').forEach(card => {
+    card.style.display = (borough === 'all' || card.dataset.borough === borough) ? '' : 'none';
+  });
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    const isActive = btn.dataset.filter === borough;
+    btn.className = isActive 
+      ? 'filter-btn active px-3 py-1 rounded-full text-sm bg-skate-accent text-black font-semibold'
+      : 'filter-btn px-3 py-1 rounded-full text-sm bg-skate-surface text-gray-300 border border-skate-accent/30 hover:border-skate-accent transition';
+  });
+}
+</script>
