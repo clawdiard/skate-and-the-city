@@ -1,0 +1,252 @@
+[
+  {
+    "type": "spot",
+    "id": "brooklyn-banks",
+    "name": "Brooklyn Banks",
+    "description": "Legendary brick banks under the Brooklyn Bridge on-ramp. One of the most iconic skate spots in history. The angled brick embankments provide perfect natural transitions for wallrides, bank tricks, and creative lines.",
+    "neighborhood": "City Hall",
+    "borough": "Manhattan",
+    "features": "banks, ledges, manual pads, stairs",
+    "url": "/spots/brooklyn-banks/"
+  },
+  {
+    "type": "spot",
+    "id": "tompkins-square-park",
+    "name": "Tompkins Square Park",
+    "description": "Classic East Village park with a longstanding skate-friendly culture. Smooth paths, varied ledge heights, and a welcoming atmosphere make it accessible for all skill levels.",
+    "neighborhood": "East Village",
+    "borough": "Manhattan",
+    "features": "flat ground, benches, manual pads, curbs",
+    "url": "/spots/tompkins-square-park/"
+  },
+  {
+    "type": "spot",
+    "id": "les-skatepark",
+    "name": "LES Skatepark",
+    "description": "Official concrete skatepark under the Manhattan Bridge. A well-designed mix of street and transition elements that serves as one of Manhattan's primary skateparks.",
+    "neighborhood": "Lower East Side",
+    "borough": "Manhattan",
+    "features": "bowl, quarter pipes, ledges, rails, flat bars",
+    "url": "/spots/les-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "chelsea-piers",
+    "name": "Chelsea Piers Skatepark",
+    "description": "Indoor/covered skatepark at Chelsea Piers sports complex along the Hudson River.",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "features": "mini ramp, quarter pipes, rails, ledges",
+    "url": "/spots/chelsea-piers/"
+  },
+  {
+    "type": "spot",
+    "id": "astor-place",
+    "name": "Astor Place",
+    "description": "Iconic NYC plaza with the Alamo cube sculpture. Smooth ground and skateable ledges.",
+    "neighborhood": "NoHo",
+    "borough": "Manhattan",
+    "features": "flat ground, ledges, marble benches, manual pads",
+    "url": "/spots/astor-place/"
+  },
+  {
+    "type": "spot",
+    "id": "federal-plaza",
+    "name": "Federal Plaza",
+    "description": "Massive government plaza with perfect granite ledges. Heavily skated in videos but security is aggressive.",
+    "neighborhood": "Civic Center",
+    "borough": "Manhattan",
+    "features": "granite ledges, flat ground, stairs, gaps",
+    "url": "/spots/federal-plaza/"
+  },
+  {
+    "type": "spot",
+    "id": "owls-head",
+    "name": "Owl's Head Skatepark",
+    "description": "Well-built concrete skatepark in Owl's Head Park with harbor views. One of Brooklyn's best skateparks featuring both transition and street elements.",
+    "neighborhood": "Bay Ridge",
+    "borough": "Brooklyn",
+    "features": "bowl, snake run, ledges, rails, quarter pipes",
+    "url": "/spots/owls-head/"
+  },
+  {
+    "type": "spot",
+    "id": "mccarren-skatepark",
+    "name": "McCarren Skatepark",
+    "description": "Popular Williamsburg skatepark in McCarren Park. Great street-style layout.",
+    "neighborhood": "Williamsburg",
+    "borough": "Brooklyn",
+    "features": "ledges, rails, flat bars, manual pads, quarter pipes",
+    "url": "/spots/mccarren-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "dumbo-spot",
+    "name": "DUMBO Skate Spot",
+    "description": "Cobblestone-adjacent flat areas under the Manhattan Bridge in DUMBO with various skateable architecture.",
+    "neighborhood": "DUMBO",
+    "borough": "Brooklyn",
+    "features": "ledges, flat ground, banks, curbs",
+    "url": "/spots/dumbo-spot/"
+  },
+  {
+    "type": "spot",
+    "id": "prospect-park",
+    "name": "Prospect Park Skate Circle",
+    "description": "Smooth park loops and the skate circle area near the bandshell. Great for cruising and flat ground tricks.",
+    "neighborhood": "Prospect Park",
+    "borough": "Brooklyn",
+    "features": "flat ground, smooth paths, gentle slopes",
+    "url": "/spots/prospect-park/"
+  },
+  {
+    "type": "spot",
+    "id": "flushing-meadows",
+    "name": "Flushing Meadows Skatepark",
+    "description": "Large concrete skatepark in Flushing Meadows Corona Park near the Unisphere.",
+    "neighborhood": "Flushing",
+    "borough": "Queens",
+    "features": "bowl, rails, ledges, quarter pipes, stairs",
+    "url": "/spots/flushing-meadows/"
+  },
+  {
+    "type": "spot",
+    "id": "rockaway-beach",
+    "name": "Rockaway Beach Skatepark",
+    "description": "Beachside bowl-heavy park with deep transition. One of the gnarliest parks in NYC.",
+    "neighborhood": "Rockaway Beach",
+    "borough": "Queens",
+    "features": "bowl, snake run, pool coping, deep end, extensions",
+    "url": "/spots/rockaway-beach/"
+  },
+  {
+    "type": "spot",
+    "id": "astoria-park",
+    "name": "Astoria Park Skatepark",
+    "description": "Solid neighborhood skatepark under the Hell Gate Bridge in Astoria Park.",
+    "neighborhood": "Astoria",
+    "borough": "Queens",
+    "features": "ledges, rails, quarter pipes, manual pads",
+    "url": "/spots/astoria-park/"
+  },
+  {
+    "type": "spot",
+    "id": "mullaly-skatepark",
+    "name": "Mullaly Skatepark",
+    "description": "One of the best skateparks in NYC. Deep bowls with excellent flow, a quality street section, and top-tier concrete work. The Bronx's crown jewel of skating.",
+    "neighborhood": "Concourse",
+    "borough": "Bronx",
+    "features": "bowl, pool coping, spine, hips, deep transitions, street section",
+    "url": "/spots/mullaly-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "river-park-skatepark",
+    "name": "River Park Skatepark",
+    "description": "Neighborhood park along the Bronx River with a compact but fun skate area.",
+    "neighborhood": "Mott Haven",
+    "borough": "Bronx",
+    "features": "ledges, rails, quarter pipes, flat bars",
+    "url": "/spots/river-park-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "stapleton-skatepark",
+    "name": "Stapleton Skatepark",
+    "description": "Staten Island's primary skatepark near the waterfront. Compact street-style layout.",
+    "neighborhood": "Stapleton",
+    "borough": "Staten Island",
+    "features": "ledges, rails, quarter pipes, manual pads, flat bars",
+    "url": "/spots/stapleton-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "pier-62",
+    "name": "Pier 62 Skatepark",
+    "description": "Free public skatepark on Pier 62 in Hudson River Park. Great river views and solid design.",
+    "neighborhood": "Chelsea",
+    "borough": "Manhattan",
+    "features": "bowl, ledges, rails, stairs, banks, flat bars",
+    "url": "/spots/pier-62/"
+  },
+  {
+    "type": "spot",
+    "id": "cooper-park",
+    "name": "Cooper Park Skatepark",
+    "description": "Neighborhood skatepark in Cooper Park. Small but well-maintained with a friendly local scene.",
+    "neighborhood": "East Williamsburg",
+    "borough": "Brooklyn",
+    "features": "ledges, rails, quarter pipes, manual pads",
+    "url": "/spots/cooper-park/"
+  },
+  {
+    "type": "spot",
+    "id": "washington-heights-spot",
+    "name": "Washington Heights Banks",
+    "description": "Steep streets and concrete banks in the Heights. Raw street skating with amazing hill bombs.",
+    "neighborhood": "Washington Heights",
+    "borough": "Manhattan",
+    "features": "banks, ledges, stairs, gaps",
+    "url": "/spots/washington-heights-spot/"
+  },
+  {
+    "type": "spot",
+    "id": "red-hook-diy",
+    "name": "Red Hook DIY Spot",
+    "description": "Community-built DIY spot in Red Hook's industrial waterfront area. Raw, creative, and constantly evolving.",
+    "neighborhood": "Red Hook",
+    "borough": "Brooklyn",
+    "features": "DIY ramps, concrete transitions, ledges, creative obstacles",
+    "url": "/spots/red-hook-diy/"
+  },
+  {
+    "type": "spot",
+    "id": "midtown-banks",
+    "name": "Midtown Courthouse Banks",
+    "description": "Marble banks and ledges around Midtown courthouses. Classic spot but heavy security.",
+    "neighborhood": "Midtown East",
+    "borough": "Manhattan",
+    "features": "banks, ledges, flat ground, stairs",
+    "url": "/spots/midtown-banks/"
+  },
+  {
+    "type": "spot",
+    "id": "hunts-point-diy",
+    "name": "Hunts Point DIY",
+    "description": "Bronx DIY spot built by local skaters in Hunts Point industrial area. Gritty and authentic.",
+    "neighborhood": "Hunts Point",
+    "borough": "Bronx",
+    "features": "DIY ramps, flat bars, manual pads, creative features",
+    "url": "/spots/hunts-point-diy/"
+  },
+  {
+    "type": "route",
+    "id": "og-manhattan",
+    "name": "The OG Manhattan",
+    "description": "Hit the most iconic Manhattan skate spots in one legendary day — from the Brooklyn Banks to Tompkins, through LES and finishing at Astor Place. This is the route every NYC skater should ride at least once.",
+    "neighborhood": "Manhattan",
+    "borough": "Manhattan",
+    "features": "brooklyn-banks, les-skatepark, tompkins-square-park, astor-place",
+    "url": "/routes/og-manhattan/"
+  },
+  {
+    "type": "route",
+    "id": "brooklyn-bridge-to-banks",
+    "name": "Brooklyn Bridge to Banks",
+    "description": "Cross the Brooklyn Bridge on your board, hit the Banks, then loop through downtown Manhattan's best street spots. Touristy? Maybe. Epic? Absolutely.",
+    "neighborhood": "Manhattan / Brooklyn",
+    "borough": "Manhattan / Brooklyn",
+    "features": "dumbo-spot, brooklyn-banks, federal-plaza",
+    "url": "/routes/brooklyn-bridge-to-banks/"
+  },
+  {
+    "type": "route",
+    "id": "williamsburg-to-bushwick",
+    "name": "Williamsburg to Bushwick",
+    "description": "Brooklyn's creative corridor — from McCarren Park's modern skatepark through the street art of Bushwick to the DIY energy of Cooper Park. This route is pure Brooklyn.",
+    "neighborhood": "Brooklyn",
+    "borough": "Brooklyn",
+    "features": "mccarren-skatepark, cooper-park, red-hook-diy",
+    "url": "/routes/williamsburg-to-bushwick/"
+  }
+]

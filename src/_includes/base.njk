@@ -13,6 +13,13 @@
   <header class="bg-skate-surface border-b border-skate-accent/30 px-4 py-3">
     <nav class="max-w-5xl mx-auto flex items-center justify-between">
       <a href="{{ '/' | url }}" class="text-xl font-bold text-skate-accent">🛹 Skate & the City</a>
+      <div class="relative flex-1 max-w-xs mx-4">
+        <input id="search-input" type="search" placeholder="Search spots, routes…"
+          class="w-full bg-skate-primary/60 border border-skate-accent/30 rounded-lg px-3 py-1.5 text-sm text-skate-text placeholder-gray-500 focus:outline-none focus:border-skate-accent transition"
+          autocomplete="off" />
+        <div id="search-results" class="hidden absolute top-full left-0 right-0 mt-1 bg-skate-surface border border-skate-accent/30 rounded-lg shadow-xl z-50 max-h-80 overflow-y-auto"></div>
+      </div>
+      <div id="search-overlay" class="hidden fixed inset-0 z-40"></div>
       <ul class="flex gap-4 text-sm">
         <li><a href="{{ '/' | url }}" class="hover:text-skate-accent transition">Home</a></li>
         <li><a href="{{ '/spots/' | url }}" class="hover:text-skate-accent transition">Spots</a></li>
@@ -32,5 +39,6 @@
       navigator.serviceWorker.register('{{ "/sw.js" | url }}');
     }
   </script>
+  <script src="{{ '/assets/js/search.js' | url }}" defer></script>
 </body>
 </html>
