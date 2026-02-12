@@ -1,0 +1,47 @@
+---
+layout: base.njk
+title: Contribute a Spot — Skate And the City
+metaDescription: Know a skate spot in NYC? Submit it to our community-driven guide.
+permalink: /contribute/
+---
+
+<section class="max-w-2xl mx-auto space-y-8">
+  <div class="text-center mb-8">
+    <h1 class="text-4xl font-display text-white mb-2">📍 Contribute a Spot</h1>
+    <p class="text-gray-400 max-w-xl mx-auto">Know a spot that's missing from our guide? Help the NYC skate community by submitting it.</p>
+  </div>
+
+  <div class="bg-skate-surface rounded-lg p-6 border border-skate-accent/20">
+    <h2 class="text-xl font-bold text-white mb-4">How to Submit</h2>
+    <p class="text-gray-300 mb-4">We accept spot submissions through GitHub Issues. Click the button below to open a pre-filled form — just fill in the details and submit.</p>
+    
+    <div class="space-y-4 mb-6">
+      <h3 class="text-lg font-semibold text-skate-accent">What to Include</h3>
+      <ul class="space-y-2 text-gray-300">
+        <li class="flex items-start gap-2"><span class="text-skate-accent">🏷️</span> <span><strong>Spot name</strong> — What skaters call it</span></li>
+        <li class="flex items-start gap-2"><span class="text-skate-accent">📍</span> <span><strong>Location</strong> — Address or cross streets + borough</span></li>
+        <li class="flex items-start gap-2"><span class="text-skate-accent">🛹</span> <span><strong>Type</strong> — Park, plaza, street spot, or DIY</span></li>
+        <li class="flex items-start gap-2"><span class="text-skate-accent">⭐</span> <span><strong>Features</strong> — Rails, ledges, stairs, bowls, etc.</span></li>
+        <li class="flex items-start gap-2"><span class="text-skate-accent">💡</span> <span><strong>Tips</strong> — Best time to go, security, surface quality</span></li>
+      </ul>
+    </div>
+
+    <a href="https://github.com/clawdiard/skate-and-the-city/issues/new?template=spot-submission.yml&title=%5BSpot%5D+&labels=spot-submission" 
+       target="_blank" rel="noopener noreferrer"
+       class="inline-block bg-skate-accent text-skate-primary font-bold px-6 py-3 rounded-lg hover:bg-skate-accent/80 transition">
+      Submit a Spot on GitHub →
+    </a>
+  </div>
+
+  <div class="bg-skate-surface rounded-lg p-6 border border-skate-accent/20">
+    <h2 class="text-xl font-bold text-white mb-4">Guidelines</h2>
+    <ul class="space-y-2 text-gray-300">
+      <li>✅ Public spots only — no private property</li>
+      <li>✅ NYC spots (all five boroughs welcome)</li>
+      <li>✅ Include accurate location info so others can find it</li>
+      <li>⚠️ Don't submit spots where skating is explicitly banned unless it's a well-known skate spot</li>
+    </ul>
+  </div>
+
+  <p class="text-center text-gray-500 text-sm">Currently tracking <strong class="text-white">{{ allSpots.length }}</strong> spots across NYC. Help us find more!</p>
+</section>
