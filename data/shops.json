@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "labor",
+    "name": "Labor Skateboard Shop",
+    "address": "46 Canal St, New York, NY 10002",
+    "coordinates": { "lat": 40.7178, "lng": -73.9988 },
+    "borough": "Manhattan",
+    "neighborhood": "Chinatown",
+    "hours": "Mon-Sat 12pm-7pm, Sun 12pm-6pm",
+    "website": "https://laborskateshop.com",
+    "specialties": ["decks", "local brands", "community events"],
+    "description": "Worker-owned shop in Chinatown. Deep roots in the NYC skate scene — known for supporting local riders and hosting community events.",
+    "affiliateUrl": "",
+    "nearbySpots": ["coleman-playground", "city-hall"]
+  },
+  {
+    "id": "kcdc",
+    "name": "KCDC Skateshop",
+    "address": "90 N 11th St, Brooklyn, NY 11249",
+    "coordinates": { "lat": 40.7180, "lng": -73.9576 },
+    "borough": "Brooklyn",
+    "neighborhood": "Williamsburg",
+    "hours": "Mon-Sat 12pm-7pm, Sun 12pm-6pm",
+    "website": "https://kcdcskateshop.com",
+    "specialties": ["decks", "shoes", "gallery space", "indoor bowl"],
+    "description": "Williamsburg staple since 1997. Features an indoor bowl, gallery space, and one of the best curated deck walls in the city.",
+    "affiliateUrl": "",
+    "nearbySpots": ["mccarren-park", "williamsburg-bridge"]
+  },
+  {
+    "id": "supreme",
+    "name": "Supreme",
+    "address": "274 Lafayette St, New York, NY 10012",
+    "coordinates": { "lat": 40.7237, "lng": -73.9968 },
+    "borough": "Manhattan",
+    "neighborhood": "SoHo",
+    "hours": "Mon-Sat 11am-7pm, Sun 12pm-6pm",
+    "website": "https://www.supremenewyork.com",
+    "specialties": ["streetwear", "decks", "accessories"],
+    "description": "The brand that started on Lafayette. Love it or hate it, Supreme put NYC skateboarding on the global fashion map. Still a working skate shop underneath the hype.",
+    "affiliateUrl": "",
+    "nearbySpots": ["tompkins-square-park", "astor-place"]
+  },
+  {
+    "id": "homage-brooklyn",
+    "name": "Homage Brooklyn",
+    "address": "379 Atlantic Ave, Brooklyn, NY 11217",
+    "coordinates": { "lat": 40.6860, "lng": -73.9790 },
+    "borough": "Brooklyn",
+    "neighborhood": "Boerum Hill",
+    "hours": "Tue-Sat 12pm-7pm, Sun 12pm-5pm",
+    "website": "https://homagebrooklyn.com",
+    "specialties": ["decks", "cruisers", "local art", "youth programs"],
+    "description": "Community-driven Brooklyn shop focused on making skateboarding accessible. Strong youth program and local artist collabs.",
+    "affiliateUrl": "",
+    "nearbySpots": []
+  },
+  {
+    "id": "autumn",
+    "name": "Autumn Skateshop",
+    "address": "65 Broadway, Brooklyn, NY 11249",
+    "coordinates": { "lat": 40.7107, "lng": -73.9625 },
+    "borough": "Brooklyn",
+    "neighborhood": "Williamsburg",
+    "hours": "Mon-Sat 12pm-7pm, Sun 12pm-6pm",
+    "website": "https://www.autumnskateshop.com",
+    "specialties": ["hardware", "shoes", "independent brands"],
+    "description": "Williamsburg's go-to core shop. No frills, just solid gear and riders who know what they're talking about.",
+    "affiliateUrl": "",
+    "nearbySpots": ["mccarren-park"]
+  }
+]

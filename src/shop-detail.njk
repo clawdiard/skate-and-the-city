@@ -1,0 +1,62 @@
+---
+layout: base.njk
+pagination:
+  data: allShops
+  size: 1
+  alias: shop
+permalink: "/shops/{{ shop.id }}/"
+eleventyComputed:
+  title: "{{ shop.name }} — Skate And the City"
+---
+
+<nav class="text-sm text-gray-400 mb-6" aria-label="Breadcrumb">
+  <ol class="flex items-center gap-2">
+    <li><a href="{{ '/' | url }}" class="hover:text-skate-accent transition">Home</a></li>
+    <li class="text-gray-600">/</li>
+    <li><a href="{{ '/shops/' | url }}" class="hover:text-skate-accent transition">Shops</a></li>
+    <li class="text-gray-600">/</li>
+    <li class="text-white">{{ shop.name }}</li>
+  </ol>
+</nav>
+
+<article class="space-y-6 max-w-2xl">
+  <h1 class="text-3xl font-display text-white">{{ shop.name }}</h1>
+
+  <div class="bg-skate-surface rounded-lg p-5 border border-skate-accent/20 space-y-3">
+    <p class="text-gray-300">{{ shop.description }}</p>
+
+    <div class="grid gap-2 text-sm text-gray-400">
+      <div>📍 <span class="text-gray-300">{{ shop.address }}</span></div>
+      <div>🕐 <span class="text-gray-300">{{ shop.hours }}</span></div>
+      {% if shop.website %}
+      <div>🌐 <a href="{{ shop.website }}" target="_blank" rel="noopener" class="text-skate-accent hover:underline">{{ shop.website | replace("https://", "") | replace("http://", "") }}</a></div>
+      {% endif %}
+    </div>
+
+    <div class="flex flex-wrap gap-2 pt-2">
+      {% for spec in shop.specialties %}
+      <span class="text-xs bg-skate-accent/10 text-skate-accent px-2 py-0.5 rounded-full">{{ spec }}</span>
+      {% endfor %}
+    </div>
+  </div>
+
+  {# Nearby Spots Cross-Reference #}
+  {% if shop.nearbySpots and shop.nearbySpots.length > 0 %}
+  <div class="bg-skate-surface rounded-lg p-4 border border-skate-accent/20">
+    <h3 class="font-semibold text-white mb-3">📍 Nearby Spots</h3>
+    <ul class="space-y-1 text-sm text-gray-300">
+      {% for spotId in shop.nearbySpots %}
+        {% for s in allSpots %}
+          {% if s.id == spotId %}
+          <li>• <a href="{{ ('/spots/' + s.id + '/') | url }}" class="text-skate-accent hover:underline">{{ s.name }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if shop.affiliateUrl %}
+  <a href="{{ shop.affiliateUrl }}" target="_blank" rel="noopener sponsored" class="inline-block bg-skate-accent text-white font-semibold px-5 py-2 rounded-lg hover:bg-skate-accent/80 transition">Shop Online →</a>
+  {% endif %}
+</article>

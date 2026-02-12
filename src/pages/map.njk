@@ -79,6 +79,11 @@ title: Spot Map — Skate And the City
       <label><input type="checkbox" class="filter-diff" value="3" checked> ⭐⭐⭐ Advanced</label>
       <label><input type="checkbox" class="filter-diff" value="4" checked> ⭐⭐⭐⭐ Expert</label>
     </div>
+    <div class="filter-group">
+      <strong>Layers</strong>
+      <label><input type="checkbox" id="toggleShops" checked> 🛹 Shops</label>
+      <label><input type="checkbox" id="toggleFood" checked> 🍕 Food</label>
+    </div>
     <button onclick="document.getElementById('filterPanel').style.display='none';document.getElementById('filterToggle').style.display='block';"
       style="background:none;border:none;color:#999;cursor:pointer;font-size:11px;padding:0;">Hide filters</button>
   </div>
@@ -144,6 +149,38 @@ title: Spot Map — Skate And the City
   });
 
   map.addLayer(clusterGroup);
+
+  // Shop & Food layers
+  const shopLayer = L.layerGroup();
+  const foodLayer = L.layerGroup();
+
+  const shopIcon = L.divIcon({ className: '', html: '<div style="font-size:20px;text-align:center;">🛹</div>', iconSize: [28, 28], iconAnchor: [14, 14] });
+  const foodIcon = L.divIcon({ className: '', html: '<div style="font-size:20px;text-align:center;">🍕</div>', iconSize: [28, 28], iconAnchor: [14, 14] });
+
+  fetch('/data/shops.json').then(r=>r.json()).then(shops => {
+    shops.forEach(shop => {
+      const m = L.marker([shop.coordinates.lat, shop.coordinates.lng], { icon: shopIcon });
+      m.bindPopup(`<div class="spot-popup"><h4>${shop.name}</h4><p style="font-size:12px;margin:4px 0;color:#666;">${shop.address}</p><a href="/shops/${shop.id}/">View Details →</a></div>`, { maxWidth: 280 });
+      shopLayer.addLayer(m);
+    });
+    shopLayer.addTo(map);
+  });
+
+  fetch('/data/food.json').then(r=>r.json()).then(foods => {
+    foods.forEach(item => {
+      const m = L.marker([item.coordinates.lat, item.coordinates.lng], { icon: foodIcon });
+      m.bindPopup(`<div class="spot-popup"><h4>${item.name}</h4><p style="font-size:12px;margin:4px 0;color:#666;">${item.cuisine} · ${item.priceRange}</p><a href="/food/${item.id}/">View Details →</a></div>`, { maxWidth: 280 });
+      foodLayer.addLayer(m);
+    });
+    foodLayer.addTo(map);
+  });
+
+  document.getElementById('toggleShops').addEventListener('change', function() {
+    this.checked ? map.addLayer(shopLayer) : map.removeLayer(shopLayer);
+  });
+  document.getElementById('toggleFood').addEventListener('change', function() {
+    this.checked ? map.addLayer(foodLayer) : map.removeLayer(foodLayer);
+  });
 
   // Filtering
   function applyFilters() {

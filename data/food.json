@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "id": "joes-pizza",
+    "name": "Joe's Pizza",
+    "address": "7 Carmine St, New York, NY 10014",
+    "coordinates": { "lat": 40.7306, "lng": -74.0021 },
+    "borough": "Manhattan",
+    "neighborhood": "Greenwich Village",
+    "cuisine": "Pizza",
+    "priceRange": "$",
+    "description": "The quintessential NYC slice. Skaters have been refueling here between sessions since the '70s. Cash only, no nonsense.",
+    "skaterRelevance": "Steps from the West 4th courts and multiple downtown spots. The post-session slice.",
+    "affiliateUrl": "",
+    "nearbySpots": ["tompkins-square-park", "astor-place"]
+  },
+  {
+    "id": "vanessas-dumplings",
+    "name": "Vanessa's Dumplings",
+    "address": "118A Eldridge St, New York, NY 10002",
+    "coordinates": { "lat": 40.7185, "lng": -73.9914 },
+    "borough": "Manhattan",
+    "neighborhood": "Lower East Side",
+    "cuisine": "Chinese (Dumplings)",
+    "priceRange": "$",
+    "description": "Four dumplings for a dollar. The best fuel-to-dollar ratio in Manhattan. A skater's best friend when you're broke and hungry.",
+    "skaterRelevance": "LES is a skate corridor — this is the cheapest refuel in the area.",
+    "affiliateUrl": "",
+    "nearbySpots": ["coleman-playground", "city-hall"]
+  },
+  {
+    "id": "lb-spumoni",
+    "name": "L&B Spumoni Gardens",
+    "address": "2725 86th St, Brooklyn, NY 11223",
+    "coordinates": { "lat": 40.5942, "lng": -73.9813 },
+    "borough": "Brooklyn",
+    "neighborhood": "Gravesend",
+    "cuisine": "Pizza / Italian Ice",
+    "priceRange": "$",
+    "description": "Sicilian slices and spumoni ice cream in Gravesend. A detour worth making — legendary square pizza with the sauce on top.",
+    "skaterRelevance": "Near the southern Brooklyn spots. Perfect for a day trip session + food run.",
+    "affiliateUrl": "",
+    "nearbySpots": []
+  },
+  {
+    "id": "taqueria-diana",
+    "name": "Taqueria Diana",
+    "address": "129 2nd Ave, New York, NY 10003",
+    "coordinates": { "lat": 40.7280, "lng": -73.9876 },
+    "borough": "Manhattan",
+    "neighborhood": "East Village",
+    "cuisine": "Mexican",
+    "priceRange": "$",
+    "description": "East Village taco spot with $2 tacos that hit different after a session. Quick, cheap, and actually good.",
+    "skaterRelevance": "Right in the East Village skate zone, walkable from Tompkins and multiple street spots.",
+    "affiliateUrl": "",
+    "nearbySpots": ["tompkins-square-park"]
+  },
+  {
+    "id": "los-tacos-no1",
+    "name": "Los Tacos No.1",
+    "address": "75 9th Ave, New York, NY 10011",
+    "coordinates": { "lat": 40.7425, "lng": -74.0049 },
+    "borough": "Manhattan",
+    "neighborhood": "Chelsea",
+    "cuisine": "Mexican",
+    "priceRange": "$",
+    "description": "Chelsea Market's crown jewel. Adobo chicken and cactus tacos on fresh tortillas. Worth the line.",
+    "skaterRelevance": "Chelsea Piers and the West Side Highway spots are a short skate away.",
+    "affiliateUrl": "",
+    "nearbySpots": []
+  },
+  {
+    "id": "halal-guys",
+    "name": "The Halal Guys",
+    "address": "W 53rd St & 6th Ave, New York, NY 10019",
+    "coordinates": { "lat": 40.7618, "lng": -73.9793 },
+    "borough": "Manhattan",
+    "neighborhood": "Midtown",
+    "cuisine": "Halal / Middle Eastern",
+    "priceRange": "$",
+    "description": "The original cart on 53rd & 6th. Chicken and rice with white sauce — the ultimate late-night refuel after a Midtown session.",
+    "skaterRelevance": "Midtown has more skateable ledges and plazas than people realize. This is the reward.",
+    "affiliateUrl": "",
+    "nearbySpots": []
+  }
+]

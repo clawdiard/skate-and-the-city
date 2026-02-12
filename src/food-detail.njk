@@ -1,0 +1,60 @@
+---
+layout: base.njk
+pagination:
+  data: allFood
+  size: 1
+  alias: food
+permalink: "/food/{{ food.id }}/"
+eleventyComputed:
+  title: "{{ food.name }} — Skate And the City"
+---
+
+<nav class="text-sm text-gray-400 mb-6" aria-label="Breadcrumb">
+  <ol class="flex items-center gap-2">
+    <li><a href="{{ '/' | url }}" class="hover:text-skate-accent transition">Home</a></li>
+    <li class="text-gray-600">/</li>
+    <li><a href="{{ '/food/' | url }}" class="hover:text-skate-accent transition">Food</a></li>
+    <li class="text-gray-600">/</li>
+    <li class="text-white">{{ food.name }}</li>
+  </ol>
+</nav>
+
+<article class="space-y-6 max-w-2xl">
+  <h1 class="text-3xl font-display text-white">{{ food.name }}</h1>
+
+  <div class="bg-skate-surface rounded-lg p-5 border border-skate-accent/20 space-y-3">
+    <p class="text-gray-300">{{ food.description }}</p>
+
+    <div class="grid gap-2 text-sm text-gray-400">
+      <div>📍 <span class="text-gray-300">{{ food.address }}</span></div>
+      <div>🍽️ <span class="text-gray-300">{{ food.cuisine }}</span></div>
+      <div>💰 <span class="text-gray-300">{{ food.priceRange }}</span></div>
+    </div>
+
+    {% if food.skaterRelevance %}
+    <div class="bg-skate-accent/5 rounded p-3 mt-3">
+      <p class="text-sm text-gray-300"><span class="text-skate-accent font-semibold">🛹 Skater note:</span> {{ food.skaterRelevance }}</p>
+    </div>
+    {% endif %}
+  </div>
+
+  {# Nearby Spots Cross-Reference #}
+  {% if food.nearbySpots and food.nearbySpots.length > 0 %}
+  <div class="bg-skate-surface rounded-lg p-4 border border-skate-accent/20">
+    <h3 class="font-semibold text-white mb-3">📍 Nearby Spots</h3>
+    <ul class="space-y-1 text-sm text-gray-300">
+      {% for spotId in food.nearbySpots %}
+        {% for s in allSpots %}
+          {% if s.id == spotId %}
+          <li>• <a href="{{ ('/spots/' + s.id + '/') | url }}" class="text-skate-accent hover:underline">{{ s.name }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if food.affiliateUrl %}
+  <a href="{{ food.affiliateUrl }}" target="_blank" rel="noopener sponsored" class="inline-block bg-skate-accent text-white font-semibold px-5 py-2 rounded-lg hover:bg-skate-accent/80 transition">Order Online →</a>
+  {% endif %}
+</article>

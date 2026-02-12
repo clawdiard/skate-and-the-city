@@ -240,6 +240,42 @@ eleventyComputed:
     </div>
     {% endif %}
 
+    {# Near This Spot: Shops #}
+    {% set nearShops = [] %}
+    {% for shop in allShops %}
+      {% if shop.nearbySpots and spot.id in shop.nearbySpots %}
+        {% set nearShops = (nearShops.push(shop), nearShops) %}
+      {% endif %}
+    {% endfor %}
+    {% if nearShops.length > 0 %}
+    <div class="bg-skate-surface rounded-lg p-4 border border-skate-accent/20">
+      <h3 class="font-semibold text-white mb-3">🛹 Nearby Shops</h3>
+      <ul class="space-y-1 text-sm text-gray-300">
+        {% for shop in nearShops %}
+          <li>• <a href="{{ ('/shops/' + shop.id + '/') | url }}" class="text-skate-accent hover:underline">{{ shop.name }}</a> — {{ shop.neighborhood }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {# Near This Spot: Food #}
+    {% set nearFood = [] %}
+    {% for item in allFood %}
+      {% if item.nearbySpots and spot.id in item.nearbySpots %}
+        {% set nearFood = (nearFood.push(item), nearFood) %}
+      {% endif %}
+    {% endfor %}
+    {% if nearFood.length > 0 %}
+    <div class="bg-skate-surface rounded-lg p-4 border border-skate-accent/20">
+      <h3 class="font-semibold text-white mb-3">🍕 Nearby Food</h3>
+      <ul class="space-y-1 text-sm text-gray-300">
+        {% for item in nearFood %}
+          <li>• <a href="{{ ('/food/' + item.id + '/') | url }}" class="text-skate-accent hover:underline">{{ item.name }}</a> — {{ item.cuisine }} {{ item.priceRange }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
     {# Share Buttons #}
     <div class="bg-skate-surface rounded-lg p-4 border border-skate-accent/20">
       <h3 class="font-semibold text-white mb-3">Share this spot</h3>
