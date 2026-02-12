@@ -1,0 +1,24 @@
+{
+  "id": "mullaly-skatepark",
+  "name": "Mullaly Skatepark",
+  "coordinates": { "lat": 40.8280, "lng": -73.9235 },
+  "borough": "Bronx",
+  "neighborhood": "Concourse",
+  "type": "park",
+  "status": "active",
+  "difficulty": 4,
+  "features": ["bowl", "pool coping", "spine", "hips", "deep transitions", "street section"],
+  "description": "One of the best skateparks in NYC. Deep bowls with excellent flow, a quality street section, and top-tier concrete work. The Bronx's crown jewel of skating.",
+  "history": "Built 2009–2010, designed by California Skateparks (now Spohn Ranch). The park was a massive win for Bronx skaters who lobbied hard for quality skate infrastructure. Widely praised in the skate community for its design, depth, and flow — often compared favorably to West Coast parks.",
+  "bestTimes": "Weekday afternoons for shorter waits on the bowl. Weekend mornings before the crowds build. Evening sessions in summer are magical with Yankee Stadium lights in the background.",
+  "transitDirections": "B/D/4 to 161st St-Yankee Stadium, walk north through Mullaly Park. The skatepark is on the east side of the park.",
+  "nearbyReferences": ["Yankee Stadium", "Mullaly Park", "Joyce Kilmer Park", "Grand Concourse"],
+  "photos": [],
+  "lastVerified": "2026-01-22",
+  "detailedNotes": {
+    "terrain": "The bowl complex is the star — deep end with pool coping, spine transfers, hips, and multiple lines. The street section has quality ledges, rails, a stair set, and flat bars. Concrete is smooth and well-finished throughout.",
+    "culture": "Attracts serious skaters from all boroughs. Bowl etiquette is important here — wait your turn, call your line. The Bronx crew is welcoming but expects respect for the space.",
+    "warnings": "The deep bowl is not for beginners — it's legit deep transition. Wear pads if you're learning. The park can feel isolated at night. Best visited during daylight.",
+    "mediaAppearances": ["Thrasher — NYC park reviews", "Bronx Rising documentaries", "Multiple pro skater visits filmed here"]
+  }
+}

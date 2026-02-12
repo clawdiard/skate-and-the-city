@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Skate Spot",
+  "type": "object",
+  "required": [
+    "id", "name", "coordinates", "borough", "neighborhood", "type",
+    "status", "difficulty", "features", "description", "history",
+    "bestTimes", "transitDirections", "nearbyReferences", "photos",
+    "lastVerified"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "name": { "type": "string" },
+    "coordinates": {
+      "type": "object",
+      "required": ["lat", "lng"],
+      "properties": {
+        "lat": { "type": "number", "minimum": 40.4, "maximum": 40.95 },
+        "lng": { "type": "number", "minimum": -74.3, "maximum": -73.7 }
+      }
+    },
+    "borough": { "type": "string", "enum": ["Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island"] },
+    "neighborhood": { "type": "string" },
+    "type": { "type": "string", "enum": ["street", "park", "DIY", "plaza", "transition"] },
+    "status": { "type": "string", "enum": ["active", "knobbed", "demolished", "restricted"] },
+    "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "features": { "type": "array", "items": { "type": "string" } },
+    "description": { "type": "string" },
+    "history": { "type": "string" },
+    "bestTimes": { "type": "string" },
+    "transitDirections": { "type": "string" },
+    "nearbyReferences": { "type": "array", "items": { "type": "string" } },
+    "photos": { "type": "array", "items": { "type": "string" } },
+    "lastVerified": { "type": "string", "format": "date" }
+  },
+  "additionalProperties": false
+}

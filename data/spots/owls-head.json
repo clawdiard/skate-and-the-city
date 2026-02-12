@@ -1,0 +1,24 @@
+{
+  "id": "owls-head",
+  "name": "Owl's Head Skatepark",
+  "coordinates": { "lat": 40.6380, "lng": -74.0295 },
+  "borough": "Brooklyn",
+  "neighborhood": "Bay Ridge",
+  "type": "park",
+  "status": "active",
+  "difficulty": 3,
+  "features": ["bowl", "snake run", "ledges", "rails", "quarter pipes"],
+  "description": "Well-built concrete skatepark in Owl's Head Park with harbor views. One of Brooklyn's best skateparks featuring both transition and street elements.",
+  "history": "Opened around 2013, designed with significant community skater input. The park filled a gap in southern Brooklyn's skate infrastructure and quickly built a dedicated local scene. The Bay Ridge community has been supportive of the park.",
+  "bestTimes": "Mornings for a chill session. Weekends get packed, especially in good weather. The harbor breeze keeps summer sessions bearable.",
+  "transitDirections": "R to Bay Ridge Ave, walk west toward the water. The park is in Owl's Head Park along Shore Road, overlooking the Narrows.",
+  "nearbyReferences": ["Owl's Head Park", "Shore Road promenade", "Bay Ridge shops on 3rd Ave", "Verrazzano Bridge views"],
+  "photos": [],
+  "lastVerified": "2026-01-20",
+  "detailedNotes": {
+    "terrain": "Concrete bowl with pool coping, a snake run connecting elements, street-style ledges and rails section. Good flow throughout. The surface is well-maintained.",
+    "culture": "Strong local crew, very welcoming to visitors. The Bay Ridge scene is tight-knit. Parents bring kids on weekend mornings — respect the flow.",
+    "warnings": "Can be windy due to waterfront location. The bowl collects water after rain — bring a broom. Parking available nearby.",
+    "mediaAppearances": ["Brooklyn skatepark tours", "Local crew edits", "NYC skatepark review videos"]
+  }
+}

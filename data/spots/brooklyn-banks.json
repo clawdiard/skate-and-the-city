@@ -1,0 +1,24 @@
+{
+  "id": "brooklyn-banks",
+  "name": "Brooklyn Banks",
+  "coordinates": { "lat": 40.7108, "lng": -74.0005 },
+  "borough": "Manhattan",
+  "neighborhood": "City Hall",
+  "type": "street",
+  "status": "restricted",
+  "difficulty": 3,
+  "features": ["banks", "ledges", "manual pads", "stairs"],
+  "description": "Legendary brick banks under the Brooklyn Bridge on-ramp. One of the most iconic skate spots in history. The angled brick embankments provide perfect natural transitions for wallrides, bank tricks, and creative lines.",
+  "history": "Active since the early 1980s, the Brooklyn Banks became a global pilgrimage site for skateboarders. Featured in countless videos from Zoo York, Supreme, and independent filmmakers. The spot was a melting pot of NYC skate culture — pros and amateurs skating side by side. Closed during Brooklyn Bridge renovations starting in 2010, there have been ongoing campaigns to reopen and preserve the space. Partial access has been restored at various points, but the status remains contested between the city, DOT, and the skate community.",
+  "bestTimes": "Weekday afternoons when accessible. Always check current access status before making the trip — closures and fencing change frequently.",
+  "transitDirections": "4/5/6 to Brooklyn Bridge-City Hall (closest exit to Park Row). J/Z to Chambers St. Walk toward the Brooklyn Bridge on-ramp, the banks are underneath on the Manhattan side.",
+  "nearbyReferences": ["City Hall Park", "Brooklyn Bridge pedestrian walkway", "Pace University", "Seaport District"],
+  "photos": [],
+  "lastVerified": "2026-01-15",
+  "detailedNotes": {
+    "terrain": "The signature feature is the brick-paved embankments (banks) that run along the bridge on-ramp supports. Multiple levels and angles. The ground is a mix of brick and asphalt with varying smoothness.",
+    "culture": "The Banks represent NYC skate history. Harold Hunter, Zoo York crew, and generations of NYC skaters made this spot famous. It transcends skateboarding as a cultural landmark.",
+    "warnings": "Access is unpredictable. Fencing, construction barriers, and NYPD presence vary. Not a spot you can count on being open.",
+    "mediaAppearances": ["Zoo York Mixtape (1997)", "Fully Flared (2007)", "Countless independent NYC skate edits"]
+  }
+}

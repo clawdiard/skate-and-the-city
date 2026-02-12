@@ -1,0 +1,24 @@
+{
+  "id": "tompkins-square-park",
+  "name": "Tompkins Square Park",
+  "coordinates": { "lat": 40.7264, "lng": -73.9818 },
+  "borough": "Manhattan",
+  "neighborhood": "East Village",
+  "type": "park",
+  "status": "active",
+  "difficulty": 2,
+  "features": ["flat ground", "benches", "manual pads", "curbs"],
+  "description": "Classic East Village park with a longstanding skate-friendly culture. Smooth paths, varied ledge heights, and a welcoming atmosphere make it accessible for all skill levels.",
+  "history": "Skaters have sessioned Tompkins since the 1980s, alongside the park's broader countercultural history. The East Village punk, art, and skate scenes have always intersected here. Despite periodic crackdowns, the park has remained one of NYC's most reliable spots to find a session.",
+  "bestTimes": "Afternoons and weekends year-round. Summer evenings are prime social time. The park is well-lit for night sessions.",
+  "transitDirections": "L to 1st Ave (walk east to Ave A). 6 to Astor Place (walk east on St. Marks). The park is bounded by Ave A, Ave B, 7th St, and 10th St.",
+  "nearbyReferences": ["St. Marks Place", "East Village shops and food", "Tompkins Square dog run", "C-Squat"],
+  "photos": [],
+  "lastVerified": "2026-01-20",
+  "detailedNotes": {
+    "terrain": "Smooth concrete paths, varied bench and ledge heights around the central area. The perimeter paths are good for cruising. Some rough patches near tree roots.",
+    "culture": "Tompkins is more hangout than hardcore session spot. You'll find flatground practice, mellow ledge sessions, and lots of socializing. All ages and levels.",
+    "warnings": "Parks dept occasionally enforces no-skating rules but it's rare. Respect the other park users.",
+    "mediaAppearances": ["Kids (1995) — filmed in and around the area", "Supreme videos", "Many NYC day-in-the-life edits"]
+  }
+}

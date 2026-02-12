@@ -1,0 +1,24 @@
+{
+  "id": "les-skatepark",
+  "name": "LES Skatepark",
+  "coordinates": { "lat": 40.7190, "lng": -73.9889 },
+  "borough": "Manhattan",
+  "neighborhood": "Lower East Side",
+  "type": "park",
+  "status": "active",
+  "difficulty": 3,
+  "features": ["bowl", "quarter pipes", "ledges", "rails", "flat bars"],
+  "description": "Official concrete skatepark under the Manhattan Bridge. A well-designed mix of street and transition elements that serves as one of Manhattan's primary skateparks.",
+  "history": "Built in 2012 by NYC Parks Department with significant input from the local skate community. Filled a long-standing need for a proper skatepark on the Lower East Side. Quickly became one of the city's top parks and a daily destination for Manhattan skaters.",
+  "bestTimes": "Early mornings (before 10am) for fewer crowds. Weekday sessions are the most mellow. Weekend afternoons are packed. Avoid right after school lets out.",
+  "transitDirections": "F to East Broadway (walk north toward the bridge). B/D to Grand St (walk south). The park is in Coleman Playground, directly under the Manhattan Bridge.",
+  "nearbyReferences": ["Manhattan Bridge", "Coleman Playground", "Dimes Square", "LES restaurants"],
+  "photos": [],
+  "lastVerified": "2026-01-22",
+  "detailedNotes": {
+    "terrain": "Concrete throughout. The bowl section has pool coping and decent depth. Street section features ledges, flat bars, a stair set, and quarter pipes. Good flow between areas.",
+    "culture": "Diverse crowd — from sponsored ams to weekend warriors. Respectful lineup etiquette is expected in the bowl. Strong local crew.",
+    "warnings": "Gets extremely crowded on nice-weather weekends. Scooter kids can be an issue. The area under the bridge provides some rain cover but the park is essentially outdoor.",
+    "mediaAppearances": ["Numerous NYC skate edits", "Nike SB NYC coverage", "Thrasher spot checks"]
+  }
+}
