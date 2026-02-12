@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title | default("Skate And the City") }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
   <link rel="manifest" href="{{ '/manifest.json' | url }}">
   <meta name="theme-color" content="#1a1a2e">
@@ -12,32 +15,40 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="apple-touch-icon" href="{{ '/assets/icon-192.png' | url }}">
 </head>
-<body class="bg-skate-primary text-skate-text min-h-screen flex flex-col">
-  <header class="bg-skate-surface border-b border-skate-accent/30 px-4 py-3">
+<body class="bg-skate-primary text-skate-text min-h-screen flex flex-col font-body">
+  <header class="bg-skate-surface/80 backdrop-blur-md border-b border-skate-border sticky top-0 z-40 px-4 py-3">
     <nav class="max-w-5xl mx-auto flex items-center justify-between">
-      <a href="{{ '/' | url }}" class="text-xl font-bold text-skate-accent">🛹 Skate & the City</a>
+      <a href="{{ '/' | url }}" class="flex items-center gap-2 group">
+        <img src="{{ '/assets/icons/logo-mark.svg' | url }}" alt="" class="w-8 h-8" aria-hidden="true">
+        <span class="font-display text-xl tracking-wider text-skate-accent group-hover:text-skate-accent-hover transition-colors">SKATE &amp; THE CITY</span>
+      </a>
       <div class="relative flex-1 max-w-xs mx-4">
         <input id="search-input" type="search" placeholder="Search spots, routes…"
-          class="w-full bg-skate-primary/60 border border-skate-accent/30 rounded-lg px-3 py-1.5 text-sm text-skate-text placeholder-gray-500 focus:outline-none focus:border-skate-accent transition"
+          class="w-full bg-skate-primary/60 border border-skate-border rounded-lg px-3 py-1.5 text-sm text-skate-text placeholder-skate-text-dim focus:outline-none focus:border-skate-accent focus:ring-1 focus:ring-skate-accent transition"
           autocomplete="off" />
-        <div id="search-results" class="hidden absolute top-full left-0 right-0 mt-1 bg-skate-surface border border-skate-accent/30 rounded-lg shadow-xl z-50 max-h-80 overflow-y-auto"></div>
+        <div id="search-results" class="hidden absolute top-full left-0 right-0 mt-1 bg-skate-surface border border-skate-border rounded-lg shadow-card z-50 max-h-80 overflow-y-auto"></div>
       </div>
       <div id="search-overlay" class="hidden fixed inset-0 z-40"></div>
-      <ul class="flex gap-4 text-sm">
-        <li><a href="{{ '/' | url }}" class="hover:text-skate-accent transition">Home</a></li>
-        <li><a href="{{ '/spots/' | url }}" class="hover:text-skate-accent transition">Spots</a></li>
-        <li><a href="{{ '/routes/' | url }}" class="hover:text-skate-accent transition">Routes</a></li>
-        <li><a href="{{ '/map/' | url }}" class="hover:text-skate-accent transition">Map</a></li>
+      <ul class="flex gap-5 text-sm">
+        <li><a href="{{ '/' | url }}" class="nav-link {{ 'active' if page.url == '/' }}">Home</a></li>
+        <li><a href="{{ '/spots/' | url }}" class="nav-link {{ 'active' if '/spots' in page.url }}">Spots</a></li>
+        <li><a href="{{ '/routes/' | url }}" class="nav-link {{ 'active' if '/routes' in page.url }}">Routes</a></li>
+        <li><a href="{{ '/map/' | url }}" class="nav-link {{ 'active' if '/map' in page.url }}">Map</a></li>
       </ul>
     </nav>
   </header>
   <main class="flex-1 max-w-5xl mx-auto w-full px-4 py-8">
     {{ content | safe }}
   </main>
-  <footer class="bg-skate-surface border-t border-skate-accent/30 px-4 py-4 text-center text-xs text-gray-500">
-    &copy; 2026 Skate And the City
+  <footer class="bg-skate-surface border-t border-skate-border px-4 py-6">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <img src="{{ '/assets/icons/logo-mark.svg' | url }}" alt="" class="w-5 h-5" aria-hidden="true">
+        <span class="font-display text-sm tracking-wider text-skate-text-dim">SKATE &amp; THE CITY</span>
+      </div>
+      <p class="text-xs text-skate-text-dim">&copy; 2026 Skate And the City — NYC Skate Guide</p>
+    </div>
   </footer>
   <script src="{{ '/assets/js/pwa.js' | url }}" defer></script>
-  <script src="{{ '/assets/js/search.js' | url }}" defer></script>
 </body>
 </html>

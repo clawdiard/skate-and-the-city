@@ -1,18 +1,76 @@
 ---
 layout: base.njk
-title: Skate And the City — NYC Skate Guide
+title: "Skate And the City — NYC Skate Guide"
 ---
-<section class="text-center py-12">
-  <h1 class="text-4xl md:text-5xl font-bold text-skate-accent mb-4">Skate And the City</h1>
-  <p class="text-lg text-gray-300 max-w-xl mx-auto">Your guide to NYC skate spots, routes, shops, and the best food stops along the way.</p>
+
+{# Hero Section #}
+<section class="hero -mx-4 -mt-8 px-4">
+  <div class="hero-glow"></div>
+  <div class="relative z-10">
+    <img src="{{ '/assets/icons/logo.svg' | url }}" alt="Skate And the City" class="mx-auto w-80 md:w-[28rem] mb-6">
+    <p class="hero-subtitle">
+      Every spot, route, shop &amp; taco within pushing distance.<br>
+      <span class="text-skate-accent">New York City's</span> underground skate guide.
+    </p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a href="{{ '/spots/' | url }}" class="btn-primary btn-lg">Explore Spots</a>
+      <a href="{{ '/map/' | url }}" class="btn-secondary btn-lg">Open Map</a>
+    </div>
+  </div>
 </section>
 
-<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-  {% for card in cards %}
-  <div class="bg-skate-surface rounded-lg p-6 border border-skate-accent/20 hover:border-skate-accent/60 transition">
-    <span class="text-3xl">{{ card.icon }}</span>
-    <h2 class="text-lg font-semibold mt-3">{{ card.title }}</h2>
-    <p class="text-sm text-gray-400 mt-1">{{ card.desc }}</p>
+{# Featured Spots #}
+<section class="mt-16">
+  <h2 class="font-display text-3xl text-skate-text tracking-wide mb-6">Featured Spots</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {% for spot in spots | default(collections.spots) | default([]) %}
+      {% include "components/spot-card.njk" %}
+    {% endfor %}
+    {% if not spots and not collections.spots %}
+    {# Placeholder cards #}
+    {% for i in range(3) %}
+    <div class="card">
+      <div class="h-48 bg-skate-muted rounded-t-card animate-pulse"></div>
+      <div class="card-body">
+        <div class="h-5 bg-skate-muted rounded w-3/4 mb-2"></div>
+        <div class="h-3 bg-skate-muted rounded w-1/2"></div>
+      </div>
+    </div>
+    {% endfor %}
+    {% endif %}
   </div>
-  {% endfor %}
+</section>
+
+{# Spot Types #}
+<section class="mt-16">
+  <h2 class="font-display text-3xl text-skate-text tracking-wide mb-6">Spot Types</h2>
+  <div class="flex flex-wrap gap-3">
+    <span class="badge-park">🏗️ Skatepark</span>
+    <span class="badge-street">🏙️ Street</span>
+    <span class="badge-diy">🔨 DIY</span>
+    <span class="badge-transition">🌊 Transition</span>
+    <span class="badge-flatground">📐 Flatground</span>
+  </div>
+</section>
+
+{# Quick Stats #}
+<section class="mt-16 mb-8">
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="card card-body text-center">
+      <div class="font-display text-4xl text-skate-accent">50+</div>
+      <div class="text-sm text-skate-text-secondary mt-1">Skate Spots</div>
+    </div>
+    <div class="card card-body text-center">
+      <div class="font-display text-4xl text-skate-gold">12</div>
+      <div class="text-sm text-skate-text-secondary mt-1">Routes</div>
+    </div>
+    <div class="card card-body text-center">
+      <div class="font-display text-4xl text-skate-teal">5</div>
+      <div class="text-sm text-skate-text-secondary mt-1">Boroughs</div>
+    </div>
+    <div class="card card-body text-center">
+      <div class="font-display text-4xl text-skate-lime">∞</div>
+      <div class="text-sm text-skate-text-secondary mt-1">Stoke</div>
+    </div>
+  </div>
 </section>

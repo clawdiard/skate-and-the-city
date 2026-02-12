@@ -1,0 +1,27 @@
+{# Spot Card Component
+   Usage: {% set spot = { name, type, difficulty, diffLevel, image, features, url } %}
+          {% include "components/spot-card.njk" %}
+#}
+<a href="{{ spot.url }}" class="card group block">
+  {% if spot.image %}
+  <img src="{{ spot.image }}" alt="{{ spot.name }}" class="card-image group-hover:scale-105 transition-transform duration-300" loading="lazy"/>
+  {% endif %}
+  <div class="card-body">
+    <div class="flex items-start justify-between gap-2 mb-2">
+      <h3 class="font-display text-xl text-skate-text tracking-wide">{{ spot.name }}</h3>
+      <span class="badge-{{ spot.type | default('street') }}">{{ spot.type | default('street') }}</span>
+    </div>
+    {% if spot.features %}
+    <div class="flex flex-wrap gap-1.5 mb-3">
+      {% for feat in spot.features %}
+      <span class="text-xs text-skate-text-dim bg-skate-muted px-2 py-0.5 rounded">{{ feat }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if spot.difficulty %}
+    {% set difficulty = spot.difficulty %}
+    {% set level = spot.diffLevel | default("medium") %}
+    {% include "components/difficulty.njk" %}
+    {% endif %}
+  </div>
+</a>

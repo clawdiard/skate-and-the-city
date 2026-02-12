@@ -1,0 +1,189 @@
+/* Fonts — Bebas Neue (display) + Inter (body) */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Base Layer ===== */
+@layer base {
+  body {
+    @apply font-body antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display tracking-wide;
+  }
+}
+
+/* ===== Component Layer ===== */
+@layer components {
+  /* --- Buttons --- */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg font-medium text-sm
+           transition-all duration-200 ease-out cursor-pointer
+           focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-skate-primary;
+  }
+
+  .btn-primary {
+    @apply btn bg-skate-accent text-white hover:bg-skate-accent-hover
+           focus:ring-skate-accent shadow-glow hover:shadow-glow;
+  }
+
+  .btn-secondary {
+    @apply btn bg-skate-surface text-skate-text border border-skate-border
+           hover:border-skate-accent hover:text-skate-accent focus:ring-skate-accent;
+  }
+
+  .btn-ghost {
+    @apply btn bg-transparent text-skate-text-secondary
+           hover:bg-skate-muted hover:text-skate-text focus:ring-skate-accent;
+  }
+
+  .btn-gold {
+    @apply btn bg-skate-gold text-skate-primary font-bold
+           hover:bg-yellow-400 focus:ring-skate-gold shadow-glow-gold;
+  }
+
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+
+  .btn-lg {
+    @apply px-8 py-3.5 text-base;
+  }
+
+  /* --- Cards --- */
+  .card {
+    @apply bg-skate-surface rounded-card border border-skate-border
+           shadow-card transition-all duration-200
+           hover:shadow-card-hover hover:border-skate-border-accent;
+  }
+
+  .card-body {
+    @apply p-5;
+  }
+
+  .card-image {
+    @apply w-full h-48 object-cover rounded-t-card;
+  }
+
+  /* --- Badges / Pills --- */
+  .badge {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wider;
+  }
+
+  .badge-park {
+    @apply badge bg-skate-badge-park/20 text-skate-badge-park;
+  }
+
+  .badge-street {
+    @apply badge bg-skate-badge-street/20 text-skate-badge-street;
+  }
+
+  .badge-diy {
+    @apply badge bg-skate-badge-diy/20 text-skate-badge-diy;
+  }
+
+  .badge-transition {
+    @apply badge bg-skate-badge-transition/20 text-skate-badge-transition;
+  }
+
+  .badge-flatground {
+    @apply badge bg-skate-badge-flatground/20 text-skate-badge-flatground;
+  }
+
+  /* --- Difficulty Rating (skateboard icons) --- */
+  .difficulty {
+    @apply inline-flex items-center gap-0.5;
+  }
+
+  .difficulty-board {
+    @apply w-4 h-4 opacity-30;
+  }
+
+  .difficulty-board.active {
+    @apply opacity-100;
+  }
+
+  .difficulty-easy .difficulty-board.active {
+    @apply text-skate-diff-easy;
+  }
+
+  .difficulty-medium .difficulty-board.active {
+    @apply text-skate-diff-medium;
+  }
+
+  .difficulty-hard .difficulty-board.active {
+    @apply text-skate-diff-hard;
+  }
+
+  .difficulty-pro .difficulty-board.active {
+    @apply text-skate-diff-pro;
+  }
+
+  /* --- Navigation --- */
+  .nav-link {
+    @apply text-sm text-skate-text-secondary hover:text-skate-accent
+           transition-colors duration-150 relative;
+  }
+
+  .nav-link.active {
+    @apply text-skate-accent;
+  }
+
+  .nav-link.active::after {
+    content: '';
+    @apply absolute -bottom-1 left-0 right-0 h-0.5 bg-skate-accent rounded-full;
+  }
+
+  /* --- Modal --- */
+  .modal-overlay {
+    @apply fixed inset-0 bg-black/60 backdrop-blur-sm z-50
+           flex items-center justify-center p-4 animate-fade-in;
+  }
+
+  .modal {
+    @apply bg-skate-surface rounded-card border border-skate-border
+           shadow-card w-full max-w-lg max-h-[85vh] overflow-y-auto animate-slide-up;
+  }
+
+  .modal-header {
+    @apply flex items-center justify-between p-5 border-b border-skate-border;
+  }
+
+  .modal-body {
+    @apply p-5;
+  }
+
+  .modal-footer {
+    @apply flex items-center justify-end gap-3 p-5 border-t border-skate-border;
+  }
+
+  /* --- Feature/Amenity icon wrapper --- */
+  .icon-feature {
+    @apply w-5 h-5 text-skate-text-secondary;
+  }
+
+  .icon-amenity {
+    @apply w-4 h-4 text-skate-teal;
+  }
+
+  /* --- Hero Section --- */
+  .hero {
+    @apply relative overflow-hidden py-20 md:py-32 text-center;
+  }
+
+  .hero-title {
+    @apply font-display text-hero-sm md:text-hero text-skate-text uppercase;
+  }
+
+  .hero-subtitle {
+    @apply mt-4 text-lg md:text-xl text-skate-text-secondary max-w-2xl mx-auto;
+  }
+
+  .hero-glow {
+    @apply absolute -top-24 left-1/2 -translate-x-1/2 w-[600px] h-[600px]
+           bg-skate-accent/10 rounded-full blur-3xl pointer-events-none;
+  }
+}

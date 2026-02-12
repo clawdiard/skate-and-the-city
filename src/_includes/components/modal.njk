@@ -1,0 +1,21 @@
+{# Modal Component
+   Usage: {% set modalId = "myModal" %}{% set modalTitle = "Title" %}
+          {% call modal() %}...body...{% endcall %}
+   JS: document.getElementById('myModal').classList.toggle('hidden')
+#}
+<div id="{{ modalId }}" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="{{ modalId }}-title">
+  <div class="modal" role="document">
+    <div class="modal-header">
+      <h2 id="{{ modalId }}-title" class="font-display text-xl text-skate-text tracking-wide">{{ modalTitle }}</h2>
+      <button onclick="document.getElementById('{{ modalId }}').classList.add('hidden')"
+              class="btn-ghost btn-sm" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-body">
+      {{ caller() if caller }}
+    </div>
+    <div class="modal-footer">
+      <button onclick="document.getElementById('{{ modalId }}').classList.add('hidden')"
+              class="btn-secondary btn-sm">Close</button>
+    </div>
+  </div>
+</div>

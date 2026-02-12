@@ -1,0 +1,152 @@
+---
+layout: base.njk
+title: "Design System — Skate And the City"
+permalink: /design/
+---
+
+<h1 class="font-display text-4xl tracking-wide mb-8">Design System</h1>
+
+{# Colors #}
+<section class="mb-12">
+  <h2 class="font-display text-2xl tracking-wide mb-4">Color Palette</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3">
+    <div><div class="h-16 rounded-lg bg-skate-primary border border-skate-border"></div><p class="text-xs text-skate-text-dim mt-1">Primary #1a1a2e</p></div>
+    <div><div class="h-16 rounded-lg bg-skate-surface"></div><p class="text-xs text-skate-text-dim mt-1">Surface #16213e</p></div>
+    <div><div class="h-16 rounded-lg bg-skate-elevated"></div><p class="text-xs text-skate-text-dim mt-1">Elevated #1f2b47</p></div>
+    <div><div class="h-16 rounded-lg bg-skate-muted"></div><p class="text-xs text-skate-text-dim mt-1">Muted #2a3454</p></div>
+    <div><div class="h-16 rounded-lg bg-skate-accent"></div><p class="text-xs text-skate-text-dim mt-1">Accent #e94560</p></div>
+    <div><div class="h-16 rounded-lg bg-skate-gold"></div><p class="text-xs text-skate-text-dim mt-1">Gold #f5c518</p></div>
+    <div><div class="h-16 rounded-lg bg-skate-teal"></div><p class="text-xs text-skate-text-dim mt-1">Teal #0abde3</p></div>
+    <div><div class="h-16 rounded-lg bg-skate-lime"></div><p class="text-xs text-skate-text-dim mt-1">Lime #a8e06c</p></div>
+    <div><div class="h-16 rounded-lg bg-skate-orange"></div><p class="text-xs text-skate-text-dim mt-1">Orange #ff9f43</p></div>
+  </div>
+</section>
+
+{# Typography #}
+<section class="mb-12">
+  <h2 class="font-display text-2xl tracking-wide mb-4">Typography</h2>
+  <div class="space-y-4">
+    <div>
+      <p class="text-xs text-skate-text-dim mb-1">Display / Bebas Neue</p>
+      <p class="font-display text-5xl tracking-wide">SKATE AND THE CITY</p>
+    </div>
+    <div>
+      <p class="text-xs text-skate-text-dim mb-1">Body / Inter</p>
+      <p class="text-base">The quick brown fox kickflips over the lazy park bench. Every spot tells a story — from the marble ledges of Midtown to the DIY bowls of Brooklyn.</p>
+    </div>
+    <div>
+      <p class="text-xs text-skate-text-dim mb-1">Text Hierarchy</p>
+      <p class="text-skate-text">Primary Text</p>
+      <p class="text-skate-text-secondary">Secondary Text</p>
+      <p class="text-skate-text-dim">Dim / Hint Text</p>
+    </div>
+  </div>
+</section>
+
+{# Buttons #}
+<section class="mb-12">
+  <h2 class="font-display text-2xl tracking-wide mb-4">Buttons</h2>
+  <div class="flex flex-wrap gap-3 items-center">
+    <button class="btn-primary">Primary</button>
+    <button class="btn-secondary">Secondary</button>
+    <button class="btn-ghost">Ghost</button>
+    <button class="btn-gold">Gold</button>
+    <button class="btn-primary btn-sm">Small</button>
+    <button class="btn-primary btn-lg">Large</button>
+  </div>
+</section>
+
+{# Badges #}
+<section class="mb-12">
+  <h2 class="font-display text-2xl tracking-wide mb-4">Spot Type Badges</h2>
+  <div class="flex flex-wrap gap-3">
+    <span class="badge-park">Skatepark</span>
+    <span class="badge-street">Street</span>
+    <span class="badge-diy">DIY</span>
+    <span class="badge-transition">Transition</span>
+    <span class="badge-flatground">Flatground</span>
+  </div>
+</section>
+
+{# Difficulty #}
+<section class="mb-12">
+  <h2 class="font-display text-2xl tracking-wide mb-4">Difficulty Ratings</h2>
+  <div class="space-y-3">
+    <div class="flex items-center gap-3">
+      <span class="text-sm text-skate-text-secondary w-20">Easy</span>
+      {% set difficulty = 1 %}{% set level = "easy" %}{% include "components/difficulty.njk" %}
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="text-sm text-skate-text-secondary w-20">Medium</span>
+      {% set difficulty = 3 %}{% set level = "medium" %}{% include "components/difficulty.njk" %}
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="text-sm text-skate-text-secondary w-20">Hard</span>
+      {% set difficulty = 4 %}{% set level = "hard" %}{% include "components/difficulty.njk" %}
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="text-sm text-skate-text-secondary w-20">Pro</span>
+      {% set difficulty = 5 %}{% set level = "pro" %}{% include "components/difficulty.njk" %}
+    </div>
+  </div>
+</section>
+
+{# Cards #}
+<section class="mb-12">
+  <h2 class="font-display text-2xl tracking-wide mb-4">Cards</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="card">
+      <div class="h-40 bg-gradient-to-br from-skate-accent/20 to-skate-muted rounded-t-card"></div>
+      <div class="card-body">
+        <div class="flex items-start justify-between mb-2">
+          <h3 class="font-display text-xl tracking-wide">LES Banks</h3>
+          <span class="badge-street">Street</span>
+        </div>
+        <p class="text-sm text-skate-text-secondary mb-3">Legendary Lower East Side spot under the Manhattan Bridge.</p>
+        <div class="flex flex-wrap gap-1.5 mb-3">
+          <span class="text-xs text-skate-text-dim bg-skate-muted px-2 py-0.5 rounded">Banks</span>
+          <span class="text-xs text-skate-text-dim bg-skate-muted px-2 py-0.5 rounded">Ledges</span>
+        </div>
+        {% set difficulty = 2 %}{% set level = "easy" %}{% include "components/difficulty.njk" %}
+      </div>
+    </div>
+    <div class="card">
+      <div class="h-40 bg-gradient-to-br from-skate-teal/20 to-skate-muted rounded-t-card"></div>
+      <div class="card-body">
+        <div class="flex items-start justify-between mb-2">
+          <h3 class="font-display text-xl tracking-wide">Chelsea Piers</h3>
+          <span class="badge-park">Park</span>
+        </div>
+        <p class="text-sm text-skate-text-secondary mb-3">Waterfront skatepark with Hudson River views.</p>
+        <div class="flex flex-wrap gap-1.5 mb-3">
+          <span class="text-xs text-skate-text-dim bg-skate-muted px-2 py-0.5 rounded">Bowl</span>
+          <span class="text-xs text-skate-text-dim bg-skate-muted px-2 py-0.5 rounded">Rails</span>
+        </div>
+        {% set difficulty = 3 %}{% set level = "medium" %}{% include "components/difficulty.njk" %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Icons #}
+<section class="mb-12">
+  <h2 class="font-display text-2xl tracking-wide mb-4">Icon Set</h2>
+  <h3 class="text-sm text-skate-text-secondary mb-3">Spot Features</h3>
+  <div class="flex flex-wrap gap-6 mb-6">
+    {% for icon in ["ledge", "rail", "stairs", "bank", "bowl", "gap", "manual-pad"] %}
+    <div class="flex flex-col items-center gap-1.5">
+      <img src="{{ ('/assets/icons/spots/' + icon + '.svg') | url }}" class="icon-feature w-8 h-8" alt="{{ icon }}">
+      <span class="text-xs text-skate-text-dim">{{ icon }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  <h3 class="text-sm text-skate-text-secondary mb-3">Amenities</h3>
+  <div class="flex flex-wrap gap-6">
+    {% for icon in ["food", "shop", "subway", "restroom"] %}
+    <div class="flex flex-col items-center gap-1.5">
+      <img src="{{ ('/assets/icons/amenities/' + icon + '.svg') | url }}" class="icon-amenity w-8 h-8" alt="{{ icon }}">
+      <span class="text-xs text-skate-text-dim">{{ icon }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>

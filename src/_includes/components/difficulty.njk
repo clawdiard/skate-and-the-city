@@ -1,0 +1,14 @@
+{# Difficulty Rating Component
+   Usage: {% include "components/difficulty.njk" %} with difficulty = 1-5 and level = "easy"|"medium"|"hard"|"pro"
+#}
+{% set maxBoards = 5 %}
+{% set levelClass = "difficulty-" + (level | default("medium")) %}
+<div class="difficulty {{ levelClass }}" aria-label="Difficulty: {{ difficulty }}/{{ maxBoards }}">
+  {% for i in range(1, maxBoards + 1) %}
+  <svg class="difficulty-board {{ 'active' if i <= difficulty }}" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <rect x="3" y="8" width="18" height="5" rx="2.5"/>
+    <circle cx="7.5" cy="16" r="2"/>
+    <circle cx="16.5" cy="16" r="2"/>
+  </svg>
+  {% endfor %}
+</div>
