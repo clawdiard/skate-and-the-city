@@ -1,0 +1,60 @@
+{
+  "amazonTag": "skateandcity-20",
+  "utmSource": "skateandthecity",
+  "utmMedium": "affiliate",
+  "disclosure": "Some links on this page are affiliate links. If you make a purchase through these links, we may earn a small commission at no extra cost to you. This helps us keep Skate And the City free and up to date. We only recommend products we genuinely believe in.",
+  "partners": [
+    {
+      "id": "labor",
+      "name": "Labor Skateboard Shop",
+      "discountCode": "SKATECITY10",
+      "discountPct": 10,
+      "logo": "/assets/partners/labor-logo.svg",
+      "url": "https://laborskateshop.com"
+    },
+    {
+      "id": "kcdc",
+      "name": "KCDC Skateshop",
+      "discountCode": "SATC10",
+      "discountPct": 10,
+      "logo": "/assets/partners/kcdc-logo.svg",
+      "url": "https://kcdcskateshop.com"
+    },
+    {
+      "id": "bustin",
+      "name": "Bustin Boards",
+      "discountCode": "NYCSKATE10",
+      "discountPct": 10,
+      "logo": "/assets/partners/bustin-logo.svg",
+      "url": "https://bustinboards.com"
+    }
+  ],
+  "gearRecommendations": [
+    {
+      "category": "Helmets",
+      "items": [
+        { "name": "Triple Eight Sweatsaver", "amazonUrl": "https://www.amazon.com/dp/B003UWLDHI", "description": "Classic skate helmet — comfy, certified, iconic." },
+        { "name": "S1 Lifer Helmet", "amazonUrl": "https://www.amazon.com/dp/B00D5K86FQ", "description": "Multi-impact certified. Built for serious sessions." }
+      ]
+    },
+    {
+      "category": "Pads",
+      "items": [
+        { "name": "187 Killer Pads Combo Pack", "amazonUrl": "https://www.amazon.com/dp/B006L9B38M", "description": "Knee + elbow pads that actually stay on." }
+      ]
+    },
+    {
+      "category": "Wheels",
+      "items": [
+        { "name": "Spitfire Formula Four 52mm", "amazonUrl": "https://www.amazon.com/dp/B00NY3Q3YI", "description": "Flat-resistant, fast, NYC sidewalk approved." },
+        { "name": "Ricta Clouds 78A 54mm", "amazonUrl": "https://www.amazon.com/dp/B01DK8R7AO", "description": "Soft cruiser wheels — perfect for rough NYC streets." }
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        { "name": "Silver Skate Tool", "amazonUrl": "https://www.amazon.com/dp/B001CJWMF4", "description": "All-in-one T-tool. Don't leave home without it." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{# Partner badge + discount for shop pages #}
+{% set partner = null %}
+{% for p in affiliates.partners %}
+  {% if p.id == shop.id %}
+    {% set partner = p %}
+  {% endif %}
+{% endfor %}
+
+{% if partner %}
+<div class="bg-gradient-to-r from-skate-accent/10 to-transparent border border-skate-accent/30 rounded-lg p-4 mb-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+  <div class="flex-none">
+    <span class="inline-block bg-skate-accent text-black text-xs font-bold px-2 py-1 rounded uppercase tracking-wide">🤝 Partner Shop</span>
+  </div>
+  <div class="flex-1">
+    <p class="text-white font-semibold">Get {{ partner.discountPct }}% off your order!</p>
+    <p class="text-gray-400 text-sm">Use code <code class="bg-skate-surface px-2 py-0.5 rounded text-skate-accent font-mono font-bold">{{ partner.discountCode }}</code> at checkout</p>
+  </div>
+  <a href="{{ partner.url }}?utm_source={{ affiliates.utmSource }}&utm_medium={{ affiliates.utmMedium }}&utm_campaign=partner-{{ partner.id }}"
+     target="_blank" rel="noopener sponsored"
+     data-affiliate="partner" data-partner="{{ partner.id }}"
+     class="flex-none bg-skate-accent text-black font-bold px-5 py-2 rounded-lg hover:bg-yellow-400 transition text-sm">
+    Shop Now →
+  </a>
+</div>
+{% endif %}

@@ -46,6 +46,9 @@ eleventyComputed:
 <article class="space-y-6 max-w-2xl">
   <h1 class="text-3xl font-display text-white">{{ shop.name }}</h1>
 
+  {# Partner Badge + Discount #}
+  {% include "partner-badge.njk" %}
+
   <div class="bg-skate-surface rounded-lg p-5 border border-skate-accent/20 space-y-3">
     <p class="text-gray-300">{{ shop.description }}</p>
 
@@ -83,4 +86,6 @@ eleventyComputed:
   {% if shop.affiliateUrl %}
   <a href="{{ shop.affiliateUrl }}" target="_blank" rel="noopener sponsored" class="inline-block bg-skate-accent text-white font-semibold px-5 py-2 rounded-lg hover:bg-skate-accent/80 transition">Shop Online →</a>
   {% endif %}
+
+  {% include "affiliate-disclosure.njk" %}
 </article>
