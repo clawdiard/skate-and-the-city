@@ -1,0 +1,31 @@
+---
+title: "Offline"
+layout: base.njk
+permalink: /offline/
+---
+
+<div class="flex flex-col items-center justify-center min-h-[60vh] text-center">
+  <div class="text-6xl mb-6">🛹📡</div>
+  <h1 class="text-3xl font-bold text-skate-accent mb-4">You're Offline</h1>
+  <p class="text-gray-400 max-w-md mb-6">
+    Looks like you lost connection — maybe you're in a subway tunnel or a dead zone.
+    Don't worry, spots and routes you've already viewed are cached and available.
+  </p>
+  <div class="flex gap-4">
+    <a href="/skate-and-the-city/spots/" class="bg-skate-accent/20 border border-skate-accent/40 rounded-lg px-4 py-2 text-skate-accent hover:bg-skate-accent/30 transition">
+      Cached Spots
+    </a>
+    <a href="/skate-and-the-city/routes/" class="bg-skate-accent/20 border border-skate-accent/40 rounded-lg px-4 py-2 text-skate-accent hover:bg-skate-accent/30 transition">
+      Cached Routes
+    </a>
+  </div>
+  <p class="text-sm text-gray-500 mt-8">
+    This page will refresh automatically when you're back online.
+  </p>
+</div>
+
+<script>
+  window.addEventListener('online', () => {
+    window.location.reload();
+  });
+</script>

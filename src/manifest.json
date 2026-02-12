@@ -2,20 +2,25 @@
   "name": "Skate And the City",
   "short_name": "SkateNYC",
   "start_url": "/skate-and-the-city/",
+  "scope": "/skate-and-the-city/",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#1a1a2e",
   "theme_color": "#1a1a2e",
-  "description": "NYC skate spots, routes, shops, and food.",
+  "description": "NYC skate spots, routes, shops, and food — all in one guide. Works offline.",
+  "categories": ["sports", "navigation", "lifestyle"],
   "icons": [
     {
       "src": "/skate-and-the-city/assets/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/skate-and-the-city/assets/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }

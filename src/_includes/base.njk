@@ -8,6 +8,9 @@
   <link rel="manifest" href="{{ '/manifest.json' | url }}">
   <meta name="theme-color" content="#1a1a2e">
   <meta name="description" content="NYC skate spots, routes, shops, and food — all in one guide.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="{{ '/assets/icon-192.png' | url }}">
 </head>
 <body class="bg-skate-primary text-skate-text min-h-screen flex flex-col">
   <header class="bg-skate-surface border-b border-skate-accent/30 px-4 py-3">
@@ -34,11 +37,7 @@
   <footer class="bg-skate-surface border-t border-skate-accent/30 px-4 py-4 text-center text-xs text-gray-500">
     &copy; 2026 Skate And the City
   </footer>
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('{{ "/sw.js" | url }}');
-    }
-  </script>
+  <script src="{{ '/assets/js/pwa.js' | url }}" defer></script>
   <script src="{{ '/assets/js/search.js' | url }}" defer></script>
 </body>
 </html>
