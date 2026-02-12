@@ -299,7 +299,7 @@ eleventyComputed:
   {% set nextIndex = spot._index + 1 %}
   
   {% if prevIndex >= 0 %}
-    <a href="{{ '/spots/' + allSpots[prevIndex].id + '/' | url }}" class="group flex items-center gap-2 text-gray-400 hover:text-skate-accent transition">
+    <a href="{{ ('/spots/' + allSpots[prevIndex].id + '/') | url }}" class="group flex items-center gap-2 text-gray-400 hover:text-skate-accent transition">
       <span class="text-xl">←</span>
       <div>
         <div class="text-xs uppercase tracking-wide">Previous</div>
@@ -311,7 +311,7 @@ eleventyComputed:
   {% endif %}
   
   {% if nextIndex < allSpots.length %}
-    <a href="{{ '/spots/' + allSpots[nextIndex].id + '/' | url }}" class="group flex items-center gap-2 text-right text-gray-400 hover:text-skate-accent transition">
+    <a href="{{ ('/spots/' + allSpots[nextIndex].id + '/') | url }}" class="group flex items-center gap-2 text-right text-gray-400 hover:text-skate-accent transition">
       <div>
         <div class="text-xs uppercase tracking-wide">Next</div>
         <div class="text-sm font-semibold text-white group-hover:text-skate-accent transition">{{ allSpots[nextIndex].name }}</div>

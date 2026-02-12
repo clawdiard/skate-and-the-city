@@ -9,7 +9,7 @@ permalink: /routes/
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
   {% for route in allRoutes %}
-  <a href="{{ '/routes/' + route.id + '/' | url }}" 
+  <a href="{{ ('/routes/' + route.id + '/') | url }}" 
      class="block bg-skate-surface rounded-lg p-5 border border-skate-accent/20 hover:border-skate-accent/60 transition group">
     <h2 class="text-xl font-bold text-white group-hover:text-skate-accent transition mb-2">{{ route.name }}</h2>
     <p class="text-sm text-gray-400 mb-4 line-clamp-2">{{ route.description }}</p>
