@@ -1,0 +1,65 @@
+name: 🗺️ Route Suggestion
+description: Suggest a new skate route through the city
+labels: ["route-suggestion", "needs-verification"]
+body:
+  - type: input
+    id: route_name
+    attributes:
+      label: Route Name
+      placeholder: e.g. Brooklyn Bridge Loop
+    validations:
+      required: true
+  - type: dropdown
+    id: borough
+    attributes:
+      label: Primary Borough
+      options:
+        - Manhattan
+        - Brooklyn
+        - Queens
+        - Bronx
+        - Staten Island
+        - Multi-Borough
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Route Description
+      description: Describe the route — where it starts, where it ends, key waypoints
+    validations:
+      required: true
+  - type: textarea
+    id: spots
+    attributes:
+      label: Spots Along the Route
+      description: List spots this route passes through (one per line)
+      placeholder: |
+        - Brooklyn Banks
+        - City Hall Park
+        - Tompkins Square Skatepark
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - Easy (flat, smooth paths)
+        - Moderate (some hills or rough patches)
+        - Challenging (traffic, hills, rough terrain)
+    validations:
+      required: true
+  - type: input
+    id: distance
+    attributes:
+      label: Estimated Distance
+      placeholder: e.g. 3.5 miles
+  - type: input
+    id: duration
+    attributes:
+      label: Estimated Duration
+      placeholder: e.g. 45 minutes
+  - type: textarea
+    id: tips
+    attributes:
+      label: Tips & Notes
+      description: Best time of day, things to watch out for, etc.

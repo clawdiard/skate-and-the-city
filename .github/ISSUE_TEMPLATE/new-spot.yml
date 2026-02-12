@@ -1,0 +1,85 @@
+name: 🛹 New Spot Submission
+description: Submit a new skate spot to be added to the map
+labels: ["new-spot", "needs-verification"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Spot Name
+      placeholder: e.g. Brooklyn Banks
+    validations:
+      required: true
+  - type: input
+    id: address
+    attributes:
+      label: Address / Cross Streets
+      placeholder: e.g. Centre St & Park Row, Manhattan
+    validations:
+      required: true
+  - type: dropdown
+    id: borough
+    attributes:
+      label: Borough
+      options:
+        - Manhattan
+        - Brooklyn
+        - Queens
+        - Bronx
+        - Staten Island
+    validations:
+      required: true
+  - type: input
+    id: neighborhood
+    attributes:
+      label: Neighborhood
+      placeholder: e.g. Lower Manhattan
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Spot Type
+      options:
+        - Skatepark
+        - Street Spot
+        - DIY Spot
+        - Plaza
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What makes this spot worth skating? Describe the terrain, obstacles, vibe.
+      placeholder: Tell us about this spot...
+    validations:
+      required: true
+  - type: textarea
+    id: features
+    attributes:
+      label: Features / Obstacles
+      description: List the features available (one per line)
+      placeholder: |
+        - Ledges
+        - Stairs (5-set)
+        - Flat ground
+  - type: dropdown
+    id: skill_level
+    attributes:
+      label: Skill Level
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+        - All Levels
+  - type: textarea
+    id: hours
+    attributes:
+      label: Hours / Access Info
+      placeholder: e.g. Open dawn to dusk, lights until 10pm
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Info
+      description: Anything else — photos links, tips, warnings, etc.

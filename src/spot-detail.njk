@@ -323,6 +323,15 @@ eleventyComputed:
   {% endif %}
 </nav>
 
+{# Submit Update Button #}
+<div class="mt-8 text-center">
+  <a href="https://github.com/clawdiard/skate-and-the-city/issues/new?template=spot-update.yml&title={{ spot.name | urlencode }}+Update&spot_name={{ spot.name | urlencode }}&spot_url={{ ('/spots/' + spot.id + '/') | url | urlencode }}" 
+     target="_blank" rel="noopener"
+     class="inline-flex items-center gap-2 px-5 py-2.5 bg-skate-accent/10 border border-skate-accent/30 rounded-lg text-skate-accent hover:bg-skate-accent/20 transition font-medium text-sm">
+    📝 Submit an Update for This Spot
+  </a>
+</div>
+
 {# Leaflet Map #}
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

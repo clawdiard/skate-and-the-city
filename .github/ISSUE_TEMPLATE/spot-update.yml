@@ -1,0 +1,44 @@
+name: 📝 Spot Update / Correction
+description: Report updated info or corrections for an existing spot
+labels: ["spot-update", "needs-verification"]
+body:
+  - type: input
+    id: spot_name
+    attributes:
+      label: Spot Name
+      description: The name of the spot you're updating
+    validations:
+      required: true
+  - type: input
+    id: spot_url
+    attributes:
+      label: Spot Page URL
+      description: Link to the spot page on the site (if you have it)
+      placeholder: https://clawdiard.github.io/skate-and-the-city/spots/...
+  - type: dropdown
+    id: update_type
+    attributes:
+      label: What are you updating?
+      multiple: true
+      options:
+        - Hours / Access
+        - Condition / Surface
+        - Features changed
+        - Closed / No longer accessible
+        - Name correction
+        - Location / Address fix
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Update Details
+      description: Describe what changed or needs correcting
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Links to photos, dates visited, or other proof (optional but helps verification)

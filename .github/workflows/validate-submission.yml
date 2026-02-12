@@ -1,0 +1,51 @@
+name: Validate Spot Submission
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  validate:
+    if: contains(github.event.issue.labels.*.name, 'new-spot')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate submission
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body || '';
+
+            const required = ['Spot Name', 'Address / Cross Streets', 'Borough', 'Neighborhood', 'Spot Type', 'Description'];
+            const missing = [];
+
+            for (const field of required) {
+              // GitHub forms render as ### Field Name\n\nvalue
+              const regex = new RegExp(`### ${field.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*\\n\\s*\\n\\s*(_No response_|\\s*)$`, 'm');
+              if (regex.test(body)) {
+                missing.push(field);
+              }
+            }
+
+            if (missing.length > 0) {
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `⚠️ **Validation:** The following required fields appear to be empty:\n\n${missing.map(f => `- ${f}`).join('\n')}\n\nPlease edit your issue to fill them in. Thanks! 🛹`
+              });
+
+              await github.rest.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: ['needs-info']
+              });
+            } else {
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `✅ **Validation passed!** All required fields are present. A maintainer will verify this spot soon. Thanks for contributing! 🛹`
+              });
+            }
