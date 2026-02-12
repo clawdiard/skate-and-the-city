@@ -2,397 +2,692 @@
   {
     "id": "brooklyn-banks",
     "name": "Brooklyn Banks",
-    "coordinates": { "lat": 40.7108, "lng": -74.0005 },
+    "coordinates": {
+      "lat": 40.7108,
+      "lng": -74.0005
+    },
     "borough": "Manhattan",
     "neighborhood": "City Hall",
     "type": "street",
     "status": "restricted",
     "difficulty": 3,
-    "features": ["banks", "ledges", "manual pads", "stairs"],
+    "features": [
+      "banks",
+      "ledges",
+      "manual pads",
+      "stairs"
+    ],
     "description": "Legendary brick banks under the Brooklyn Bridge on-ramp. One of the most iconic skate spots in history.",
     "history": "Active since the 1980s, the Banks became a global pilgrimage site. Closed during Brooklyn Bridge renovations in 2010, partially reopened, status remains contested.",
     "bestTimes": "Weekday afternoons when accessible. Check current status before visiting.",
     "transitDirections": "4/5/6 to Brooklyn Bridge-City Hall, J/Z to Chambers St.",
-    "nearbyReferences": ["City Hall Park", "Brooklyn Bridge walkway"],
+    "nearbyReferences": [
+      "City Hall Park",
+      "Brooklyn Bridge walkway"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-15"
+    "lastVerified": "2026-01-15",
+    "lat": 40.7112,
+    "lng": -74.0015
   },
   {
     "id": "tompkins-square-park",
     "name": "Tompkins Square Park",
-    "coordinates": { "lat": 40.7264, "lng": -73.9818 },
+    "coordinates": {
+      "lat": 40.7264,
+      "lng": -73.9818
+    },
     "borough": "Manhattan",
     "neighborhood": "East Village",
     "type": "park",
     "status": "active",
     "difficulty": 2,
-    "features": ["flat ground", "benches", "manual pads", "curbs"],
+    "features": [
+      "flat ground",
+      "benches",
+      "manual pads",
+      "curbs"
+    ],
     "description": "Classic East Village park with a dedicated skate-friendly vibe and smooth paths. A staple gathering spot for NYC skaters.",
     "history": "Skaters have session'd Tompkins since the 80s. The park's countercultural history and central location make it an enduring hub.",
     "bestTimes": "Afternoons and weekends year-round.",
     "transitDirections": "L to 1st Ave, 6 to Astor Place.",
-    "nearbyReferences": ["East Village shops", "St. Marks Place"],
+    "nearbyReferences": [
+      "East Village shops",
+      "St. Marks Place"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-20"
+    "lastVerified": "2026-01-20",
+    "lat": 40.7265,
+    "lng": -73.9817
   },
   {
     "id": "les-skatepark",
     "name": "LES Skatepark",
-    "coordinates": { "lat": 40.7190, "lng": -73.9889 },
+    "coordinates": {
+      "lat": 40.719,
+      "lng": -73.9889
+    },
     "borough": "Manhattan",
     "neighborhood": "Lower East Side",
     "type": "park",
     "status": "active",
     "difficulty": 3,
-    "features": ["bowl", "quarter pipes", "ledges", "rails", "flat bars"],
+    "features": [
+      "bowl",
+      "quarter pipes",
+      "ledges",
+      "rails",
+      "flat bars"
+    ],
     "description": "Official skatepark under the Manhattan Bridge. Great concrete park with a mix of street and transition elements.",
     "history": "Built in 2012 by NYC Parks with community input. Quickly became one of the city's top skateparks.",
     "bestTimes": "Early mornings for fewer crowds. Weekday sessions are mellow.",
     "transitDirections": "F to East Broadway, B/D to Grand St.",
-    "nearbyReferences": ["Manhattan Bridge", "Coleman Playground"],
+    "nearbyReferences": [
+      "Manhattan Bridge",
+      "Coleman Playground"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-22"
+    "lastVerified": "2026-01-22",
+    "lat": 40.7208,
+    "lng": -73.9882
   },
   {
     "id": "chelsea-piers",
     "name": "Chelsea Piers Skatepark",
-    "coordinates": { "lat": 40.7468, "lng": -74.0082 },
+    "coordinates": {
+      "lat": 40.7468,
+      "lng": -74.0082
+    },
     "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "type": "park",
     "status": "active",
     "difficulty": 2,
-    "features": ["mini ramp", "quarter pipes", "rails", "ledges"],
+    "features": [
+      "mini ramp",
+      "quarter pipes",
+      "rails",
+      "ledges"
+    ],
     "description": "Indoor/covered skatepark at Chelsea Piers sports complex along the Hudson River.",
     "history": "Part of the Chelsea Piers redevelopment. Provides a sheltered option for rainy days.",
-    "bestTimes": "Check hours — varies seasonally. Less crowded on weekday mornings.",
+    "bestTimes": "Check hours \u2014 varies seasonally. Less crowded on weekday mornings.",
     "transitDirections": "C/E to 23rd St, walk west to the piers.",
-    "nearbyReferences": ["Hudson River Park", "The High Line"],
+    "nearbyReferences": [
+      "Hudson River Park",
+      "The High Line"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-18"
+    "lastVerified": "2026-01-18",
+    "lat": 40.7467,
+    "lng": -74.0083
   },
   {
     "id": "astor-place",
     "name": "Astor Place",
-    "coordinates": { "lat": 40.7299, "lng": -73.9910 },
+    "coordinates": {
+      "lat": 40.7299,
+      "lng": -73.991
+    },
     "borough": "Manhattan",
     "neighborhood": "NoHo",
     "type": "plaza",
     "status": "active",
     "difficulty": 2,
-    "features": ["flat ground", "ledges", "marble benches", "manual pads"],
+    "features": [
+      "flat ground",
+      "ledges",
+      "marble benches",
+      "manual pads"
+    ],
     "description": "Iconic NYC plaza with the Alamo cube sculpture. Smooth ground and skateable ledges.",
     "history": "A staple street spot for decades. The 2016 plaza renovation added smoother surfaces.",
     "bestTimes": "Late evenings and weekends. Can get busy with pedestrians during the day.",
     "transitDirections": "6 to Astor Place, N/R to 8th St-NYU.",
-    "nearbyReferences": ["Cooper Union", "The Alamo sculpture"],
+    "nearbyReferences": [
+      "Cooper Union",
+      "The Alamo sculpture"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-25"
+    "lastVerified": "2026-01-25",
+    "lat": 40.7298,
+    "lng": -73.991
   },
   {
     "id": "federal-plaza",
     "name": "Federal Plaza",
-    "coordinates": { "lat": 40.7146, "lng": -74.0011 },
+    "coordinates": {
+      "lat": 40.7146,
+      "lng": -74.0011
+    },
     "borough": "Manhattan",
     "neighborhood": "Civic Center",
     "type": "plaza",
     "status": "restricted",
     "difficulty": 3,
-    "features": ["granite ledges", "flat ground", "stairs", "gaps"],
+    "features": [
+      "granite ledges",
+      "flat ground",
+      "stairs",
+      "gaps"
+    ],
     "description": "Massive government plaza with perfect granite ledges. Heavily skated in videos but security is aggressive.",
     "history": "Featured in countless skate videos since the 90s. Security enforcement has increased over the years.",
     "bestTimes": "Weekends and after-hours when security is lighter.",
     "transitDirections": "4/5/6 to Brooklyn Bridge-City Hall, J/Z to Chambers.",
-    "nearbyReferences": ["City Hall", "Foley Square"],
+    "nearbyReferences": [
+      "City Hall",
+      "Foley Square"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-10"
+    "lastVerified": "2026-01-10",
+    "lat": 40.7148,
+    "lng": -74.001
   },
   {
     "id": "owls-head",
     "name": "Owl's Head Skatepark",
-    "coordinates": { "lat": 40.6380, "lng": -74.0295 },
+    "coordinates": {
+      "lat": 40.638,
+      "lng": -74.0295
+    },
     "borough": "Brooklyn",
     "neighborhood": "Bay Ridge",
     "type": "park",
     "status": "active",
     "difficulty": 3,
-    "features": ["bowl", "snake run", "ledges", "rails", "quarter pipes"],
+    "features": [
+      "bowl",
+      "snake run",
+      "ledges",
+      "rails",
+      "quarter pipes"
+    ],
     "description": "Well-built concrete park in Owl's Head Park overlooking the harbor. One of Brooklyn's best skateparks.",
     "history": "Opened around 2013, designed with community skater input. Strong local scene.",
     "bestTimes": "Mornings for a chill session. Weekends get packed.",
     "transitDirections": "R to Bay Ridge Ave, walk to Owl's Head Park.",
-    "nearbyReferences": ["Owl's Head Park", "Shore Road"],
+    "nearbyReferences": [
+      "Owl's Head Park",
+      "Shore Road"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-20"
+    "lastVerified": "2026-01-20",
+    "lat": 40.6363,
+    "lng": -74.0303
   },
   {
     "id": "mccarren-skatepark",
     "name": "McCarren Skatepark",
-    "coordinates": { "lat": 40.7200, "lng": -73.9510 },
+    "coordinates": {
+      "lat": 40.72,
+      "lng": -73.951
+    },
     "borough": "Brooklyn",
     "neighborhood": "Williamsburg",
     "type": "park",
     "status": "active",
     "difficulty": 2,
-    "features": ["ledges", "rails", "flat bars", "manual pads", "quarter pipes"],
+    "features": [
+      "ledges",
+      "rails",
+      "flat bars",
+      "manual pads",
+      "quarter pipes"
+    ],
     "description": "Popular Williamsburg skatepark in McCarren Park. Great street-style layout.",
     "history": "Opened 2010, part of the McCarren Park renovation. Central to the Williamsburg skate scene.",
     "bestTimes": "Afternoons. Gets crowded on nice-weather weekends.",
     "transitDirections": "L to Bedford Ave or G to Nassau Ave.",
-    "nearbyReferences": ["McCarren Park pool", "Williamsburg shops"],
+    "nearbyReferences": [
+      "McCarren Park pool",
+      "Williamsburg shops"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-22"
+    "lastVerified": "2026-01-22",
+    "lat": 40.72,
+    "lng": -73.9512
   },
   {
     "id": "dumbo-spot",
     "name": "DUMBO Skate Spot",
-    "coordinates": { "lat": 40.7033, "lng": -73.9894 },
+    "coordinates": {
+      "lat": 40.7033,
+      "lng": -73.9894
+    },
     "borough": "Brooklyn",
     "neighborhood": "DUMBO",
     "type": "street",
     "status": "active",
     "difficulty": 2,
-    "features": ["ledges", "flat ground", "banks", "curbs"],
+    "features": [
+      "ledges",
+      "flat ground",
+      "banks",
+      "curbs"
+    ],
     "description": "Cobblestone-adjacent flat areas under the Manhattan Bridge in DUMBO with various skateable architecture.",
     "history": "Organic street spot that grew as DUMBO developed. The waterfront area provides scenic sessions.",
     "bestTimes": "Weekday mornings before tourists arrive.",
     "transitDirections": "F to York St, A/C to High St.",
-    "nearbyReferences": ["Brooklyn Bridge Park", "Jane's Carousel"],
+    "nearbyReferences": [
+      "Brooklyn Bridge Park",
+      "Jane's Carousel"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-18"
+    "lastVerified": "2026-01-18",
+    "lat": 40.7033,
+    "lng": -73.9894
   },
   {
     "id": "prospect-park",
     "name": "Prospect Park Skate Circle",
-    "coordinates": { "lat": 40.6602, "lng": -73.9690 },
+    "coordinates": {
+      "lat": 40.6602,
+      "lng": -73.969
+    },
     "borough": "Brooklyn",
     "neighborhood": "Prospect Park",
     "type": "park",
     "status": "active",
     "difficulty": 1,
-    "features": ["flat ground", "smooth paths", "gentle slopes"],
+    "features": [
+      "flat ground",
+      "smooth paths",
+      "gentle slopes"
+    ],
     "description": "Smooth park loops and the skate circle area near the bandshell. Great for cruising and flat ground tricks.",
     "history": "Skaters and rollerbladers have used the park paths for decades. The skate circle is a weekend tradition.",
     "bestTimes": "Weekend afternoons for the social scene. Weekdays for peaceful cruising.",
     "transitDirections": "B/Q to Prospect Park, 2/3 to Grand Army Plaza.",
-    "nearbyReferences": ["Prospect Park Bandshell", "Grand Army Plaza"],
+    "nearbyReferences": [
+      "Prospect Park Bandshell",
+      "Grand Army Plaza"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-25"
+    "lastVerified": "2026-01-25",
+    "lat": 40.6602,
+    "lng": -73.969
   },
   {
     "id": "flushing-meadows",
     "name": "Flushing Meadows Skatepark",
-    "coordinates": { "lat": 40.7400, "lng": -73.8407 },
+    "coordinates": {
+      "lat": 40.74,
+      "lng": -73.8407
+    },
     "borough": "Queens",
     "neighborhood": "Flushing",
     "type": "park",
     "status": "active",
     "difficulty": 3,
-    "features": ["bowl", "rails", "ledges", "quarter pipes", "stairs"],
+    "features": [
+      "bowl",
+      "rails",
+      "ledges",
+      "quarter pipes",
+      "stairs"
+    ],
     "description": "Large concrete skatepark in Flushing Meadows Corona Park near the Unisphere.",
     "history": "Built as part of park improvements. Serves the large Queens skating community.",
     "bestTimes": "Afternoons. The park is huge so it rarely feels overcrowded.",
     "transitDirections": "7 to Mets-Willets Point.",
-    "nearbyReferences": ["Unisphere", "USTA Billie Jean King Center"],
+    "nearbyReferences": [
+      "Unisphere",
+      "USTA Billie Jean King Center"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-15"
+    "lastVerified": "2026-01-15",
+    "lat": 40.74,
+    "lng": -73.8407
   },
   {
     "id": "rockaway-beach",
     "name": "Rockaway Beach Skatepark",
-    "coordinates": { "lat": 40.5830, "lng": -73.8155 },
+    "coordinates": {
+      "lat": 40.583,
+      "lng": -73.8155
+    },
     "borough": "Queens",
     "neighborhood": "Rockaway Beach",
     "type": "park",
     "status": "active",
     "difficulty": 4,
-    "features": ["bowl", "snake run", "pool coping", "deep end", "extensions"],
+    "features": [
+      "bowl",
+      "snake run",
+      "pool coping",
+      "deep end",
+      "extensions"
+    ],
     "description": "Beachside bowl-heavy park with deep transition. One of the gnarliest parks in NYC.",
     "history": "Community-driven build on the Rockaway boardwalk. Attracts serious transition skaters.",
-    "bestTimes": "Summer mornings — combine with a beach day. Off-season weekdays are empty.",
+    "bestTimes": "Summer mornings \u2014 combine with a beach day. Off-season weekdays are empty.",
     "transitDirections": "A to Rockaway Beach stations, or ferry to Rockaway.",
-    "nearbyReferences": ["Rockaway Beach boardwalk", "Tacoway Beach"],
+    "nearbyReferences": [
+      "Rockaway Beach boardwalk",
+      "Tacoway Beach"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-12"
+    "lastVerified": "2026-01-12",
+    "lat": 40.5834,
+    "lng": -73.8155
   },
   {
     "id": "astoria-park",
     "name": "Astoria Park Skatepark",
-    "coordinates": { "lat": 40.7782, "lng": -73.9230 },
+    "coordinates": {
+      "lat": 40.7782,
+      "lng": -73.923
+    },
     "borough": "Queens",
     "neighborhood": "Astoria",
     "type": "park",
     "status": "active",
     "difficulty": 2,
-    "features": ["ledges", "rails", "quarter pipes", "manual pads"],
+    "features": [
+      "ledges",
+      "rails",
+      "quarter pipes",
+      "manual pads"
+    ],
     "description": "Solid neighborhood skatepark under the Hell Gate Bridge in Astoria Park.",
     "history": "Added during park renovations. Serves the growing Astoria skate community.",
     "bestTimes": "Afternoons year-round. Good local vibe.",
     "transitDirections": "N/W to Astoria Blvd, walk to Astoria Park.",
-    "nearbyReferences": ["Astoria Pool", "Hell Gate Bridge"],
+    "nearbyReferences": [
+      "Astoria Pool",
+      "Hell Gate Bridge"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-20"
+    "lastVerified": "2026-01-20",
+    "lat": 40.7788,
+    "lng": -73.9218
   },
   {
     "id": "mullaly-skatepark",
     "name": "Mullaly Skatepark",
-    "coordinates": { "lat": 40.8280, "lng": -73.9235 },
+    "coordinates": {
+      "lat": 40.828,
+      "lng": -73.9235
+    },
     "borough": "Bronx",
     "neighborhood": "Concourse",
     "type": "park",
     "status": "active",
     "difficulty": 4,
-    "features": ["bowl", "pool coping", "spine", "hips", "deep transitions", "street section"],
-    "description": "One of the best skateparks in NYC — deep bowls, great flow, and a solid street section. The Bronx's crown jewel.",
-    "history": "Built in 2009–2010, designed by California Skateparks. Widely praised for its quality and flow.",
+    "features": [
+      "bowl",
+      "pool coping",
+      "spine",
+      "hips",
+      "deep transitions",
+      "street section"
+    ],
+    "description": "One of the best skateparks in NYC \u2014 deep bowls, great flow, and a solid street section. The Bronx's crown jewel.",
+    "history": "Built in 2009\u20132010, designed by California Skateparks. Widely praised for its quality and flow.",
     "bestTimes": "Weekday afternoons for shorter waits on the bowl.",
     "transitDirections": "B/D/4 to 161st St-Yankee Stadium, walk north.",
-    "nearbyReferences": ["Yankee Stadium", "Mullaly Park"],
+    "nearbyReferences": [
+      "Yankee Stadium",
+      "Mullaly Park"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-22"
+    "lastVerified": "2026-01-22",
+    "lat": 40.8283,
+    "lng": -73.9234
   },
   {
     "id": "river-park-skatepark",
     "name": "River Park Skatepark",
-    "coordinates": { "lat": 40.8090, "lng": -73.9290 },
+    "coordinates": {
+      "lat": 40.809,
+      "lng": -73.929
+    },
     "borough": "Bronx",
     "neighborhood": "Mott Haven",
     "type": "park",
     "status": "active",
     "difficulty": 2,
-    "features": ["ledges", "rails", "quarter pipes", "flat bars"],
+    "features": [
+      "ledges",
+      "rails",
+      "quarter pipes",
+      "flat bars"
+    ],
     "description": "Neighborhood park along the Bronx River with a compact but fun skate area.",
     "history": "Part of South Bronx greenway improvements. Provides much-needed skate infrastructure.",
     "bestTimes": "Afternoons. Quiet on weekdays.",
     "transitDirections": "6 to Brook Ave or 2/5 to 3rd Ave-149th St.",
-    "nearbyReferences": ["Bronx River waterfront", "Mill Pond Park"],
+    "nearbyReferences": [
+      "Bronx River waterfront",
+      "Mill Pond Park"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-18"
+    "lastVerified": "2026-01-18",
+    "lat": 40.805,
+    "lng": -73.9303
   },
   {
     "id": "stapleton-skatepark",
     "name": "Stapleton Skatepark",
-    "coordinates": { "lat": 40.6265, "lng": -74.0755 },
+    "coordinates": {
+      "lat": 40.6265,
+      "lng": -74.0755
+    },
     "borough": "Staten Island",
     "neighborhood": "Stapleton",
     "type": "park",
     "status": "active",
     "difficulty": 2,
-    "features": ["ledges", "rails", "quarter pipes", "manual pads", "flat bars"],
+    "features": [
+      "ledges",
+      "rails",
+      "quarter pipes",
+      "manual pads",
+      "flat bars"
+    ],
     "description": "Staten Island's primary skatepark near the waterfront. Compact street-style layout.",
     "history": "Community-funded and built to serve Staten Island skaters who otherwise had to ferry to Brooklyn or Manhattan.",
     "bestTimes": "Weekends for the local crew. Weekdays are empty.",
     "transitDirections": "Staten Island Ferry + S51/S81 bus to Stapleton.",
-    "nearbyReferences": ["Stapleton waterfront", "Tappen Park"],
+    "nearbyReferences": [
+      "Stapleton waterfront",
+      "Tappen Park"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-15"
+    "lastVerified": "2026-01-15",
+    "lat": 40.627,
+    "lng": -74.0773
   },
   {
     "id": "pier-62",
     "name": "Pier 62 Skatepark",
-    "coordinates": { "lat": 40.7445, "lng": -74.0095 },
+    "coordinates": {
+      "lat": 40.7445,
+      "lng": -74.0095
+    },
     "borough": "Manhattan",
     "neighborhood": "Chelsea",
     "type": "park",
     "status": "active",
     "difficulty": 3,
-    "features": ["bowl", "ledges", "rails", "stairs", "banks", "flat bars"],
+    "features": [
+      "bowl",
+      "ledges",
+      "rails",
+      "stairs",
+      "banks",
+      "flat bars"
+    ],
     "description": "Free public skatepark on Pier 62 in Hudson River Park. Great river views and solid design.",
     "history": "Opened 2010 as part of Hudson River Park. Designed with input from local skaters.",
     "bestTimes": "Early mornings or late evenings. Midday gets busy with tourists.",
     "transitDirections": "C/E to 23rd St, walk west. 1 to 23rd St.",
-    "nearbyReferences": ["Hudson River Park", "Chelsea Market"],
+    "nearbyReferences": [
+      "Hudson River Park",
+      "Chelsea Market"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-22"
+    "lastVerified": "2026-01-22",
+    "lat": 40.744,
+    "lng": -74.0088
   },
   {
     "id": "cooper-park",
     "name": "Cooper Park Skatepark",
-    "coordinates": { "lat": 40.7157, "lng": -73.9373 },
+    "coordinates": {
+      "lat": 40.7157,
+      "lng": -73.9373
+    },
     "borough": "Brooklyn",
     "neighborhood": "East Williamsburg",
     "type": "park",
     "status": "active",
     "difficulty": 2,
-    "features": ["ledges", "rails", "quarter pipes", "manual pads"],
+    "features": [
+      "ledges",
+      "rails",
+      "quarter pipes",
+      "manual pads"
+    ],
     "description": "Neighborhood skatepark in Cooper Park. Small but well-maintained with a friendly local scene.",
     "history": "Added during Cooper Park renovations. Popular with the East Williamsburg and Bushwick skating community.",
     "bestTimes": "Afternoons and weekends.",
     "transitDirections": "L to Grand St or Morgan Ave.",
-    "nearbyReferences": ["Cooper Park", "East Williamsburg galleries"],
+    "nearbyReferences": [
+      "Cooper Park",
+      "East Williamsburg galleries"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-20"
+    "lastVerified": "2026-01-20",
+    "lat": 40.7157,
+    "lng": -73.9372
   },
   {
     "id": "washington-heights-spot",
     "name": "Washington Heights Banks",
-    "coordinates": { "lat": 40.8410, "lng": -73.9400 },
+    "coordinates": {
+      "lat": 40.841,
+      "lng": -73.94
+    },
     "borough": "Manhattan",
     "neighborhood": "Washington Heights",
     "type": "street",
     "status": "active",
     "difficulty": 3,
-    "features": ["banks", "ledges", "stairs", "gaps"],
+    "features": [
+      "banks",
+      "ledges",
+      "stairs",
+      "gaps"
+    ],
     "description": "Steep streets and concrete banks in the Heights. Raw street skating with amazing hill bombs.",
     "history": "Uptown street spots that have been session'd by local crews for years. Less documented than downtown spots.",
     "bestTimes": "Afternoons. Traffic is lighter on weekends.",
     "transitDirections": "A/C to 168th St or 1 to 168th St.",
-    "nearbyReferences": ["Fort Washington Park", "The Cloisters"],
+    "nearbyReferences": [
+      "Fort Washington Park",
+      "The Cloisters"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-12"
+    "lastVerified": "2026-01-12",
+    "lat": 40.84,
+    "lng": -73.9397
   },
   {
     "id": "red-hook-diy",
     "name": "Red Hook DIY Spot",
-    "coordinates": { "lat": 40.6730, "lng": -74.0060 },
+    "coordinates": {
+      "lat": 40.673,
+      "lng": -74.006
+    },
     "borough": "Brooklyn",
     "neighborhood": "Red Hook",
     "type": "DIY",
     "status": "active",
     "difficulty": 4,
-    "features": ["DIY ramps", "concrete transitions", "ledges", "creative obstacles"],
+    "features": [
+      "DIY ramps",
+      "concrete transitions",
+      "ledges",
+      "creative obstacles"
+    ],
     "description": "Community-built DIY spot in Red Hook's industrial waterfront area. Raw, creative, and constantly evolving.",
     "history": "Built and maintained by local skaters using found materials. Embodies the DIY skate spirit.",
     "bestTimes": "Weekends when the crew is building and skating.",
     "transitDirections": "F/G to Smith-9th St, walk south. B61 bus.",
-    "nearbyReferences": ["Red Hook Ball Fields", "IKEA waterfront"],
+    "nearbyReferences": [
+      "Red Hook Ball Fields",
+      "IKEA waterfront"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-18"
+    "lastVerified": "2026-01-18",
+    "lat": 40.6744,
+    "lng": -74.0073
   },
   {
     "id": "midtown-banks",
     "name": "Midtown Courthouse Banks",
-    "coordinates": { "lat": 40.7527, "lng": -73.9772 },
+    "coordinates": {
+      "lat": 40.7527,
+      "lng": -73.9772
+    },
     "borough": "Manhattan",
     "neighborhood": "Midtown East",
     "type": "street",
     "status": "restricted",
     "difficulty": 3,
-    "features": ["banks", "ledges", "flat ground", "stairs"],
+    "features": [
+      "banks",
+      "ledges",
+      "flat ground",
+      "stairs"
+    ],
     "description": "Marble banks and ledges around Midtown courthouses. Classic spot but heavy security.",
     "history": "Featured in many NYC skate videos. Security crackdowns have made sessions rare.",
     "bestTimes": "Very early mornings or late nights only.",
     "transitDirections": "4/5/6/7/S to Grand Central.",
-    "nearbyReferences": ["Grand Central Terminal", "Chrysler Building"],
+    "nearbyReferences": [
+      "Grand Central Terminal",
+      "Chrysler Building"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-10"
+    "lastVerified": "2026-01-10",
+    "lat": 40.758,
+    "lng": -73.9855
   },
   {
     "id": "hunts-point-diy",
     "name": "Hunts Point DIY",
-    "coordinates": { "lat": 40.8095, "lng": -73.8870 },
+    "coordinates": {
+      "lat": 40.8095,
+      "lng": -73.887
+    },
     "borough": "Bronx",
     "neighborhood": "Hunts Point",
     "type": "DIY",
     "status": "active",
     "difficulty": 3,
-    "features": ["DIY ramps", "flat bars", "manual pads", "creative features"],
+    "features": [
+      "DIY ramps",
+      "flat bars",
+      "manual pads",
+      "creative features"
+    ],
     "description": "Bronx DIY spot built by local skaters in Hunts Point industrial area. Gritty and authentic.",
     "history": "Started as an abandoned lot turned skate haven. Community maintains and evolves it.",
     "bestTimes": "Weekends when crews are active.",
     "transitDirections": "6 to Hunts Point Ave.",
-    "nearbyReferences": ["Hunts Point Market", "Barretto Point Park"],
+    "nearbyReferences": [
+      "Hunts Point Market",
+      "Barretto Point Park"
+    ],
     "photos": [],
-    "lastVerified": "2026-01-15"
+    "lastVerified": "2026-01-15",
+    "lat": 40.809,
+    "lng": -73.88
   }
 ]

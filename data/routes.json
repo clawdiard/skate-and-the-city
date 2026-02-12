@@ -1,1 +1,105 @@
-[]
+[
+  {
+    "id": "og-manhattan",
+    "name": "The OG Manhattan",
+    "description": "Hit the most iconic Manhattan skate spots in one legendary day — from the Brooklyn Banks to Tompkins, through LES and finishing at Astor Place. This is the route every NYC skater should ride at least once.",
+    "duration": "4-5 hours",
+    "distance": "5.2 miles",
+    "difficulty": 2,
+    "borough": "Manhattan",
+    "stops": [
+      {
+        "spotId": "brooklyn-banks",
+        "order": 1,
+        "activity": "Start at the legendary Brooklyn Banks — warm up on the marble ledges and soak in the history of NYC skating's spiritual home.",
+        "durationAtStop": "45 min",
+        "transitToNext": "Skate north on Park Row, then east on Delancey — about 15 min ride through the Lower East Side."
+      },
+      {
+        "spotId": "les-skatepark",
+        "order": 2,
+        "activity": "Session the LES Skatepark's smooth concrete bowls and street section. Great for all levels with plenty of features.",
+        "durationAtStop": "60 min",
+        "transitToNext": "Head north on Essex/Allen, then east on Houston — quick 10 min push to Tompkins."
+      },
+      {
+        "spotId": "tompkins-square-park",
+        "order": 3,
+        "activity": "Cruise through the park and hit the famous Tompkins benches and ledges. Grab a slice on Ave A while you're at it.",
+        "durationAtStop": "45 min",
+        "transitToNext": "Skate west on St Marks Place — 10 min ride straight to Astor Place."
+      },
+      {
+        "spotId": "astor-place",
+        "order": 4,
+        "activity": "Finish at the Astor Place cube — smooth ground, ledges everywhere, and prime people-watching. Iconic way to end the day.",
+        "durationAtStop": "45 min",
+        "transitToNext": null
+      }
+    ]
+  },
+  {
+    "id": "brooklyn-bridge-to-banks",
+    "name": "Brooklyn Bridge to Banks",
+    "description": "Cross the Brooklyn Bridge on your board, hit the Banks, then loop through downtown Manhattan's best street spots. Touristy? Maybe. Epic? Absolutely.",
+    "duration": "3-4 hours",
+    "distance": "4.1 miles",
+    "difficulty": 3,
+    "borough": "Manhattan / Brooklyn",
+    "stops": [
+      {
+        "spotId": "dumbo-spot",
+        "order": 1,
+        "activity": "Start in DUMBO — session the smooth waterfront plaza with the Manhattan Bridge framing every trick. Perfect warm-up spot.",
+        "durationAtStop": "40 min",
+        "transitToNext": "Push up to the Brooklyn Bridge bike/pedestrian path — 20 min crossing (watch for tourists!)."
+      },
+      {
+        "spotId": "brooklyn-banks",
+        "order": 2,
+        "activity": "Drop off the bridge straight into the Banks. The brick-to-marble transitions here are unlike anything else in the city.",
+        "durationAtStop": "60 min",
+        "transitToNext": "Head south on Broadway — 10 min push through the Financial District."
+      },
+      {
+        "spotId": "federal-plaza",
+        "order": 3,
+        "activity": "Federal Plaza's massive open area with smooth ground and long granite ledges. Perfect for lines and flatground.",
+        "durationAtStop": "45 min",
+        "transitToNext": null
+      }
+    ]
+  },
+  {
+    "id": "williamsburg-to-bushwick",
+    "name": "Williamsburg to Bushwick",
+    "description": "Brooklyn's creative corridor — from McCarren Park's modern skatepark through the street art of Bushwick to the DIY energy of Cooper Park. This route is pure Brooklyn.",
+    "duration": "3-4 hours",
+    "distance": "3.8 miles",
+    "difficulty": 2,
+    "borough": "Brooklyn",
+    "stops": [
+      {
+        "spotId": "mccarren-skatepark",
+        "order": 1,
+        "activity": "Start at McCarren's excellent concrete park — bowls, rails, ledges, and a chill local scene. Great place to warm up.",
+        "durationAtStop": "60 min",
+        "transitToNext": "Skate south on Bedford Ave, then east on Metropolitan — 15 min through the heart of Williamsburg."
+      },
+      {
+        "spotId": "cooper-park",
+        "order": 2,
+        "activity": "Cooper Park's mini ramp and flat area — neighborhood park vibe with surprisingly good features.",
+        "durationAtStop": "45 min",
+        "transitToNext": "Continue east on Maspeth Ave into Bushwick — 10 min ride through murals and street art."
+      },
+      {
+        "spotId": "red-hook-diy",
+        "order": 3,
+        "activity": "End at the DIY spot — raw, creative, and unapologetically Brooklyn. Bring your own wax and good vibes.",
+        "durationAtStop": "45 min",
+        "transitToNext": null
+      }
+    ]
+  }
+]

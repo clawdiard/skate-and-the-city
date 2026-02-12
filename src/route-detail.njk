@@ -1,0 +1,92 @@
+---
+layout: base.njk
+pagination:
+  data: allRoutes
+  size: 1
+  alias: route
+permalink: "/routes/{{ route.id }}/"
+eleventyComputed:
+  title: "{{ route.name }} — Skate And the City"
+---
+
+<a href="{{ '/routes/' | url }}" class="text-skate-accent text-sm hover:underline mb-4 inline-block">&larr; All Routes</a>
+
+<h1 class="text-3xl font-bold text-skate-accent mb-2">{{ route.name }}</h1>
+<p class="text-gray-400 mb-6">{{ route.description }}</p>
+
+<div class="flex flex-wrap gap-4 mb-8 text-sm text-gray-300">
+  <span class="bg-skate-surface px-3 py-1.5 rounded-lg">⏱️ {{ route.duration }}</span>
+  <span class="bg-skate-surface px-3 py-1.5 rounded-lg">📏 {{ route.distance }}</span>
+  <span class="bg-skate-surface px-3 py-1.5 rounded-lg">Difficulty: {% for i in range(1, 6) %}{% if i <= route.difficulty %}★{% else %}☆{% endif %}{% endfor %}</span>
+  <span class="bg-skate-surface px-3 py-1.5 rounded-lg">📍 {{ route.stops.length }} stops</span>
+  <span class="bg-skate-surface px-3 py-1.5 rounded-lg">🏙️ {{ route.borough }}</span>
+</div>
+
+{# Map #}
+<div id="route-map" class="w-full h-80 rounded-lg border border-skate-accent/30 mb-8"></div>
+
+{# Stop-by-stop breakdown #}
+<h2 class="text-xl font-bold text-white mb-4">Stop-by-Stop</h2>
+<div class="space-y-4">
+  {% for stop in route.stops %}
+  <details class="bg-skate-surface rounded-lg border border-skate-accent/20 group" {% if loop.first %}open{% endif %}>
+    <summary class="flex items-center gap-3 p-4 cursor-pointer hover:bg-skate-accent/5 transition">
+      <span class="flex-none w-8 h-8 rounded-full bg-skate-accent text-black font-bold flex items-center justify-center text-sm">{{ stop.order }}</span>
+      <div class="flex-1 min-w-0">
+        <span class="text-white font-semibold">{{ stop.spot.name }}</span>
+        <span class="text-gray-500 text-sm ml-2">{{ stop.durationAtStop }}</span>
+      </div>
+    </summary>
+    <div class="px-4 pb-4 pt-0 border-t border-skate-accent/10">
+      <p class="text-gray-300 text-sm mt-3">{{ stop.activity }}</p>
+      {% if stop.spot.neighborhood %}
+      <p class="text-xs text-gray-500 mt-2">📍 {{ stop.spot.neighborhood }}, {{ stop.spot.borough }}</p>
+      {% endif %}
+      {% if stop.transitToNext %}
+      <div class="mt-3 p-3 bg-skate-primary/60 rounded text-xs text-gray-400">
+        <span class="text-skate-accent font-semibold">🛹 Getting to next stop:</span> {{ stop.transitToNext }}
+      </div>
+      {% endif %}
+    </div>
+  </details>
+  {% endfor %}
+</div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function() {
+  const stops = {{ route.stops | dump | safe }};
+  const coords = stops
+    .filter(s => s.spot && s.spot.lat && s.spot.lng)
+    .map(s => [s.spot.lat, s.spot.lng]);
+
+  if (coords.length === 0) {
+    document.getElementById('route-map').innerHTML = '<div class="flex items-center justify-center h-full text-gray-500">Map data coming soon — coordinates being added</div>';
+    return;
+  }
+
+  const map = L.map('route-map', { scrollWheelZoom: false }).fitBounds(coords, { padding: [30, 30] });
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OSM &amp; CartoDB',
+    maxZoom: 19
+  }).addTo(map);
+
+  // Route polyline
+  L.polyline(coords, { color: '#f59e0b', weight: 3, opacity: 0.8, dashArray: '8 6' }).addTo(map);
+
+  // Numbered markers
+  stops.forEach(function(stop) {
+    if (!stop.spot || !stop.spot.lat || !stop.spot.lng) return;
+    const icon = L.divIcon({
+      html: '<div style="background:#f59e0b;color:#000;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:14px;border:2px solid #fff;">' + stop.order + '</div>',
+      className: '',
+      iconSize: [28, 28],
+      iconAnchor: [14, 14]
+    });
+    L.marker([stop.spot.lat, stop.spot.lng], { icon: icon })
+      .bindPopup('<strong>' + stop.spot.name + '</strong><br>' + stop.durationAtStop)
+      .addTo(map);
+  });
+})();
+</script>
