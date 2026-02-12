@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: "Skate And the City — NYC Skate Guide"
+title: "Skate And the City — Your Guide to Skating NYC"
 ---
 
 {# Hero Section #}
@@ -8,60 +8,122 @@ title: "Skate And the City — NYC Skate Guide"
   <div class="hero-glow"></div>
   <div class="relative z-10">
     <img src="{{ '/assets/icons/logo.svg' | url }}" alt="Skate And the City" class="mx-auto w-80 md:w-[28rem] mb-6">
-    <p class="hero-subtitle">
-      Every spot, route, shop &amp; taco within pushing distance.<br>
-      <span class="text-skate-accent">New York City's</span> underground skate guide.
+    <p class="hero-subtitle text-xl md:text-2xl font-light">
+      Your guide to skating <span class="text-skate-accent font-semibold">NYC</span>
+    </p>
+    <p class="text-skate-text-secondary mt-2 max-w-lg mx-auto">
+      Every spot, route, shop &amp; taco within pushing distance.
     </p>
     <div class="mt-8 flex flex-wrap justify-center gap-4">
-      <a href="{{ '/spots/' | url }}" class="btn-primary btn-lg">Explore Spots</a>
-      <a href="{{ '/map/' | url }}" class="btn-secondary btn-lg">Open Map</a>
+      <a href="{{ '/map/' | url }}" class="btn-primary btn-lg">🗺️ Explore Map</a>
+      <a href="{{ '/routes/' | url }}" class="btn-secondary btn-lg">🛹 Browse Routes</a>
     </div>
   </div>
 </section>
 
-{# Featured Spots #}
+{# Featured Routes Carousel #}
 <section class="mt-16">
-  <h2 class="font-display text-3xl text-skate-text tracking-wide mb-6">Featured Spots</h2>
+  <h2 class="font-display text-3xl text-skate-text tracking-wide mb-6">Featured Routes</h2>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    {% for spot in spots | default(collections.spots) | default([]) %}
-      {% include "components/spot-card.njk" %}
+    {% for route in allRoutes | default([]) %}
+      {% if loop.index0 < 3 %}
+      <a href="{{ ('/routes/' + route.id + '/') | url }}" class="card group hover:border-skate-accent transition-colors">
+        <div class="card-body">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-2xl">🛤️</span>
+            <span class="text-xs text-skate-text-dim">{{ route.distance }}</span>
+          </div>
+          <h3 class="font-display text-xl text-skate-text group-hover:text-skate-accent transition-colors">{{ route.name }}</h3>
+          <p class="text-sm text-skate-text-secondary mt-1">{{ route.borough }}</p>
+          <div class="mt-3 flex items-center gap-1">
+            {% for i in range(route.difficulty | default(1)) %}<span class="text-skate-accent text-xs">⭐</span>{% endfor %}
+            <span class="text-xs text-skate-text-dim ml-1">Difficulty</span>
+          </div>
+          <p class="text-xs text-skate-text-dim mt-2">{{ route.stops | length }} stops</p>
+        </div>
+      </a>
+      {% endif %}
     {% endfor %}
-    {% if not spots and not collections.spots %}
-    {# Placeholder cards #}
-    {% for i in range(3) %}
-    <div class="card">
-      <div class="h-48 bg-skate-muted rounded-t-card animate-pulse"></div>
-      <div class="card-body">
-        <div class="h-5 bg-skate-muted rounded w-3/4 mb-2"></div>
-        <div class="h-3 bg-skate-muted rounded w-1/2"></div>
-      </div>
-    </div>
-    {% endfor %}
-    {% endif %}
   </div>
 </section>
 
-{# Spot Types #}
+{# Popular Spots #}
 <section class="mt-16">
-  <h2 class="font-display text-3xl text-skate-text tracking-wide mb-6">Spot Types</h2>
-  <div class="flex flex-wrap gap-3">
-    <span class="badge-park">🏗️ Skatepark</span>
-    <span class="badge-street">🏙️ Street</span>
-    <span class="badge-diy">🔨 DIY</span>
-    <span class="badge-transition">🌊 Transition</span>
-    <span class="badge-flatground">📐 Flatground</span>
+  <div class="flex items-center justify-between mb-6">
+    <h2 class="font-display text-3xl text-skate-text tracking-wide">Popular Spots</h2>
+    <a href="{{ '/spots/' | url }}" class="text-sm text-skate-accent hover:text-skate-accent-hover transition-colors">View all →</a>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    {% set spotList = allSpots | default([]) %}
+    {% for spot in spotList %}
+      {% if loop.index0 < 8 %}
+      <a href="{{ ('/spots/' + spot.id + '/') | url }}" class="card group hover:border-skate-accent transition-colors">
+        <div class="card-body py-4">
+          <h3 class="font-semibold text-skate-text group-hover:text-skate-accent transition-colors text-sm">{{ spot.name }}</h3>
+          <div class="flex items-center gap-2 mt-1">
+            <span class="text-xs px-2 py-0.5 rounded-full bg-skate-muted text-skate-text-secondary">{{ spot.type | default("spot") }}</span>
+            <span class="text-xs text-skate-text-dim">{{ spot.borough }}</span>
+          </div>
+        </div>
+      </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+{# How It Works #}
+<section class="mt-16">
+  <h2 class="font-display text-3xl text-skate-text tracking-wide mb-8 text-center">How It Works</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="text-center">
+      <div class="text-5xl mb-4">📍</div>
+      <h3 class="font-display text-xl text-skate-accent mb-2">1. Pick a Route</h3>
+      <p class="text-sm text-skate-text-secondary">Browse curated routes through NYC's best skate spots, or explore the map to find your own path.</p>
+    </div>
+    <div class="text-center">
+      <div class="text-5xl mb-4">📲</div>
+      <h3 class="font-display text-xl text-skate-accent mb-2">2. Download GPX</h3>
+      <p class="text-sm text-skate-text-secondary">Grab the GPX file for turn-by-turn navigation on your phone. Works offline so you never lose your way.</p>
+    </div>
+    <div class="text-center">
+      <div class="text-5xl mb-4">🛹</div>
+      <h3 class="font-display text-xl text-skate-accent mb-2">3. Skate NYC</h3>
+      <p class="text-sm text-skate-text-secondary">Hit the streets, discover spots, grab food along the way. Share what you find with the community.</p>
+    </div>
+  </div>
+</section>
+
+{# Borough Quick Links #}
+<section class="mt-16">
+  <h2 class="font-display text-3xl text-skate-text tracking-wide mb-6">Explore by Borough</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+    {% set boroughs = [
+      { name: "Manhattan", emoji: "🏙️" },
+      { name: "Brooklyn", emoji: "🌉" },
+      { name: "Queens", emoji: "👑" },
+      { name: "Bronx", emoji: "🔥" },
+      { name: "Staten Island", emoji: "🏝️" }
+    ] %}
+    {% for b in boroughs %}
+    <a href="{{ '/map/' | url }}?borough={{ b.name | urlencode }}" class="card group hover:border-skate-accent transition-all text-center">
+      <div class="card-body py-4">
+        <div class="text-3xl mb-1">{{ b.emoji }}</div>
+        <span class="font-display text-sm text-skate-text group-hover:text-skate-accent transition-colors">{{ b.name }}</span>
+      </div>
+    </a>
+    {% endfor %}
   </div>
 </section>
 
 {# Quick Stats #}
-<section class="mt-16 mb-8">
+<section class="mt-16">
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div class="card card-body text-center">
-      <div class="font-display text-4xl text-skate-accent">50+</div>
+      <div class="font-display text-4xl text-skate-accent">{{ allSpots | default([]) | length }}+</div>
       <div class="text-sm text-skate-text-secondary mt-1">Skate Spots</div>
     </div>
     <div class="card card-body text-center">
-      <div class="font-display text-4xl text-skate-gold">12</div>
+      <div class="font-display text-4xl text-skate-gold">{{ allRoutes | default([]) | length }}</div>
       <div class="text-sm text-skate-text-secondary mt-1">Routes</div>
     </div>
     <div class="card card-body text-center">
@@ -72,5 +134,30 @@ title: "Skate And the City — NYC Skate Guide"
       <div class="font-display text-4xl text-skate-lime">∞</div>
       <div class="text-sm text-skate-text-secondary mt-1">Stoke</div>
     </div>
+  </div>
+</section>
+
+{# Community / Contribute #}
+<section class="mt-16">
+  <div class="card card-body text-center py-10">
+    <h2 class="font-display text-3xl text-skate-text tracking-wide mb-3">Know a Spot?</h2>
+    <p class="text-skate-text-secondary max-w-md mx-auto mb-6">
+      This guide is built by the community. Submit a spot, suggest a route, or report changes — every contribution helps the NYC skate scene.
+    </p>
+    <a href="{{ '/contribute/' | url }}" class="btn-primary">Contribute a Spot</a>
+  </div>
+</section>
+
+{# Newsletter Signup #}
+<section class="mt-16 mb-8">
+  <div class="card card-body text-center py-8">
+    <h2 class="font-display text-2xl text-skate-text tracking-wide mb-2">Stay in the Loop</h2>
+    <p class="text-sm text-skate-text-secondary mb-4">Get notified about new spots, routes, and NYC skate news.</p>
+    <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onsubmit="event.preventDefault(); this.querySelector('button').textContent='🤙 You\'re in!'; this.querySelector('button').disabled=true;">
+      <input type="email" placeholder="your@email.com" required
+        class="flex-1 bg-skate-primary/60 border border-skate-border rounded-lg px-4 py-2 text-sm text-skate-text placeholder-skate-text-dim focus:outline-none focus:border-skate-accent focus:ring-1 focus:ring-skate-accent transition">
+      <button type="submit" class="btn-primary whitespace-nowrap">Subscribe</button>
+    </form>
+    <p class="text-xs text-skate-text-dim mt-2">No spam. Unsubscribe anytime.</p>
   </div>
 </section>
