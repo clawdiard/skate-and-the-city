@@ -1,0 +1,35 @@
+{
+  "id": "columbus-park-spot",
+  "name": "Columbus Park Benches",
+  "coordinates": {
+    "lat": 40.7148,
+    "lng": -73.9998
+  },
+  "borough": "Manhattan",
+  "neighborhood": "Chinatown",
+  "type": "street",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "benches",
+    "ledges",
+    "flat ground",
+    "manual pads"
+  ],
+  "description": "Smooth marble benches and granite ledges in the heart of Chinatown. Classic NYC street skating.",
+  "history": "A staple of the downtown skate scene. Featured in countless video parts from Zoo York and Supreme riders.",
+  "bestTimes": "Early mornings before the park fills up with tai chi groups.",
+  "transitDirections": "J/Z to Chambers St or N/Q/R/W to Canal St.",
+  "nearbyReferences": [
+    "Chinatown",
+    "Manhattan Bridge"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-03",
+  "detailedNotes": {
+    "terrain": "Features include benches, ledges, flat ground, manual pads. Urban architecture repurposed for skating.",
+    "culture": "Part of the Manhattan skate scene in Chinatown. A staple of the downtown skate scene. Featured in countless video parts from Zoo York and Supreme riders.",
+    "tips": "Best approach: J/Z to Chambers St or N/Q/R/W to Canal St.. Early mornings before the park fills up with tai chi groups.",
+    "warnings": "Street spot — be respectful of the space and watch for security."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "pelham-bay-skatepark",
+  "name": "Pelham Bay Skatepark",
+  "coordinates": {
+    "lat": 40.8507,
+    "lng": -73.8055
+  },
+  "borough": "Bronx",
+  "neighborhood": "Pelham Bay",
+  "type": "park",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "bowl",
+    "rails",
+    "ledges",
+    "bank",
+    "pyramid"
+  ],
+  "description": "Solid neighborhood park near Pelham Bay Park with a good flow layout and smooth concrete.",
+  "history": "Built as part of NYC Parks' initiative to add skateparks to every borough. Serves the northeast Bronx skating community.",
+  "bestTimes": "Weekday afternoons. Quiet spot that never gets too packed.",
+  "transitDirections": "6 train to Pelham Bay Park, short walk east.",
+  "nearbyReferences": [
+    "Pelham Bay Park",
+    "Orchard Beach"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-20",
+  "detailedNotes": {
+    "terrain": "Features include bowl, rails, ledges, bank, pyramid. Well-maintained concrete construction.",
+    "culture": "Part of the Bronx skate scene in Pelham Bay. Built as part of NYC Parks' initiative to add skateparks to every borough. Serves the northeast Bronx skating community.",
+    "tips": "Best approach: 6 train to Pelham Bay Park, short walk east.. Weekday afternoons. Quiet spot that never gets too packed.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

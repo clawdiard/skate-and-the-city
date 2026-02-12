@@ -1,0 +1,34 @@
+{
+  "id": "the-cube-astor",
+  "name": "The Cube (Astor Place)",
+  "coordinates": {
+    "lat": 40.7299,
+    "lng": -73.991
+  },
+  "borough": "Manhattan",
+  "neighborhood": "East Village",
+  "type": "street",
+  "status": "open",
+  "difficulty": 1,
+  "features": [
+    "flat ground",
+    "manual pads",
+    "benches"
+  ],
+  "description": "The iconic Alamo cube sculpture plaza — ultra-smooth ground perfect for flatground sessions and filming.",
+  "history": "A gathering point for NYC skaters since the 80s. The smooth plaza surface has hosted countless video parts.",
+  "bestTimes": "Late night for empty sessions. Daytime is busy but rideable.",
+  "transitDirections": "6 to Astor Place or N/R/W to 8th St-NYU.",
+  "nearbyReferences": [
+    "Cooper Union",
+    "St. Marks Place"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-01",
+  "detailedNotes": {
+    "terrain": "Features include flat ground, manual pads, benches. Urban architecture repurposed for skating.",
+    "culture": "Part of the Manhattan skate scene in East Village. A gathering point for NYC skaters since the 80s. The smooth plaza surface has hosted countless video parts.",
+    "tips": "Best approach: 6 to Astor Place or N/R/W to 8th St-NYU.. Late night for empty sessions. Daytime is busy but rideable.",
+    "warnings": "Street spot — be respectful of the space and watch for security."
+  }
+}

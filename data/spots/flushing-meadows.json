@@ -1,0 +1,38 @@
+{
+  "id": "flushing-meadows",
+  "name": "Flushing Meadows Skatepark",
+  "coordinates": {
+    "lat": 40.74,
+    "lng": -73.8407
+  },
+  "borough": "Queens",
+  "neighborhood": "Flushing",
+  "type": "park",
+  "status": "active",
+  "difficulty": 3,
+  "features": [
+    "bowl",
+    "rails",
+    "ledges",
+    "quarter pipes",
+    "stairs"
+  ],
+  "description": "Large concrete skatepark in Flushing Meadows Corona Park near the Unisphere.",
+  "history": "Built as part of park improvements. Serves the large Queens skating community.",
+  "bestTimes": "Afternoons. The park is huge so it rarely feels overcrowded.",
+  "transitDirections": "7 to Mets-Willets Point.",
+  "nearbyReferences": [
+    "Unisphere",
+    "USTA Billie Jean King Center"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-15",
+  "lat": 40.74,
+  "lng": -73.8407,
+  "detailedNotes": {
+    "terrain": "Features include bowl, rails, ledges, quarter pipes, stairs. Well-maintained concrete construction.",
+    "culture": "Part of the Queens skate scene in Flushing. Built as part of park improvements. Serves the large Queens skating community.",
+    "tips": "Best approach: 7 to Mets-Willets Point.. Afternoons. The park is huge so it rarely feels overcrowded.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "far-rockaway-skatepark",
+  "name": "Far Rockaway Skatepark",
+  "coordinates": {
+    "lat": 40.5922,
+    "lng": -73.7552
+  },
+  "borough": "Queens",
+  "neighborhood": "Far Rockaway",
+  "type": "park",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "mini ramp",
+    "fun box",
+    "rails",
+    "manual pad",
+    "quarter pipe"
+  ],
+  "description": "Beachfront skatepark steps from the Atlantic Ocean. Chill vibes with a good mix of features for all levels.",
+  "history": "Part of the Rockaway Beach revitalization. A welcome addition to the surf-and-skate culture of the peninsula.",
+  "bestTimes": "Summer mornings — skate then surf. Off-season is empty and perfect.",
+  "transitDirections": "A train to Far Rockaway-Mott Ave, walk south to the beach.",
+  "nearbyReferences": [
+    "Rockaway Beach",
+    "Rippers burger stand"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-28",
+  "detailedNotes": {
+    "terrain": "Features include mini ramp, fun box, rails, manual pad, quarter pipe. Well-maintained concrete construction.",
+    "culture": "Part of the Queens skate scene in Far Rockaway. Part of the Rockaway Beach revitalization. A welcome addition to the surf-and-skate culture of the peninsula.",
+    "tips": "Best approach: A train to Far Rockaway-Mott Ave, walk south to the beach.. Summer mornings — skate then surf. Off-season is empty and perfect.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

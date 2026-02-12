@@ -1,0 +1,37 @@
+{
+  "id": "dumbo-spot",
+  "name": "DUMBO Skate Spot",
+  "coordinates": {
+    "lat": 40.7033,
+    "lng": -73.9894
+  },
+  "borough": "Brooklyn",
+  "neighborhood": "DUMBO",
+  "type": "street",
+  "status": "active",
+  "difficulty": 2,
+  "features": [
+    "ledges",
+    "flat ground",
+    "banks",
+    "curbs"
+  ],
+  "description": "Cobblestone-adjacent flat areas under the Manhattan Bridge in DUMBO with various skateable architecture.",
+  "history": "Organic street spot that grew as DUMBO developed. The waterfront area provides scenic sessions.",
+  "bestTimes": "Weekday mornings before tourists arrive.",
+  "transitDirections": "F to York St, A/C to High St.",
+  "nearbyReferences": [
+    "Brooklyn Bridge Park",
+    "Jane's Carousel"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-18",
+  "lat": 40.7033,
+  "lng": -73.9894,
+  "detailedNotes": {
+    "terrain": "Features include ledges, flat ground, banks, curbs. Urban architecture repurposed for skating.",
+    "culture": "Part of the Brooklyn skate scene in DUMBO. Organic street spot that grew as DUMBO developed. The waterfront area provides scenic sessions.",
+    "tips": "Best approach: F to York St, A/C to High St.. Weekday mornings before tourists arrive.",
+    "warnings": "Street spot — be respectful of the space and watch for security."
+  }
+}

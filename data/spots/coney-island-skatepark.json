@@ -1,0 +1,37 @@
+{
+  "id": "coney-island-skatepark",
+  "name": "Coney Island Skatepark",
+  "coordinates": {
+    "lat": 40.574,
+    "lng": -73.979
+  },
+  "borough": "Brooklyn",
+  "neighborhood": "Coney Island",
+  "type": "park",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "bowl",
+    "mini ramp",
+    "rails",
+    "ledges",
+    "fun box"
+  ],
+  "description": "Boardwalk-adjacent skatepark with ocean views. Skate, then hit the beach or grab a Nathan's dog.",
+  "history": "Opened as part of Coney Island's revitalization. Brings together the beach culture and skate scene perfectly.",
+  "bestTimes": "Summer mornings — skate before the beach crowds arrive. Off-season is empty paradise.",
+  "transitDirections": "D/F/N/Q to Coney Island-Stillwell Ave.",
+  "nearbyReferences": [
+    "Coney Island boardwalk",
+    "Luna Park",
+    "Nathan's Famous"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-03",
+  "detailedNotes": {
+    "terrain": "Features include bowl, mini ramp, rails, ledges, fun box. Well-maintained concrete construction.",
+    "culture": "Part of the Brooklyn skate scene in Coney Island. Opened as part of Coney Island's revitalization. Brings together the beach culture and skate scene perfectly.",
+    "tips": "Best approach: D/F/N/Q to Coney Island-Stillwell Ave.. Summer mornings — skate before the beach crowds arrive. Off-season is empty paradise.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

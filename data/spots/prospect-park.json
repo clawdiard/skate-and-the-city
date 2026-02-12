@@ -1,0 +1,36 @@
+{
+  "id": "prospect-park",
+  "name": "Prospect Park Skate Circle",
+  "coordinates": {
+    "lat": 40.6602,
+    "lng": -73.969
+  },
+  "borough": "Brooklyn",
+  "neighborhood": "Prospect Park",
+  "type": "park",
+  "status": "active",
+  "difficulty": 1,
+  "features": [
+    "flat ground",
+    "smooth paths",
+    "gentle slopes"
+  ],
+  "description": "Smooth park loops and the skate circle area near the bandshell. Great for cruising and flat ground tricks.",
+  "history": "Skaters and rollerbladers have used the park paths for decades. The skate circle is a weekend tradition.",
+  "bestTimes": "Weekend afternoons for the social scene. Weekdays for peaceful cruising.",
+  "transitDirections": "B/Q to Prospect Park, 2/3 to Grand Army Plaza.",
+  "nearbyReferences": [
+    "Prospect Park Bandshell",
+    "Grand Army Plaza"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-25",
+  "lat": 40.6602,
+  "lng": -73.969,
+  "detailedNotes": {
+    "terrain": "Features include flat ground, smooth paths, gentle slopes. Well-maintained concrete construction.",
+    "culture": "Part of the Brooklyn skate scene in Prospect Park. Skaters and rollerbladers have used the park paths for decades. The skate circle is a weekend tradition.",
+    "tips": "Best approach: B/Q to Prospect Park, 2/3 to Grand Army Plaza.. Weekend afternoons for the social scene. Weekdays for peaceful cruising.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

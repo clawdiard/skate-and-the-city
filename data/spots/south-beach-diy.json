@@ -1,0 +1,35 @@
+{
+  "id": "south-beach-diy",
+  "name": "South Beach DIY",
+  "coordinates": {
+    "lat": 40.583,
+    "lng": -74.072
+  },
+  "borough": "Staten Island",
+  "neighborhood": "South Beach",
+  "type": "diy",
+  "status": "open",
+  "difficulty": 3,
+  "features": [
+    "DIY quarter pipe",
+    "bank-to-wall",
+    "jersey barriers",
+    "flat bars"
+  ],
+  "description": "Gritty DIY spot under the expressway overpass. Raw concrete and creative obstacles built by locals.",
+  "history": "Built organically by Staten Island skaters who needed a covered spot for rainy days. Constantly evolving.",
+  "bestTimes": "Works in rain thanks to overhead cover. Best on weekday evenings.",
+  "transitDirections": "S51 bus to Father Capodanno Blvd, walk under the overpass.",
+  "nearbyReferences": [
+    "South Beach boardwalk",
+    "Verrazano Bridge viewpoint"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-01",
+  "detailedNotes": {
+    "terrain": "Features include DIY quarter pipe, bank-to-wall, jersey barriers, flat bars. Raw concrete and found materials — expect imperfections.",
+    "culture": "Part of the Staten Island skate scene in South Beach. Built organically by Staten Island skaters who needed a covered spot for rainy days. Constantly evolving.",
+    "tips": "Best approach: S51 bus to Father Capodanno Blvd, walk under the overpass.. Works in rain thanks to overhead cover. Best on weekday evenings.",
+    "warnings": "DIY spot — skate at your own risk, terrain changes frequently."
+  }
+}

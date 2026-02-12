@@ -1,0 +1,37 @@
+{
+  "id": "river-park-skatepark",
+  "name": "River Park Skatepark",
+  "coordinates": {
+    "lat": 40.809,
+    "lng": -73.929
+  },
+  "borough": "Bronx",
+  "neighborhood": "Mott Haven",
+  "type": "park",
+  "status": "active",
+  "difficulty": 2,
+  "features": [
+    "ledges",
+    "rails",
+    "quarter pipes",
+    "flat bars"
+  ],
+  "description": "Neighborhood park along the Bronx River with a compact but fun skate area.",
+  "history": "Part of South Bronx greenway improvements. Provides much-needed skate infrastructure.",
+  "bestTimes": "Afternoons. Quiet on weekdays.",
+  "transitDirections": "6 to Brook Ave or 2/5 to 3rd Ave-149th St.",
+  "nearbyReferences": [
+    "Bronx River waterfront",
+    "Mill Pond Park"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-18",
+  "lat": 40.805,
+  "lng": -73.9303,
+  "detailedNotes": {
+    "terrain": "Features include ledges, rails, quarter pipes, flat bars. Well-maintained concrete construction.",
+    "culture": "Part of the Bronx skate scene in Mott Haven. Part of South Bronx greenway improvements. Provides much-needed skate infrastructure.",
+    "tips": "Best approach: 6 to Brook Ave or 2/5 to 3rd Ave-149th St.. Afternoons. Quiet on weekdays.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

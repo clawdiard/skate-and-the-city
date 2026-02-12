@@ -1,0 +1,37 @@
+{
+  "id": "astoria-park",
+  "name": "Astoria Park Skatepark",
+  "coordinates": {
+    "lat": 40.7782,
+    "lng": -73.923
+  },
+  "borough": "Queens",
+  "neighborhood": "Astoria",
+  "type": "park",
+  "status": "active",
+  "difficulty": 2,
+  "features": [
+    "ledges",
+    "rails",
+    "quarter pipes",
+    "manual pads"
+  ],
+  "description": "Solid neighborhood skatepark under the Hell Gate Bridge in Astoria Park.",
+  "history": "Added during park renovations. Serves the growing Astoria skate community.",
+  "bestTimes": "Afternoons year-round. Good local vibe.",
+  "transitDirections": "N/W to Astoria Blvd, walk to Astoria Park.",
+  "nearbyReferences": [
+    "Astoria Pool",
+    "Hell Gate Bridge"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-20",
+  "lat": 40.7788,
+  "lng": -73.9218,
+  "detailedNotes": {
+    "terrain": "Features include ledges, rails, quarter pipes, manual pads. Well-maintained concrete construction.",
+    "culture": "Part of the Queens skate scene in Astoria. Added during park renovations. Serves the growing Astoria skate community.",
+    "tips": "Best approach: N/W to Astoria Blvd, walk to Astoria Park.. Afternoons year-round. Good local vibe.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

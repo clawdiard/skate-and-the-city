@@ -1,0 +1,36 @@
+{
+  "id": "bed-stuy-diy",
+  "name": "Bed-Stuy DIY Spot",
+  "coordinates": {
+    "lat": 40.687,
+    "lng": -73.942
+  },
+  "borough": "Brooklyn",
+  "neighborhood": "Bedford-Stuyvesant",
+  "type": "diy",
+  "status": "open",
+  "difficulty": 3,
+  "features": [
+    "DIY quarter pipe",
+    "bank",
+    "flat bar",
+    "manual pad",
+    "jersey barriers"
+  ],
+  "description": "Community-built DIY spot under the J/M tracks. Raw, creative, and constantly evolving.",
+  "history": "Started as a few poured ledges in an empty lot. The Bed-Stuy skate community has built it into a full-featured spot over several years.",
+  "bestTimes": "Weekday evenings. Weekend afternoon sessions often have BBQs.",
+  "transitDirections": "J/M to Myrtle-Broadway, walk south on Broadway.",
+  "nearbyReferences": [
+    "Herbert Von King Park",
+    "Bed-Stuy strip"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-08",
+  "detailedNotes": {
+    "terrain": "Features include DIY quarter pipe, bank, flat bar, manual pad, jersey barriers. Raw concrete and found materials — expect imperfections.",
+    "culture": "Part of the Brooklyn skate scene in Bedford-Stuyvesant. Started as a few poured ledges in an empty lot. The Bed-Stuy skate community has built it into a full-featured spot over several years.",
+    "tips": "Best approach: J/M to Myrtle-Broadway, walk south on Broadway.. Weekday evenings. Weekend afternoon sessions often have BBQs.",
+    "warnings": "DIY spot — skate at your own risk, terrain changes frequently."
+  }
+}

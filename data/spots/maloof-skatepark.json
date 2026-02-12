@@ -1,0 +1,36 @@
+{
+  "id": "maloof-skatepark",
+  "name": "Maloof Skatepark",
+  "coordinates": {
+    "lat": 40.756,
+    "lng": -73.846
+  },
+  "borough": "Queens",
+  "neighborhood": "Flushing",
+  "type": "park",
+  "status": "open",
+  "difficulty": 3,
+  "features": [
+    "bowl",
+    "snake run",
+    "ledges",
+    "stairs",
+    "handrails"
+  ],
+  "description": "World-class skatepark designed by California Skateparks. Deep bowl, flowing snake run, and technical street section.",
+  "history": "Built with backing from the Maloof family (of Maloof Money Cup fame). One of the premier parks in the outer boroughs.",
+  "bestTimes": "Early mornings on weekdays. Competition-level park gets packed on weekends.",
+  "transitDirections": "7 train to Flushing-Main St, then Q65 bus.",
+  "nearbyReferences": [
+    "Flushing Meadows Corona Park",
+    "USTA Billie Jean King Center"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-25",
+  "detailedNotes": {
+    "terrain": "Features include bowl, snake run, ledges, stairs, handrails. Well-maintained concrete construction.",
+    "culture": "Part of the Queens skate scene in Flushing. Built with backing from the Maloof family (of Maloof Money Cup fame). One of the premier parks in the outer boroughs.",
+    "tips": "Best approach: 7 train to Flushing-Main St, then Q65 bus.. Early mornings on weekdays. Competition-level park gets packed on weekends.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

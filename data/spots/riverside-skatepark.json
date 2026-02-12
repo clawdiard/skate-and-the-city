@@ -1,0 +1,36 @@
+{
+  "id": "riverside-skatepark",
+  "name": "Riverside Skatepark",
+  "coordinates": {
+    "lat": 40.801,
+    "lng": -73.97
+  },
+  "borough": "Manhattan",
+  "neighborhood": "Upper West Side",
+  "type": "park",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "bowl",
+    "mini ramp",
+    "ledges",
+    "flat bars",
+    "bank"
+  ],
+  "description": "Riverside Park's hidden gem — a well-maintained skatepark overlooking the Hudson River.",
+  "history": "Opened in the 2010s as part of Riverside Park South expansion. Quickly became a UWS staple.",
+  "bestTimes": "Golden hour sessions with Hudson River sunsets are unbeatable.",
+  "transitDirections": "1 train to 103rd St, walk west to the park.",
+  "nearbyReferences": [
+    "Riverside Park",
+    "Hudson River Greenway"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-30",
+  "detailedNotes": {
+    "terrain": "Features include bowl, mini ramp, ledges, flat bars, bank. Well-maintained concrete construction.",
+    "culture": "Part of the Manhattan skate scene in Upper West Side. Opened in the 2010s as part of Riverside Park South expansion. Quickly became a UWS staple.",
+    "tips": "Best approach: 1 train to 103rd St, walk west to the park.. Golden hour sessions with Hudson River sunsets are unbeatable.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

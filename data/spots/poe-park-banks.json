@@ -1,0 +1,35 @@
+{
+  "id": "poe-park-banks",
+  "name": "Poe Park Banks",
+  "coordinates": {
+    "lat": 40.8654,
+    "lng": -73.8944
+  },
+  "borough": "Bronx",
+  "neighborhood": "Fordham",
+  "type": "street",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "banks",
+    "ledges",
+    "stairs",
+    "flat ground"
+  ],
+  "description": "Natural banks and granite ledges in the park surrounding the Edgar Allan Poe Cottage. Smooth ground for flatground tricks.",
+  "history": "Skaters have been hitting the banks here since the 90s. The park renovation actually made the spots better.",
+  "bestTimes": "Weekday afternoons. Avoid weekends when the park is busy with families.",
+  "transitDirections": "D train to Kingsbridge Rd, walk east to Grand Concourse.",
+  "nearbyReferences": [
+    "Edgar Allan Poe Cottage",
+    "Fordham University"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-05",
+  "detailedNotes": {
+    "terrain": "Features include banks, ledges, stairs, flat ground. Urban architecture repurposed for skating.",
+    "culture": "Part of the Bronx skate scene in Fordham. Skaters have been hitting the banks here since the 90s. The park renovation actually made the spots better.",
+    "tips": "Best approach: D train to Kingsbridge Rd, walk east to Grand Concourse.. Weekday afternoons. Avoid weekends when the park is busy with families.",
+    "warnings": "Street spot — be respectful of the space and watch for security."
+  }
+}

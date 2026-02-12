@@ -101,5 +101,193 @@
         "transitToNext": null
       }
     ]
+  },
+  {
+    "id": "queens-quest",
+    "name": "Queens Quest",
+    "description": "Explore Queens' diverse skate scene — from Flushing Meadows' world-class park to the beachfront vibes of Rockaway. This borough has way more than people think.",
+    "duration": "5-6 hours",
+    "distance": "18 miles (mix of skating and transit)",
+    "difficulty": 2,
+    "borough": "Queens",
+    "stops": [
+      {
+        "spotId": "flushing-meadows-skatepark",
+        "order": 1,
+        "activity": "Start at the Flushing Meadows Skatepark — warm up in the bowl and street section with the Unisphere watching over you.",
+        "durationAtStop": "60 min",
+        "transitToNext": "Skate through the park, then hop the Q65 bus to the Maloof park — about 15 min."
+      },
+      {
+        "spotId": "maloof-skatepark",
+        "order": 2,
+        "activity": "Session the Maloof Skatepark's snake run and deep bowl. This is competition-level terrain — push yourself.",
+        "durationAtStop": "60 min",
+        "transitToNext": "7 train from Flushing to Jackson Heights, then E/F to Far Rockaway — about 50 min total."
+      },
+      {
+        "spotId": "far-rockaway-skatepark",
+        "order": 3,
+        "activity": "End at the beach. Session the Far Rockaway park, then reward yourself with ocean waves and a cold drink.",
+        "durationAtStop": "60 min",
+        "transitToNext": null
+      },
+      {
+        "spotId": "rockaway-beach-skatepark",
+        "order": 4,
+        "activity": "If you've got gas left, cruise to the Rockaway Beach park for a sunset session steps from the Atlantic.",
+        "durationAtStop": "45 min",
+        "transitToNext": null
+      }
+    ]
+  },
+  {
+    "id": "beach-day",
+    "name": "Beach Day",
+    "description": "Sun, sand, and skateboarding — hit the coastal parks from Brooklyn to Queens. Pack sunscreen and a towel.",
+    "duration": "6-7 hours",
+    "distance": "15 miles (with transit)",
+    "difficulty": 1,
+    "borough": "Multi-borough",
+    "stops": [
+      {
+        "spotId": "coney-island-skatepark",
+        "order": 1,
+        "activity": "Start at Coney Island — morning session at the park, then grab a Nathan's hot dog for fuel.",
+        "durationAtStop": "60 min",
+        "transitToNext": "Take the boardwalk east or hop the Q35 bus — about 40 min to the Rockaways."
+      },
+      {
+        "spotId": "rockaway-beach-skatepark",
+        "order": 2,
+        "activity": "Rockaway Beach park with ocean breeze. Take a surf break if you brought a board.",
+        "durationAtStop": "60 min",
+        "transitToNext": "Skate east along the boardwalk — 20 min ride."
+      },
+      {
+        "spotId": "far-rockaway-skatepark",
+        "order": 3,
+        "activity": "End the day at Far Rockaway. Mellow park, perfect for tired legs.",
+        "durationAtStop": "45 min",
+        "transitToNext": null
+      }
+    ]
+  },
+  {
+    "id": "rainy-day-options",
+    "name": "Rainy Day Options",
+    "description": "When it's pouring, you don't stop skating — you get creative. Hit the covered spots and DIY havens that work in the wet.",
+    "duration": "3-4 hours",
+    "distance": "8 miles",
+    "difficulty": 3,
+    "borough": "Multi-borough",
+    "stops": [
+      {
+        "spotId": "south-beach-diy",
+        "order": 1,
+        "activity": "Start at South Beach DIY — the overpass keeps you dry. Raw concrete obstacles and full coverage.",
+        "durationAtStop": "60 min",
+        "transitToNext": "SIR to St. George, then ferry to Manhattan, subway to Brooklyn — about 1 hr."
+      },
+      {
+        "spotId": "williamsburg-bridge-spot",
+        "order": 2,
+        "activity": "The Williamsburg Bridge underpass stays dry. Crusty banks and ledges — bring your A-game.",
+        "durationAtStop": "45 min",
+        "transitToNext": "J train to Myrtle-Broadway — 15 min."
+      },
+      {
+        "spotId": "bed-stuy-diy",
+        "order": 3,
+        "activity": "Finish at the Bed-Stuy DIY under the J/M tracks. Covered, creative, and always evolving.",
+        "durationAtStop": "45 min",
+        "transitToNext": null
+      }
+    ]
+  },
+  {
+    "id": "full-borough-blitz",
+    "name": "The Full Borough Blitz",
+    "description": "The ultimate NYC skate marathon — hit all five boroughs in one epic day. This is a full-day commitment and a badge of honor.",
+    "duration": "10-12 hours",
+    "distance": "40+ miles (heavy transit use)",
+    "difficulty": 3,
+    "borough": "All boroughs",
+    "stops": [
+      {
+        "spotId": "stapleton-skatepark",
+        "order": 1,
+        "activity": "Start early on Staten Island. Warm up at Stapleton before catching the ferry.",
+        "durationAtStop": "45 min",
+        "transitToNext": "Walk to St. George terminal, take the Staten Island Ferry — 25 min, free, iconic views."
+      },
+      {
+        "spotId": "brooklyn-banks",
+        "order": 2,
+        "activity": "Ferry lands in Manhattan — head straight to the Brooklyn Banks. Pay your respects to the most legendary spot in NYC.",
+        "durationAtStop": "45 min",
+        "transitToNext": "Skate across the Brooklyn Bridge — 20 min and unforgettable."
+      },
+      {
+        "spotId": "mccarren-skatepark",
+        "order": 3,
+        "activity": "Session McCarren in Williamsburg. Grab lunch on Bedford Ave.",
+        "durationAtStop": "60 min",
+        "transitToNext": "G train to Court Square, transfer to 7 train to Flushing — about 40 min."
+      },
+      {
+        "spotId": "flushing-meadows-skatepark",
+        "order": 4,
+        "activity": "Queens stop — Flushing Meadows park. Solid features with the Unisphere backdrop.",
+        "durationAtStop": "60 min",
+        "transitToNext": "7 train back to Manhattan, transfer to 4 train to the Bronx — about 45 min."
+      },
+      {
+        "spotId": "mullaly-skatepark",
+        "order": 5,
+        "activity": "Finish in the Bronx at Mullaly — the OG Bronx park. You just skated all five boroughs. Legend.",
+        "durationAtStop": "45 min",
+        "transitToNext": null
+      }
+    ]
+  },
+  {
+    "id": "culture-and-kickflips",
+    "name": "Culture & Kickflips",
+    "description": "NYC isn't just about spots — it's about the culture around them. This route pairs great skate spots with museums, galleries, and cultural landmarks.",
+    "duration": "6-7 hours",
+    "distance": "7 miles",
+    "difficulty": 2,
+    "borough": "Manhattan",
+    "stops": [
+      {
+        "spotId": "columbus-park-spot",
+        "order": 1,
+        "activity": "Start with a morning session on the marble benches of Columbus Park. Then explore Chinatown — grab dim sum for fuel.",
+        "durationAtStop": "45 min",
+        "transitToNext": "Skate north on Centre St to SoHo — 15 min cruise through the galleries."
+      },
+      {
+        "spotId": "federal-plaza",
+        "order": 2,
+        "activity": "Hit Federal Plaza's iconic marble ledges. Supreme's original Lafayette St shop is right around the corner — peek in.",
+        "durationAtStop": "45 min",
+        "transitToNext": "Push north through NoHo to Astor Place — easy 10 min ride."
+      },
+      {
+        "spotId": "the-cube-astor",
+        "order": 3,
+        "activity": "Session the ultra-smooth Astor Place plaza. The Cube sculpture has been a skater meeting point for decades.",
+        "durationAtStop": "30 min",
+        "transitToNext": "Skate north on Broadway, cut through Union Square — 15 min to Chelsea."
+      },
+      {
+        "spotId": "chelsea-piers-skatepark",
+        "order": 4,
+        "activity": "End at Chelsea Piers skatepark overlooking the Hudson. Hit the nearby Chelsea galleries if you've got energy left.",
+        "durationAtStop": "60 min",
+        "transitToNext": null
+      }
+    ]
   }
 ]

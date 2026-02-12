@@ -1,0 +1,35 @@
+{
+  "id": "williamsburg-bridge-spot",
+  "name": "Williamsburg Bridge Banks",
+  "coordinates": {
+    "lat": 40.7134,
+    "lng": -73.9724
+  },
+  "borough": "Brooklyn",
+  "neighborhood": "Williamsburg",
+  "type": "street",
+  "status": "open",
+  "difficulty": 3,
+  "features": [
+    "banks",
+    "ledges",
+    "gaps",
+    "rough ground"
+  ],
+  "description": "Raw street spot under the Williamsburg Bridge approach. Steep banks and crusty ledges — not for the faint of heart.",
+  "history": "Old-school BK spot that's been sessioned since the early 2000s. Zoo York and DGK riders filmed here.",
+  "bestTimes": "Anytime — it's under a bridge. Best on dry weekdays.",
+  "transitDirections": "J/M/Z to Marcy Ave, walk toward the bridge.",
+  "nearbyReferences": [
+    "Williamsburg Bridge",
+    "Domino Park"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-03",
+  "detailedNotes": {
+    "terrain": "Features include banks, ledges, gaps, rough ground. Urban architecture repurposed for skating.",
+    "culture": "Part of the Brooklyn skate scene in Williamsburg. Old-school BK spot that's been sessioned since the early 2000s. Zoo York and DGK riders filmed here.",
+    "tips": "Best approach: J/M/Z to Marcy Ave, walk toward the bridge.. Anytime — it's under a bridge. Best on dry weekdays.",
+    "warnings": "Street spot — be respectful of the space and watch for security."
+  }
+}

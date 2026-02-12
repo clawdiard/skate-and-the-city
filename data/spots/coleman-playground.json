@@ -1,0 +1,35 @@
+{
+  "id": "coleman-playground",
+  "name": "Coleman Playground Skatepark",
+  "coordinates": {
+    "lat": 40.8389,
+    "lng": -73.9397
+  },
+  "borough": "Manhattan",
+  "neighborhood": "Washington Heights",
+  "type": "park",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "mini ramp",
+    "quarter pipe",
+    "ledges",
+    "manual pad"
+  ],
+  "description": "Uptown skatepark in Washington Heights with a tight but fun layout. Strong local scene.",
+  "history": "Grassroots effort by uptown skaters brought this park to life. Represents the growing skate culture north of 125th.",
+  "bestTimes": "After school hours for the local crew. Weekday mornings for solo sessions.",
+  "transitDirections": "A train to 175th St, walk east.",
+  "nearbyReferences": [
+    "Fort Washington Park",
+    "George Washington Bridge"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-01",
+  "detailedNotes": {
+    "terrain": "Features include mini ramp, quarter pipe, ledges, manual pad. Well-maintained concrete construction.",
+    "culture": "Part of the Manhattan skate scene in Washington Heights. Grassroots effort by uptown skaters brought this park to life. Represents the growing skate culture north of 125th.",
+    "tips": "Best approach: A train to 175th St, walk east.. After school hours for the local crew. Weekday mornings for solo sessions.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "industry-city-spot",
+  "name": "Industry City Banks",
+  "coordinates": {
+    "lat": 40.654,
+    "lng": -74.0065
+  },
+  "borough": "Brooklyn",
+  "neighborhood": "Sunset Park",
+  "type": "street",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "banks",
+    "ledges",
+    "smooth ground",
+    "loading docks"
+  ],
+  "description": "Repurposed industrial complex with butter-smooth ground, mellow banks, and endless ledge lines.",
+  "history": "As Industry City gentrified, skaters discovered the perfect smooth concrete and architectural features. A modern classic.",
+  "bestTimes": "Weekday evenings after businesses close. Weekend mornings work too.",
+  "transitDirections": "D/N/R to 36th St, walk west toward the waterfront.",
+  "nearbyReferences": [
+    "Industry City food hall",
+    "Bush Terminal Park"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-01",
+  "detailedNotes": {
+    "terrain": "Features include banks, ledges, smooth ground, loading docks. Urban architecture repurposed for skating.",
+    "culture": "Part of the Brooklyn skate scene in Sunset Park. As Industry City gentrified, skaters discovered the perfect smooth concrete and architectural features. A modern classic.",
+    "tips": "Best approach: D/N/R to 36th St, walk west toward the waterfront.. Weekday evenings after businesses close. Weekend mornings work too.",
+    "warnings": "Street spot — be respectful of the space and watch for security."
+  }
+}

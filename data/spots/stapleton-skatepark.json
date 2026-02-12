@@ -1,0 +1,38 @@
+{
+  "id": "stapleton-skatepark",
+  "name": "Stapleton Skatepark",
+  "coordinates": {
+    "lat": 40.6265,
+    "lng": -74.0755
+  },
+  "borough": "Staten Island",
+  "neighborhood": "Stapleton",
+  "type": "park",
+  "status": "active",
+  "difficulty": 2,
+  "features": [
+    "ledges",
+    "rails",
+    "quarter pipes",
+    "manual pads",
+    "flat bars"
+  ],
+  "description": "Staten Island's primary skatepark near the waterfront. Compact street-style layout.",
+  "history": "Community-funded and built to serve Staten Island skaters who otherwise had to ferry to Brooklyn or Manhattan.",
+  "bestTimes": "Weekends for the local crew. Weekdays are empty.",
+  "transitDirections": "Staten Island Ferry + S51/S81 bus to Stapleton.",
+  "nearbyReferences": [
+    "Stapleton waterfront",
+    "Tappen Park"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-15",
+  "lat": 40.627,
+  "lng": -74.0773,
+  "detailedNotes": {
+    "terrain": "Features include ledges, rails, quarter pipes, manual pads, flat bars. Well-maintained concrete construction.",
+    "culture": "Part of the Staten Island skate scene in Stapleton. Community-funded and built to serve Staten Island skaters who otherwise had to ferry to Brooklyn or Manhattan.",
+    "tips": "Best approach: Staten Island Ferry + S51/S81 bus to Stapleton.. Weekends for the local crew. Weekdays are empty.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "greenpoint-skatepark",
+  "name": "Greenpoint Skatepark",
+  "coordinates": {
+    "lat": 40.731,
+    "lng": -73.958
+  },
+  "borough": "Brooklyn",
+  "neighborhood": "Greenpoint",
+  "type": "park",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "bowl",
+    "mini ramp",
+    "rails",
+    "hubba",
+    "flat bar"
+  ],
+  "description": "Compact but well-designed park in the heart of Greenpoint. Strong local scene and good vibes.",
+  "history": "Part of the Greenpoint waterfront redevelopment. Filled a gap in north Brooklyn's skate infrastructure.",
+  "bestTimes": "Weekend mornings for a mellow session. Weekday evenings for the local crew.",
+  "transitDirections": "G train to Greenpoint Ave, walk north.",
+  "nearbyReferences": [
+    "McCarren Park",
+    "Greenpoint waterfront"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-05",
+  "detailedNotes": {
+    "terrain": "Features include bowl, mini ramp, rails, hubba, flat bar. Well-maintained concrete construction.",
+    "culture": "Part of the Brooklyn skate scene in Greenpoint. Part of the Greenpoint waterfront redevelopment. Filled a gap in north Brooklyn's skate infrastructure.",
+    "tips": "Best approach: G train to Greenpoint Ave, walk north.. Weekend mornings for a mellow session. Weekday evenings for the local crew.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

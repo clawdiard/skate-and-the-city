@@ -1,0 +1,35 @@
+{
+  "id": "springfield-park-spot",
+  "name": "Springfield Park Spot",
+  "coordinates": {
+    "lat": 40.663,
+    "lng": -73.762
+  },
+  "borough": "Queens",
+  "neighborhood": "Springfield Gardens",
+  "type": "street",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "ledges",
+    "banks",
+    "stairs",
+    "flat ground"
+  ],
+  "description": "Southeast Queens hidden gem with smooth ledges and natural banks throughout the park.",
+  "history": "Local skaters in Springfield Gardens built a scene here away from the usual Queens spots.",
+  "bestTimes": "Weekend mornings. Peaceful and uncrowded.",
+  "transitDirections": "LIRR to Laurelton or Q5 bus to Springfield Blvd.",
+  "nearbyReferences": [
+    "Springfield Park lake",
+    "Idlewild Park"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-07",
+  "detailedNotes": {
+    "terrain": "Features include ledges, banks, stairs, flat ground. Urban architecture repurposed for skating.",
+    "culture": "Part of the Queens skate scene in Springfield Gardens. Local skaters in Springfield Gardens built a scene here away from the usual Queens spots.",
+    "tips": "Best approach: LIRR to Laurelton or Q5 bus to Springfield Blvd.. Weekend mornings. Peaceful and uncrowded.",
+    "warnings": "Street spot — be respectful of the space and watch for security."
+  }
+}

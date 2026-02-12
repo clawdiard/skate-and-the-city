@@ -1,0 +1,36 @@
+{
+  "id": "bronx-river-skatepark",
+  "name": "Bronx River Skatepark",
+  "coordinates": {
+    "lat": 40.837,
+    "lng": -73.863
+  },
+  "borough": "Bronx",
+  "neighborhood": "Bronx River",
+  "type": "park",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "bowl",
+    "rails",
+    "quarter pipe",
+    "pyramid",
+    "ledges"
+  ],
+  "description": "Spacious skatepark along the Bronx River Greenway. Room to ride with a diverse set of features.",
+  "history": "Part of the Bronx River corridor revitalization, giving South Bronx skaters a proper home park.",
+  "bestTimes": "Weekday mornings — almost always empty. Great after school on weekdays too.",
+  "transitDirections": "2/5 to East 174th St, walk east to the greenway.",
+  "nearbyReferences": [
+    "Bronx River Greenway",
+    "Starlight Park"
+  ],
+  "photos": [],
+  "lastVerified": "2026-02-05",
+  "detailedNotes": {
+    "terrain": "Features include bowl, rails, quarter pipe, pyramid, ledges. Well-maintained concrete construction.",
+    "culture": "Part of the Bronx skate scene in Bronx River. Part of the Bronx River corridor revitalization, giving South Bronx skaters a proper home park.",
+    "tips": "Best approach: 2/5 to East 174th St, walk east to the greenway.. Weekday mornings — almost always empty. Great after school on weekdays too.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

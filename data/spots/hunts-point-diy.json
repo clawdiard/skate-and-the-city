@@ -1,0 +1,37 @@
+{
+  "id": "hunts-point-diy",
+  "name": "Hunts Point DIY",
+  "coordinates": {
+    "lat": 40.8095,
+    "lng": -73.887
+  },
+  "borough": "Bronx",
+  "neighborhood": "Hunts Point",
+  "type": "DIY",
+  "status": "active",
+  "difficulty": 3,
+  "features": [
+    "DIY ramps",
+    "flat bars",
+    "manual pads",
+    "creative features"
+  ],
+  "description": "Bronx DIY spot built by local skaters in Hunts Point industrial area. Gritty and authentic.",
+  "history": "Started as an abandoned lot turned skate haven. Community maintains and evolves it.",
+  "bestTimes": "Weekends when crews are active.",
+  "transitDirections": "6 to Hunts Point Ave.",
+  "nearbyReferences": [
+    "Hunts Point Market",
+    "Barretto Point Park"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-15",
+  "lat": 40.809,
+  "lng": -73.88,
+  "detailedNotes": {
+    "terrain": "Features include DIY ramps, flat bars, manual pads, creative features. Urban architecture repurposed for skating.",
+    "culture": "Part of the Bronx skate scene in Hunts Point. Started as an abandoned lot turned skate haven. Community maintains and evolves it.",
+    "tips": "Best approach: 6 to Hunts Point Ave.. Weekends when crews are active.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

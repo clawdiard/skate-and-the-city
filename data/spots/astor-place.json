@@ -1,0 +1,37 @@
+{
+  "id": "astor-place",
+  "name": "Astor Place",
+  "coordinates": {
+    "lat": 40.7299,
+    "lng": -73.991
+  },
+  "borough": "Manhattan",
+  "neighborhood": "NoHo",
+  "type": "plaza",
+  "status": "active",
+  "difficulty": 2,
+  "features": [
+    "flat ground",
+    "ledges",
+    "marble benches",
+    "manual pads"
+  ],
+  "description": "Iconic NYC plaza with the Alamo cube sculpture. Smooth ground and skateable ledges.",
+  "history": "A staple street spot for decades. The 2016 plaza renovation added smoother surfaces.",
+  "bestTimes": "Late evenings and weekends. Can get busy with pedestrians during the day.",
+  "transitDirections": "6 to Astor Place, N/R to 8th St-NYU.",
+  "nearbyReferences": [
+    "Cooper Union",
+    "The Alamo sculpture"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-25",
+  "lat": 40.7298,
+  "lng": -73.991,
+  "detailedNotes": {
+    "terrain": "Features include flat ground, ledges, marble benches, manual pads. Urban architecture repurposed for skating.",
+    "culture": "Part of the Manhattan skate scene in NoHo. A staple street spot for decades. The 2016 plaza renovation added smoother surfaces.",
+    "tips": "Best approach: 6 to Astor Place, N/R to 8th St-NYU.. Late evenings and weekends. Can get busy with pedestrians during the day.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

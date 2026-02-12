@@ -1,0 +1,38 @@
+{
+  "id": "mccarren-skatepark",
+  "name": "McCarren Skatepark",
+  "coordinates": {
+    "lat": 40.72,
+    "lng": -73.951
+  },
+  "borough": "Brooklyn",
+  "neighborhood": "Williamsburg",
+  "type": "park",
+  "status": "active",
+  "difficulty": 2,
+  "features": [
+    "ledges",
+    "rails",
+    "flat bars",
+    "manual pads",
+    "quarter pipes"
+  ],
+  "description": "Popular Williamsburg skatepark in McCarren Park. Great street-style layout.",
+  "history": "Opened 2010, part of the McCarren Park renovation. Central to the Williamsburg skate scene.",
+  "bestTimes": "Afternoons. Gets crowded on nice-weather weekends.",
+  "transitDirections": "L to Bedford Ave or G to Nassau Ave.",
+  "nearbyReferences": [
+    "McCarren Park pool",
+    "Williamsburg shops"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-22",
+  "lat": 40.72,
+  "lng": -73.9512,
+  "detailedNotes": {
+    "terrain": "Features include ledges, rails, flat bars, manual pads, quarter pipes. Well-maintained concrete construction.",
+    "culture": "Part of the Brooklyn skate scene in Williamsburg. Opened 2010, part of the McCarren Park renovation. Central to the Williamsburg skate scene.",
+    "tips": "Best approach: L to Bedford Ave or G to Nassau Ave.. Afternoons. Gets crowded on nice-weather weekends.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

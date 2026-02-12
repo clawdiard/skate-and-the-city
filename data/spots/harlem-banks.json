@@ -1,0 +1,35 @@
+{
+  "id": "harlem-banks",
+  "name": "Harlem River Park Banks",
+  "coordinates": {
+    "lat": 40.818,
+    "lng": -73.936
+  },
+  "borough": "Manhattan",
+  "neighborhood": "Harlem",
+  "type": "street",
+  "status": "open",
+  "difficulty": 3,
+  "features": [
+    "banks",
+    "ledges",
+    "gaps",
+    "stairs"
+  ],
+  "description": "Steep banks along the Harlem River with raw street spots scattered throughout. Not for beginners.",
+  "history": "Discovered by uptown crews in the late 2000s. Still relatively unknown to the broader scene.",
+  "bestTimes": "Weekday afternoons. Bring wax — the ledges need love.",
+  "transitDirections": "2/3 to 135th St, walk east to the river.",
+  "nearbyReferences": [
+    "Harlem River Drive",
+    "Randalls Island Bridge"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-28",
+  "detailedNotes": {
+    "terrain": "Features include banks, ledges, gaps, stairs. Urban architecture repurposed for skating.",
+    "culture": "Part of the Manhattan skate scene in Harlem. Discovered by uptown crews in the late 2000s. Still relatively unknown to the broader scene.",
+    "tips": "Best approach: 2/3 to 135th St, walk east to the river.. Weekday afternoons. Bring wax — the ledges need love.",
+    "warnings": "Street spot — be respectful of the space and watch for security."
+  }
+}

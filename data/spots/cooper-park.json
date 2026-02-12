@@ -1,0 +1,37 @@
+{
+  "id": "cooper-park",
+  "name": "Cooper Park Skatepark",
+  "coordinates": {
+    "lat": 40.7157,
+    "lng": -73.9373
+  },
+  "borough": "Brooklyn",
+  "neighborhood": "East Williamsburg",
+  "type": "park",
+  "status": "active",
+  "difficulty": 2,
+  "features": [
+    "ledges",
+    "rails",
+    "quarter pipes",
+    "manual pads"
+  ],
+  "description": "Neighborhood skatepark in Cooper Park. Small but well-maintained with a friendly local scene.",
+  "history": "Added during Cooper Park renovations. Popular with the East Williamsburg and Bushwick skating community.",
+  "bestTimes": "Afternoons and weekends.",
+  "transitDirections": "L to Grand St or Morgan Ave.",
+  "nearbyReferences": [
+    "Cooper Park",
+    "East Williamsburg galleries"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-20",
+  "lat": 40.7157,
+  "lng": -73.9372,
+  "detailedNotes": {
+    "terrain": "Features include ledges, rails, quarter pipes, manual pads. Well-maintained concrete construction.",
+    "culture": "Part of the Brooklyn skate scene in East Williamsburg. Added during Cooper Park renovations. Popular with the East Williamsburg and Bushwick skating community.",
+    "tips": "Best approach: L to Grand St or Morgan Ave.. Afternoons and weekends.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

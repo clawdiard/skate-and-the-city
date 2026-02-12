@@ -113,7 +113,7 @@
     ],
     "description": "Indoor/covered skatepark at Chelsea Piers sports complex along the Hudson River.",
     "history": "Part of the Chelsea Piers redevelopment. Provides a sheltered option for rainy days.",
-    "bestTimes": "Check hours \u2014 varies seasonally. Less crowded on weekday mornings.",
+    "bestTimes": "Check hours — varies seasonally. Less crowded on weekday mornings.",
     "transitDirections": "C/E to 23rd St, walk west to the piers.",
     "nearbyReferences": [
       "Hudson River Park",
@@ -364,7 +364,7 @@
     ],
     "description": "Beachside bowl-heavy park with deep transition. One of the gnarliest parks in NYC.",
     "history": "Community-driven build on the Rockaway boardwalk. Attracts serious transition skaters.",
-    "bestTimes": "Summer mornings \u2014 combine with a beach day. Off-season weekdays are empty.",
+    "bestTimes": "Summer mornings — combine with a beach day. Off-season weekdays are empty.",
     "transitDirections": "A to Rockaway Beach stations, or ferry to Rockaway.",
     "nearbyReferences": [
       "Rockaway Beach boardwalk",
@@ -426,8 +426,8 @@
       "deep transitions",
       "street section"
     ],
-    "description": "One of the best skateparks in NYC \u2014 deep bowls, great flow, and a solid street section. The Bronx's crown jewel.",
-    "history": "Built in 2009\u20132010, designed by California Skateparks. Widely praised for its quality and flow.",
+    "description": "One of the best skateparks in NYC — deep bowls, great flow, and a solid street section. The Bronx's crown jewel.",
+    "history": "Built in 2009–2010, designed by California Skateparks. Widely praised for its quality and flow.",
     "bestTimes": "Weekday afternoons for shorter waits on the bowl.",
     "transitDirections": "B/D/4 to 161st St-Yankee Stadium, walk north.",
     "nearbyReferences": [
@@ -689,5 +689,592 @@
     "lastVerified": "2026-01-15",
     "lat": 40.809,
     "lng": -73.88
+  },
+  {
+    "id": "freshkills-skatepark",
+    "name": "Freshkills Skatepark",
+    "coordinates": {
+      "lat": 40.5763,
+      "lng": -74.185
+    },
+    "borough": "Staten Island",
+    "neighborhood": "Travis",
+    "type": "park",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "bowl",
+      "rails",
+      "quarter pipes",
+      "manual pad"
+    ],
+    "description": "Modern skatepark built on the transformed Freshkills landfill site. Clean concrete with a mix of transition and street features.",
+    "history": "Part of the massive Freshkills Park redevelopment, opened as one of the newest parks on the island.",
+    "bestTimes": "Weekend mornings before crowds. Great in fall.",
+    "transitDirections": "SIR to Richmond Valley, then S74 bus. Or drive — parking available.",
+    "nearbyReferences": [
+      "Freshkills Park",
+      "William T. Davis Wildlife Refuge"
+    ],
+    "photos": [],
+    "lastVerified": "2026-01-20"
+  },
+  {
+    "id": "faber-park-spot",
+    "name": "Faber Park Banks",
+    "coordinates": {
+      "lat": 40.6385,
+      "lng": -74.077
+    },
+    "borough": "Staten Island",
+    "neighborhood": "Port Richmond",
+    "type": "street",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "banks",
+      "ledges",
+      "flat ground"
+    ],
+    "description": "Mellow banks and smooth ledges in a quiet park setting. Low-key spot that rarely gets crowded.",
+    "history": "A local favorite since the early 2000s. The concrete banks were originally landscaping features that skaters adopted.",
+    "bestTimes": "Anytime — this spot is rarely busy.",
+    "transitDirections": "SIR to Port Richmond, short walk north.",
+    "nearbyReferences": [
+      "Faber Pool",
+      "Port Richmond Ave shops"
+    ],
+    "photos": [],
+    "lastVerified": "2026-01-18"
+  },
+  {
+    "id": "midland-beach-park",
+    "name": "Midland Beach Skatepark",
+    "coordinates": {
+      "lat": 40.573,
+      "lng": -74.088
+    },
+    "borough": "Staten Island",
+    "neighborhood": "Midland Beach",
+    "type": "park",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "mini ramp",
+      "rails",
+      "hubba",
+      "pyramid"
+    ],
+    "description": "Beachside skatepark with ocean breezes and a solid mix of street and transition elements.",
+    "history": "Community-funded park that opened after years of petitioning by local skaters.",
+    "bestTimes": "Late afternoon — catch the sunset while you session.",
+    "transitDirections": "S51 bus to Midland Ave, walk toward the beach.",
+    "nearbyReferences": [
+      "Midland Beach",
+      "FDR Boardwalk"
+    ],
+    "photos": [],
+    "lastVerified": "2026-01-22"
+  },
+  {
+    "id": "south-beach-diy",
+    "name": "South Beach DIY",
+    "coordinates": {
+      "lat": 40.583,
+      "lng": -74.072
+    },
+    "borough": "Staten Island",
+    "neighborhood": "South Beach",
+    "type": "diy",
+    "status": "open",
+    "difficulty": 3,
+    "features": [
+      "DIY quarter pipe",
+      "bank-to-wall",
+      "jersey barriers",
+      "flat bars"
+    ],
+    "description": "Gritty DIY spot under the expressway overpass. Raw concrete and creative obstacles built by locals.",
+    "history": "Built organically by Staten Island skaters who needed a covered spot for rainy days. Constantly evolving.",
+    "bestTimes": "Works in rain thanks to overhead cover. Best on weekday evenings.",
+    "transitDirections": "S51 bus to Father Capodanno Blvd, walk under the overpass.",
+    "nearbyReferences": [
+      "South Beach boardwalk",
+      "Verrazano Bridge viewpoint"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-01"
+  },
+  {
+    "id": "maloof-skatepark",
+    "name": "Maloof Skatepark",
+    "coordinates": {
+      "lat": 40.756,
+      "lng": -73.846
+    },
+    "borough": "Queens",
+    "neighborhood": "Flushing",
+    "type": "park",
+    "status": "open",
+    "difficulty": 3,
+    "features": [
+      "bowl",
+      "snake run",
+      "ledges",
+      "stairs",
+      "handrails"
+    ],
+    "description": "World-class skatepark designed by California Skateparks. Deep bowl, flowing snake run, and technical street section.",
+    "history": "Built with backing from the Maloof family (of Maloof Money Cup fame). One of the premier parks in the outer boroughs.",
+    "bestTimes": "Early mornings on weekdays. Competition-level park gets packed on weekends.",
+    "transitDirections": "7 train to Flushing-Main St, then Q65 bus.",
+    "nearbyReferences": [
+      "Flushing Meadows Corona Park",
+      "USTA Billie Jean King Center"
+    ],
+    "photos": [],
+    "lastVerified": "2026-01-25"
+  },
+  {
+    "id": "far-rockaway-skatepark",
+    "name": "Far Rockaway Skatepark",
+    "coordinates": {
+      "lat": 40.5922,
+      "lng": -73.7552
+    },
+    "borough": "Queens",
+    "neighborhood": "Far Rockaway",
+    "type": "park",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "mini ramp",
+      "fun box",
+      "rails",
+      "manual pad",
+      "quarter pipe"
+    ],
+    "description": "Beachfront skatepark steps from the Atlantic Ocean. Chill vibes with a good mix of features for all levels.",
+    "history": "Part of the Rockaway Beach revitalization. A welcome addition to the surf-and-skate culture of the peninsula.",
+    "bestTimes": "Summer mornings — skate then surf. Off-season is empty and perfect.",
+    "transitDirections": "A train to Far Rockaway-Mott Ave, walk south to the beach.",
+    "nearbyReferences": [
+      "Rockaway Beach",
+      "Rippers burger stand"
+    ],
+    "photos": [],
+    "lastVerified": "2026-01-28"
+  },
+  {
+    "id": "pelham-bay-skatepark",
+    "name": "Pelham Bay Skatepark",
+    "coordinates": {
+      "lat": 40.8507,
+      "lng": -73.8055
+    },
+    "borough": "Bronx",
+    "neighborhood": "Pelham Bay",
+    "type": "park",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "bowl",
+      "rails",
+      "ledges",
+      "bank",
+      "pyramid"
+    ],
+    "description": "Solid neighborhood park near Pelham Bay Park with a good flow layout and smooth concrete.",
+    "history": "Built as part of NYC Parks' initiative to add skateparks to every borough. Serves the northeast Bronx skating community.",
+    "bestTimes": "Weekday afternoons. Quiet spot that never gets too packed.",
+    "transitDirections": "6 train to Pelham Bay Park, short walk east.",
+    "nearbyReferences": [
+      "Pelham Bay Park",
+      "Orchard Beach"
+    ],
+    "photos": [],
+    "lastVerified": "2026-01-20"
+  },
+  {
+    "id": "poe-park-banks",
+    "name": "Poe Park Banks",
+    "coordinates": {
+      "lat": 40.8654,
+      "lng": -73.8944
+    },
+    "borough": "Bronx",
+    "neighborhood": "Fordham",
+    "type": "street",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "banks",
+      "ledges",
+      "stairs",
+      "flat ground"
+    ],
+    "description": "Natural banks and granite ledges in the park surrounding the Edgar Allan Poe Cottage. Smooth ground for flatground tricks.",
+    "history": "Skaters have been hitting the banks here since the 90s. The park renovation actually made the spots better.",
+    "bestTimes": "Weekday afternoons. Avoid weekends when the park is busy with families.",
+    "transitDirections": "D train to Kingsbridge Rd, walk east to Grand Concourse.",
+    "nearbyReferences": [
+      "Edgar Allan Poe Cottage",
+      "Fordham University"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-05"
+  },
+  {
+    "id": "riverside-skatepark",
+    "name": "Riverside Skatepark",
+    "coordinates": {
+      "lat": 40.801,
+      "lng": -73.97
+    },
+    "borough": "Manhattan",
+    "neighborhood": "Upper West Side",
+    "type": "park",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "bowl",
+      "mini ramp",
+      "ledges",
+      "flat bars",
+      "bank"
+    ],
+    "description": "Riverside Park's hidden gem — a well-maintained skatepark overlooking the Hudson River.",
+    "history": "Opened in the 2010s as part of Riverside Park South expansion. Quickly became a UWS staple.",
+    "bestTimes": "Golden hour sessions with Hudson River sunsets are unbeatable.",
+    "transitDirections": "1 train to 103rd St, walk west to the park.",
+    "nearbyReferences": [
+      "Riverside Park",
+      "Hudson River Greenway"
+    ],
+    "photos": [],
+    "lastVerified": "2026-01-30"
+  },
+  {
+    "id": "coleman-playground",
+    "name": "Coleman Playground Skatepark",
+    "coordinates": {
+      "lat": 40.8389,
+      "lng": -73.9397
+    },
+    "borough": "Manhattan",
+    "neighborhood": "Washington Heights",
+    "type": "park",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "mini ramp",
+      "quarter pipe",
+      "ledges",
+      "manual pad"
+    ],
+    "description": "Uptown skatepark in Washington Heights with a tight but fun layout. Strong local scene.",
+    "history": "Grassroots effort by uptown skaters brought this park to life. Represents the growing skate culture north of 125th.",
+    "bestTimes": "After school hours for the local crew. Weekday mornings for solo sessions.",
+    "transitDirections": "A train to 175th St, walk east.",
+    "nearbyReferences": [
+      "Fort Washington Park",
+      "George Washington Bridge"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-01"
+  },
+  {
+    "id": "columbus-park-spot",
+    "name": "Columbus Park Benches",
+    "coordinates": {
+      "lat": 40.7148,
+      "lng": -73.9998
+    },
+    "borough": "Manhattan",
+    "neighborhood": "Chinatown",
+    "type": "street",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "benches",
+      "ledges",
+      "flat ground",
+      "manual pads"
+    ],
+    "description": "Smooth marble benches and granite ledges in the heart of Chinatown. Classic NYC street skating.",
+    "history": "A staple of the downtown skate scene. Featured in countless video parts from Zoo York and Supreme riders.",
+    "bestTimes": "Early mornings before the park fills up with tai chi groups.",
+    "transitDirections": "J/Z to Chambers St or N/Q/R/W to Canal St.",
+    "nearbyReferences": [
+      "Chinatown",
+      "Manhattan Bridge"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-03"
+  },
+  {
+    "id": "harlem-banks",
+    "name": "Harlem River Park Banks",
+    "coordinates": {
+      "lat": 40.818,
+      "lng": -73.936
+    },
+    "borough": "Manhattan",
+    "neighborhood": "Harlem",
+    "type": "street",
+    "status": "open",
+    "difficulty": 3,
+    "features": [
+      "banks",
+      "ledges",
+      "gaps",
+      "stairs"
+    ],
+    "description": "Steep banks along the Harlem River with raw street spots scattered throughout. Not for beginners.",
+    "history": "Discovered by uptown crews in the late 2000s. Still relatively unknown to the broader scene.",
+    "bestTimes": "Weekday afternoons. Bring wax — the ledges need love.",
+    "transitDirections": "2/3 to 135th St, walk east to the river.",
+    "nearbyReferences": [
+      "Harlem River Drive",
+      "Randalls Island Bridge"
+    ],
+    "photos": [],
+    "lastVerified": "2026-01-28"
+  },
+  {
+    "id": "industry-city-spot",
+    "name": "Industry City Banks",
+    "coordinates": {
+      "lat": 40.654,
+      "lng": -74.0065
+    },
+    "borough": "Brooklyn",
+    "neighborhood": "Sunset Park",
+    "type": "street",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "banks",
+      "ledges",
+      "smooth ground",
+      "loading docks"
+    ],
+    "description": "Repurposed industrial complex with butter-smooth ground, mellow banks, and endless ledge lines.",
+    "history": "As Industry City gentrified, skaters discovered the perfect smooth concrete and architectural features. A modern classic.",
+    "bestTimes": "Weekday evenings after businesses close. Weekend mornings work too.",
+    "transitDirections": "D/N/R to 36th St, walk west toward the waterfront.",
+    "nearbyReferences": [
+      "Industry City food hall",
+      "Bush Terminal Park"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-01"
+  },
+  {
+    "id": "greenpoint-skatepark",
+    "name": "Greenpoint Skatepark",
+    "coordinates": {
+      "lat": 40.731,
+      "lng": -73.958
+    },
+    "borough": "Brooklyn",
+    "neighborhood": "Greenpoint",
+    "type": "park",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "bowl",
+      "mini ramp",
+      "rails",
+      "hubba",
+      "flat bar"
+    ],
+    "description": "Compact but well-designed park in the heart of Greenpoint. Strong local scene and good vibes.",
+    "history": "Part of the Greenpoint waterfront redevelopment. Filled a gap in north Brooklyn's skate infrastructure.",
+    "bestTimes": "Weekend mornings for a mellow session. Weekday evenings for the local crew.",
+    "transitDirections": "G train to Greenpoint Ave, walk north.",
+    "nearbyReferences": [
+      "McCarren Park",
+      "Greenpoint waterfront"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-05"
+  },
+  {
+    "id": "bed-stuy-diy",
+    "name": "Bed-Stuy DIY Spot",
+    "coordinates": {
+      "lat": 40.687,
+      "lng": -73.942
+    },
+    "borough": "Brooklyn",
+    "neighborhood": "Bedford-Stuyvesant",
+    "type": "diy",
+    "status": "open",
+    "difficulty": 3,
+    "features": [
+      "DIY quarter pipe",
+      "bank",
+      "flat bar",
+      "manual pad",
+      "jersey barriers"
+    ],
+    "description": "Community-built DIY spot under the J/M tracks. Raw, creative, and constantly evolving.",
+    "history": "Started as a few poured ledges in an empty lot. The Bed-Stuy skate community has built it into a full-featured spot over several years.",
+    "bestTimes": "Weekday evenings. Weekend afternoon sessions often have BBQs.",
+    "transitDirections": "J/M to Myrtle-Broadway, walk south on Broadway.",
+    "nearbyReferences": [
+      "Herbert Von King Park",
+      "Bed-Stuy strip"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-08"
+  },
+  {
+    "id": "coney-island-skatepark",
+    "name": "Coney Island Skatepark",
+    "coordinates": {
+      "lat": 40.574,
+      "lng": -73.979
+    },
+    "borough": "Brooklyn",
+    "neighborhood": "Coney Island",
+    "type": "park",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "bowl",
+      "mini ramp",
+      "rails",
+      "ledges",
+      "fun box"
+    ],
+    "description": "Boardwalk-adjacent skatepark with ocean views. Skate, then hit the beach or grab a Nathan's dog.",
+    "history": "Opened as part of Coney Island's revitalization. Brings together the beach culture and skate scene perfectly.",
+    "bestTimes": "Summer mornings — skate before the beach crowds arrive. Off-season is empty paradise.",
+    "transitDirections": "D/F/N/Q to Coney Island-Stillwell Ave.",
+    "nearbyReferences": [
+      "Coney Island boardwalk",
+      "Luna Park",
+      "Nathan's Famous"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-03"
+  },
+  {
+    "id": "the-cube-astor",
+    "name": "The Cube (Astor Place)",
+    "coordinates": {
+      "lat": 40.7299,
+      "lng": -73.991
+    },
+    "borough": "Manhattan",
+    "neighborhood": "East Village",
+    "type": "street",
+    "status": "open",
+    "difficulty": 1,
+    "features": [
+      "flat ground",
+      "manual pads",
+      "benches"
+    ],
+    "description": "The iconic Alamo cube sculpture plaza — ultra-smooth ground perfect for flatground sessions and filming.",
+    "history": "A gathering point for NYC skaters since the 80s. The smooth plaza surface has hosted countless video parts.",
+    "bestTimes": "Late night for empty sessions. Daytime is busy but rideable.",
+    "transitDirections": "6 to Astor Place or N/R/W to 8th St-NYU.",
+    "nearbyReferences": [
+      "Cooper Union",
+      "St. Marks Place"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-01"
+  },
+  {
+    "id": "bronx-river-skatepark",
+    "name": "Bronx River Skatepark",
+    "coordinates": {
+      "lat": 40.837,
+      "lng": -73.863
+    },
+    "borough": "Bronx",
+    "neighborhood": "Bronx River",
+    "type": "park",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "bowl",
+      "rails",
+      "quarter pipe",
+      "pyramid",
+      "ledges"
+    ],
+    "description": "Spacious skatepark along the Bronx River Greenway. Room to ride with a diverse set of features.",
+    "history": "Part of the Bronx River corridor revitalization, giving South Bronx skaters a proper home park.",
+    "bestTimes": "Weekday mornings — almost always empty. Great after school on weekdays too.",
+    "transitDirections": "2/5 to East 174th St, walk east to the greenway.",
+    "nearbyReferences": [
+      "Bronx River Greenway",
+      "Starlight Park"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-05"
+  },
+  {
+    "id": "springfield-park-spot",
+    "name": "Springfield Park Spot",
+    "coordinates": {
+      "lat": 40.663,
+      "lng": -73.762
+    },
+    "borough": "Queens",
+    "neighborhood": "Springfield Gardens",
+    "type": "street",
+    "status": "open",
+    "difficulty": 2,
+    "features": [
+      "ledges",
+      "banks",
+      "stairs",
+      "flat ground"
+    ],
+    "description": "Southeast Queens hidden gem with smooth ledges and natural banks throughout the park.",
+    "history": "Local skaters in Springfield Gardens built a scene here away from the usual Queens spots.",
+    "bestTimes": "Weekend mornings. Peaceful and uncrowded.",
+    "transitDirections": "LIRR to Laurelton or Q5 bus to Springfield Blvd.",
+    "nearbyReferences": [
+      "Springfield Park lake",
+      "Idlewild Park"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-07"
+  },
+  {
+    "id": "williamsburg-bridge-spot",
+    "name": "Williamsburg Bridge Banks",
+    "coordinates": {
+      "lat": 40.7134,
+      "lng": -73.9724
+    },
+    "borough": "Brooklyn",
+    "neighborhood": "Williamsburg",
+    "type": "street",
+    "status": "open",
+    "difficulty": 3,
+    "features": [
+      "banks",
+      "ledges",
+      "gaps",
+      "rough ground"
+    ],
+    "description": "Raw street spot under the Williamsburg Bridge approach. Steep banks and crusty ledges — not for the faint of heart.",
+    "history": "Old-school BK spot that's been sessioned since the early 2000s. Zoo York and DGK riders filmed here.",
+    "bestTimes": "Anytime — it's under a bridge. Best on dry weekdays.",
+    "transitDirections": "J/M/Z to Marcy Ave, walk toward the bridge.",
+    "nearbyReferences": [
+      "Williamsburg Bridge",
+      "Domino Park"
+    ],
+    "photos": [],
+    "lastVerified": "2026-02-03"
   }
 ]

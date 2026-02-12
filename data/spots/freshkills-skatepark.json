@@ -1,0 +1,35 @@
+{
+  "id": "freshkills-skatepark",
+  "name": "Freshkills Skatepark",
+  "coordinates": {
+    "lat": 40.5763,
+    "lng": -74.185
+  },
+  "borough": "Staten Island",
+  "neighborhood": "Travis",
+  "type": "park",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "bowl",
+    "rails",
+    "quarter pipes",
+    "manual pad"
+  ],
+  "description": "Modern skatepark built on the transformed Freshkills landfill site. Clean concrete with a mix of transition and street features.",
+  "history": "Part of the massive Freshkills Park redevelopment, opened as one of the newest parks on the island.",
+  "bestTimes": "Weekend mornings before crowds. Great in fall.",
+  "transitDirections": "SIR to Richmond Valley, then S74 bus. Or drive — parking available.",
+  "nearbyReferences": [
+    "Freshkills Park",
+    "William T. Davis Wildlife Refuge"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-20",
+  "detailedNotes": {
+    "terrain": "Features include bowl, rails, quarter pipes, manual pad. Well-maintained concrete construction.",
+    "culture": "Part of the Staten Island skate scene in Travis. Part of the massive Freshkills Park redevelopment, opened as one of the newest parks on the island.",
+    "tips": "Best approach: SIR to Richmond Valley, then S74 bus. Or drive — parking available.. Weekend mornings before crowds. Great in fall.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

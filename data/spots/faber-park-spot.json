@@ -1,0 +1,34 @@
+{
+  "id": "faber-park-spot",
+  "name": "Faber Park Banks",
+  "coordinates": {
+    "lat": 40.6385,
+    "lng": -74.077
+  },
+  "borough": "Staten Island",
+  "neighborhood": "Port Richmond",
+  "type": "street",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "banks",
+    "ledges",
+    "flat ground"
+  ],
+  "description": "Mellow banks and smooth ledges in a quiet park setting. Low-key spot that rarely gets crowded.",
+  "history": "A local favorite since the early 2000s. The concrete banks were originally landscaping features that skaters adopted.",
+  "bestTimes": "Anytime — this spot is rarely busy.",
+  "transitDirections": "SIR to Port Richmond, short walk north.",
+  "nearbyReferences": [
+    "Faber Pool",
+    "Port Richmond Ave shops"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-18",
+  "detailedNotes": {
+    "terrain": "Features include banks, ledges, flat ground. Urban architecture repurposed for skating.",
+    "culture": "Part of the Staten Island skate scene in Port Richmond. A local favorite since the early 2000s. The concrete banks were originally landscaping features that skaters adopted.",
+    "tips": "Best approach: SIR to Port Richmond, short walk north.. Anytime — this spot is rarely busy.",
+    "warnings": "Street spot — be respectful of the space and watch for security."
+  }
+}

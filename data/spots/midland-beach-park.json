@@ -1,0 +1,35 @@
+{
+  "id": "midland-beach-park",
+  "name": "Midland Beach Skatepark",
+  "coordinates": {
+    "lat": 40.573,
+    "lng": -74.088
+  },
+  "borough": "Staten Island",
+  "neighborhood": "Midland Beach",
+  "type": "park",
+  "status": "open",
+  "difficulty": 2,
+  "features": [
+    "mini ramp",
+    "rails",
+    "hubba",
+    "pyramid"
+  ],
+  "description": "Beachside skatepark with ocean breezes and a solid mix of street and transition elements.",
+  "history": "Community-funded park that opened after years of petitioning by local skaters.",
+  "bestTimes": "Late afternoon — catch the sunset while you session.",
+  "transitDirections": "S51 bus to Midland Ave, walk toward the beach.",
+  "nearbyReferences": [
+    "Midland Beach",
+    "FDR Boardwalk"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-22",
+  "detailedNotes": {
+    "terrain": "Features include mini ramp, rails, hubba, pyramid. Well-maintained concrete construction.",
+    "culture": "Part of the Staten Island skate scene in Midland Beach. Community-funded park that opened after years of petitioning by local skaters.",
+    "tips": "Best approach: S51 bus to Midland Ave, walk toward the beach.. Late afternoon — catch the sunset while you session.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

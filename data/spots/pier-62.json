@@ -1,0 +1,39 @@
+{
+  "id": "pier-62",
+  "name": "Pier 62 Skatepark",
+  "coordinates": {
+    "lat": 40.7445,
+    "lng": -74.0095
+  },
+  "borough": "Manhattan",
+  "neighborhood": "Chelsea",
+  "type": "park",
+  "status": "active",
+  "difficulty": 3,
+  "features": [
+    "bowl",
+    "ledges",
+    "rails",
+    "stairs",
+    "banks",
+    "flat bars"
+  ],
+  "description": "Free public skatepark on Pier 62 in Hudson River Park. Great river views and solid design.",
+  "history": "Opened 2010 as part of Hudson River Park. Designed with input from local skaters.",
+  "bestTimes": "Early mornings or late evenings. Midday gets busy with tourists.",
+  "transitDirections": "C/E to 23rd St, walk west. 1 to 23rd St.",
+  "nearbyReferences": [
+    "Hudson River Park",
+    "Chelsea Market"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-22",
+  "lat": 40.744,
+  "lng": -74.0088,
+  "detailedNotes": {
+    "terrain": "Features include bowl, ledges, rails, stairs, banks, flat bars. Well-maintained concrete construction.",
+    "culture": "Part of the Manhattan skate scene in Chelsea. Opened 2010 as part of Hudson River Park. Designed with input from local skaters.",
+    "tips": "Best approach: C/E to 23rd St, walk west. 1 to 23rd St.. Early mornings or late evenings. Midday gets busy with tourists.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

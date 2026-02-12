@@ -1,0 +1,37 @@
+{
+  "id": "chelsea-piers",
+  "name": "Chelsea Piers Skatepark",
+  "coordinates": {
+    "lat": 40.7468,
+    "lng": -74.0082
+  },
+  "borough": "Manhattan",
+  "neighborhood": "Chelsea",
+  "type": "park",
+  "status": "active",
+  "difficulty": 2,
+  "features": [
+    "mini ramp",
+    "quarter pipes",
+    "rails",
+    "ledges"
+  ],
+  "description": "Indoor/covered skatepark at Chelsea Piers sports complex along the Hudson River.",
+  "history": "Part of the Chelsea Piers redevelopment. Provides a sheltered option for rainy days.",
+  "bestTimes": "Check hours — varies seasonally. Less crowded on weekday mornings.",
+  "transitDirections": "C/E to 23rd St, walk west to the piers.",
+  "nearbyReferences": [
+    "Hudson River Park",
+    "The High Line"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-18",
+  "lat": 40.7467,
+  "lng": -74.0083,
+  "detailedNotes": {
+    "terrain": "Features include mini ramp, quarter pipes, rails, ledges. Well-maintained concrete construction.",
+    "culture": "Part of the Manhattan skate scene in Chelsea. Part of the Chelsea Piers redevelopment. Provides a sheltered option for rainy days.",
+    "tips": "Best approach: C/E to 23rd St, walk west to the piers.. Check hours — varies seasonally. Less crowded on weekday mornings.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

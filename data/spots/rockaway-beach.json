@@ -1,0 +1,38 @@
+{
+  "id": "rockaway-beach",
+  "name": "Rockaway Beach Skatepark",
+  "coordinates": {
+    "lat": 40.583,
+    "lng": -73.8155
+  },
+  "borough": "Queens",
+  "neighborhood": "Rockaway Beach",
+  "type": "park",
+  "status": "active",
+  "difficulty": 4,
+  "features": [
+    "bowl",
+    "snake run",
+    "pool coping",
+    "deep end",
+    "extensions"
+  ],
+  "description": "Beachside bowl-heavy park with deep transition. One of the gnarliest parks in NYC.",
+  "history": "Community-driven build on the Rockaway boardwalk. Attracts serious transition skaters.",
+  "bestTimes": "Summer mornings — combine with a beach day. Off-season weekdays are empty.",
+  "transitDirections": "A to Rockaway Beach stations, or ferry to Rockaway.",
+  "nearbyReferences": [
+    "Rockaway Beach boardwalk",
+    "Tacoway Beach"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-12",
+  "lat": 40.5834,
+  "lng": -73.8155,
+  "detailedNotes": {
+    "terrain": "Features include bowl, snake run, pool coping, deep end, extensions. Well-maintained concrete construction.",
+    "culture": "Part of the Queens skate scene in Rockaway Beach. Community-driven build on the Rockaway boardwalk. Attracts serious transition skaters.",
+    "tips": "Best approach: A to Rockaway Beach stations, or ferry to Rockaway.. Summer mornings — combine with a beach day. Off-season weekdays are empty.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

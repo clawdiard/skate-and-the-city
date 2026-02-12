@@ -1,0 +1,37 @@
+{
+  "id": "washington-heights-spot",
+  "name": "Washington Heights Banks",
+  "coordinates": {
+    "lat": 40.841,
+    "lng": -73.94
+  },
+  "borough": "Manhattan",
+  "neighborhood": "Washington Heights",
+  "type": "street",
+  "status": "active",
+  "difficulty": 3,
+  "features": [
+    "banks",
+    "ledges",
+    "stairs",
+    "gaps"
+  ],
+  "description": "Steep streets and concrete banks in the Heights. Raw street skating with amazing hill bombs.",
+  "history": "Uptown street spots that have been session'd by local crews for years. Less documented than downtown spots.",
+  "bestTimes": "Afternoons. Traffic is lighter on weekends.",
+  "transitDirections": "A/C to 168th St or 1 to 168th St.",
+  "nearbyReferences": [
+    "Fort Washington Park",
+    "The Cloisters"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-12",
+  "lat": 40.84,
+  "lng": -73.9397,
+  "detailedNotes": {
+    "terrain": "Features include banks, ledges, stairs, gaps. Urban architecture repurposed for skating.",
+    "culture": "Part of the Manhattan skate scene in Washington Heights. Uptown street spots that have been session'd by local crews for years. Less documented than downtown spots.",
+    "tips": "Best approach: A/C to 168th St or 1 to 168th St.. Afternoons. Traffic is lighter on weekends.",
+    "warnings": "Street spot — be respectful of the space and watch for security."
+  }
+}

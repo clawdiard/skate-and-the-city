@@ -1,0 +1,37 @@
+{
+  "id": "red-hook-diy",
+  "name": "Red Hook DIY Spot",
+  "coordinates": {
+    "lat": 40.673,
+    "lng": -74.006
+  },
+  "borough": "Brooklyn",
+  "neighborhood": "Red Hook",
+  "type": "DIY",
+  "status": "active",
+  "difficulty": 4,
+  "features": [
+    "DIY ramps",
+    "concrete transitions",
+    "ledges",
+    "creative obstacles"
+  ],
+  "description": "Community-built DIY spot in Red Hook's industrial waterfront area. Raw, creative, and constantly evolving.",
+  "history": "Built and maintained by local skaters using found materials. Embodies the DIY skate spirit.",
+  "bestTimes": "Weekends when the crew is building and skating.",
+  "transitDirections": "F/G to Smith-9th St, walk south. B61 bus.",
+  "nearbyReferences": [
+    "Red Hook Ball Fields",
+    "IKEA waterfront"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-18",
+  "lat": 40.6744,
+  "lng": -74.0073,
+  "detailedNotes": {
+    "terrain": "Features include DIY ramps, concrete transitions, ledges, creative obstacles. Urban architecture repurposed for skating.",
+    "culture": "Part of the Brooklyn skate scene in Red Hook. Built and maintained by local skaters using found materials. Embodies the DIY skate spirit.",
+    "tips": "Best approach: F/G to Smith-9th St, walk south. B61 bus.. Weekends when the crew is building and skating.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

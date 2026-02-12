@@ -1,0 +1,37 @@
+{
+  "id": "federal-plaza",
+  "name": "Federal Plaza",
+  "coordinates": {
+    "lat": 40.7146,
+    "lng": -74.0011
+  },
+  "borough": "Manhattan",
+  "neighborhood": "Civic Center",
+  "type": "plaza",
+  "status": "restricted",
+  "difficulty": 3,
+  "features": [
+    "granite ledges",
+    "flat ground",
+    "stairs",
+    "gaps"
+  ],
+  "description": "Massive government plaza with perfect granite ledges. Heavily skated in videos but security is aggressive.",
+  "history": "Featured in countless skate videos since the 90s. Security enforcement has increased over the years.",
+  "bestTimes": "Weekends and after-hours when security is lighter.",
+  "transitDirections": "4/5/6 to Brooklyn Bridge-City Hall, J/Z to Chambers.",
+  "nearbyReferences": [
+    "City Hall",
+    "Foley Square"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-10",
+  "lat": 40.7148,
+  "lng": -74.001,
+  "detailedNotes": {
+    "terrain": "Features include granite ledges, flat ground, stairs, gaps. Urban architecture repurposed for skating.",
+    "culture": "Part of the Manhattan skate scene in Civic Center. Featured in countless skate videos since the 90s. Security enforcement has increased over the years.",
+    "tips": "Best approach: 4/5/6 to Brooklyn Bridge-City Hall, J/Z to Chambers.. Weekends and after-hours when security is lighter.",
+    "warnings": "Public skatepark — standard park etiquette applies."
+  }
+}

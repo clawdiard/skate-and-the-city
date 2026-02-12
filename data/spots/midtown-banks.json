@@ -1,0 +1,37 @@
+{
+  "id": "midtown-banks",
+  "name": "Midtown Courthouse Banks",
+  "coordinates": {
+    "lat": 40.7527,
+    "lng": -73.9772
+  },
+  "borough": "Manhattan",
+  "neighborhood": "Midtown East",
+  "type": "street",
+  "status": "restricted",
+  "difficulty": 3,
+  "features": [
+    "banks",
+    "ledges",
+    "flat ground",
+    "stairs"
+  ],
+  "description": "Marble banks and ledges around Midtown courthouses. Classic spot but heavy security.",
+  "history": "Featured in many NYC skate videos. Security crackdowns have made sessions rare.",
+  "bestTimes": "Very early mornings or late nights only.",
+  "transitDirections": "4/5/6/7/S to Grand Central.",
+  "nearbyReferences": [
+    "Grand Central Terminal",
+    "Chrysler Building"
+  ],
+  "photos": [],
+  "lastVerified": "2026-01-10",
+  "lat": 40.758,
+  "lng": -73.9855,
+  "detailedNotes": {
+    "terrain": "Features include banks, ledges, flat ground, stairs. Urban architecture repurposed for skating.",
+    "culture": "Part of the Manhattan skate scene in Midtown East. Featured in many NYC skate videos. Security crackdowns have made sessions rare.",
+    "tips": "Best approach: 4/5/6/7/S to Grand Central.. Very early mornings or late nights only.",
+    "warnings": "Street spot — be respectful of the space and watch for security."
+  }
+}
