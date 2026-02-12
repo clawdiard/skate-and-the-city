@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Skate And the City"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>The OG Manhattan</name>
+    <desc>Hit the most iconic Manhattan skate spots in one legendary day — from the Brooklyn Banks to Tompkins, through LES and finishing at Astor Place. This is the route every NYC skater should ride at least once.</desc>
+    <author><name>Skate And the City</name></author>
+    <time>2026-02-12T04:07:31.524Z</time>
+  </metadata>
+  <wpt lat="40.7112" lon="-74.0015">
+    <name>Brooklyn Banks</name>
+    <desc>Start at the legendary Brooklyn Banks — warm up on the marble ledges and soak in the history of NYC skating's spiritual home.</desc>
+    <type>skate-stop</type>
+  </wpt>
+  <wpt lat="40.7208" lon="-73.9882">
+    <name>LES Skatepark</name>
+    <desc>Session the LES Skatepark's smooth concrete bowls and street section. Great for all levels with plenty of features.</desc>
+    <type>skate-stop</type>
+  </wpt>
+  <wpt lat="40.7265" lon="-73.9817">
+    <name>Tompkins Square Park</name>
+    <desc>Cruise through the park and hit the famous Tompkins benches and ledges. Grab a slice on Ave A while you're at it.</desc>
+    <type>skate-stop</type>
+  </wpt>
+  <wpt lat="40.7298" lon="-73.991">
+    <name>Astor Place</name>
+    <desc>Finish at the Astor Place cube — smooth ground, ledges everywhere, and prime people-watching. Iconic way to end the day.</desc>
+    <type>skate-stop</type>
+  </wpt>
+  <trk>
+    <name>The OG Manhattan</name>
+    <trkseg>
+      <trkpt lat="40.7112" lon="-74.0015"><name>Brooklyn Banks</name></trkpt>
+      <trkpt lat="40.7208" lon="-73.9882"><name>LES Skatepark</name></trkpt>
+      <trkpt lat="40.7265" lon="-73.9817"><name>Tompkins Square Park</name></trkpt>
+      <trkpt lat="40.7298" lon="-73.991"><name>Astor Place</name></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

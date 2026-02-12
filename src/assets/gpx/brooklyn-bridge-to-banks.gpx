@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Skate And the City"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Brooklyn Bridge to Banks</name>
+    <desc>Cross the Brooklyn Bridge on your board, hit the Banks, then loop through downtown Manhattan's best street spots. Touristy? Maybe. Epic? Absolutely.</desc>
+    <author><name>Skate And the City</name></author>
+    <time>2026-02-12T04:07:31.527Z</time>
+  </metadata>
+  <wpt lat="40.7033" lon="-73.9894">
+    <name>DUMBO Skate Spot</name>
+    <desc>Start in DUMBO — session the smooth waterfront plaza with the Manhattan Bridge framing every trick. Perfect warm-up spot.</desc>
+    <type>skate-stop</type>
+  </wpt>
+  <wpt lat="40.7112" lon="-74.0015">
+    <name>Brooklyn Banks</name>
+    <desc>Drop off the bridge straight into the Banks. The brick-to-marble transitions here are unlike anything else in the city.</desc>
+    <type>skate-stop</type>
+  </wpt>
+  <wpt lat="40.7148" lon="-74.001">
+    <name>Federal Plaza</name>
+    <desc>Federal Plaza's massive open area with smooth ground and long granite ledges. Perfect for lines and flatground.</desc>
+    <type>skate-stop</type>
+  </wpt>
+  <trk>
+    <name>Brooklyn Bridge to Banks</name>
+    <trkseg>
+      <trkpt lat="40.7033" lon="-73.9894"><name>DUMBO Skate Spot</name></trkpt>
+      <trkpt lat="40.7112" lon="-74.0015"><name>Brooklyn Banks</name></trkpt>
+      <trkpt lat="40.7148" lon="-74.001"><name>Federal Plaza</name></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

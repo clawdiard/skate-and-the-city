@@ -22,6 +22,26 @@ eleventyComputed:
   <span class="bg-skate-surface px-3 py-1.5 rounded-lg">🏙️ {{ route.borough }}</span>
 </div>
 
+{# GPX Download & Open in Maps #}
+<div class="flex flex-wrap gap-3 mb-8">
+  <a href="{{ ('/assets/gpx/' + route.id + '.gpx') | url }}" download="{{ route.id }}.gpx"
+     class="inline-flex items-center gap-2 bg-skate-accent text-black font-semibold px-4 py-2 rounded-lg hover:bg-yellow-400 transition text-sm">
+    📥 Download GPX
+  </a>
+  <button id="generate-gpx-btn"
+    class="inline-flex items-center gap-2 bg-skate-surface border border-skate-accent/30 text-skate-accent font-semibold px-4 py-2 rounded-lg hover:bg-skate-accent/10 transition text-sm">
+    🔧 Generate Custom GPX
+  </button>
+  <a id="google-maps-link" target="_blank" rel="noopener"
+     class="inline-flex items-center gap-2 bg-skate-surface border border-skate-accent/30 text-gray-300 font-semibold px-4 py-2 rounded-lg hover:bg-skate-accent/10 transition text-sm">
+    🗺️ Open in Google Maps
+  </a>
+  <a id="apple-maps-link" target="_blank" rel="noopener"
+     class="inline-flex items-center gap-2 bg-skate-surface border border-skate-accent/30 text-gray-300 font-semibold px-4 py-2 rounded-lg hover:bg-skate-accent/10 transition text-sm">
+    🍎 Open in Apple Maps
+  </a>
+</div>
+
 {# Map #}
 <div id="route-map" class="w-full h-80 rounded-lg border border-skate-accent/30 mb-8"></div>
 
@@ -87,6 +107,72 @@ eleventyComputed:
     L.marker([stop.spot.lat, stop.spot.lng], { icon: icon })
       .bindPopup('<strong>' + stop.spot.name + '</strong><br>' + stop.durationAtStop)
       .addTo(map);
+  });
+})();
+</script>
+
+<script>
+(function() {
+  const stops = {{ route.stops | dump | safe }};
+  const routeName = {{ route.name | dump | safe }};
+  const routeDesc = {{ route.description | dump | safe }};
+  const routeId = {{ route.id | dump | safe }};
+
+  function getCoords(stop) {
+    const s = stop.spot;
+    if (s && s.lat && s.lng) return { lat: s.lat, lng: s.lng };
+    if (s && s.coordinates) return { lat: s.coordinates.lat, lng: s.coordinates.lng };
+    return null;
+  }
+
+  function escXml(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  // Google Maps deep link (directions with waypoints)
+  const coords = stops.map(s => getCoords(s)).filter(Boolean);
+  if (coords.length >= 2) {
+    const origin = coords[0].lat + ',' + coords[0].lng;
+    const dest = coords[coords.length - 1].lat + ',' + coords[coords.length - 1].lng;
+    const waypoints = coords.slice(1, -1).map(c => c.lat + ',' + c.lng).join('|');
+    const gUrl = 'https://www.google.com/maps/dir/?api=1&origin=' + origin + '&destination=' + dest +
+      (waypoints ? '&waypoints=' + waypoints : '') + '&travelmode=walking';
+    document.getElementById('google-maps-link').href = gUrl;
+
+    // Apple Maps
+    const aCoords = coords.map(c => c.lat + ',' + c.lng);
+    const aUrl = 'https://maps.apple.com/?dirflg=w&saddr=' + aCoords[0] + '&daddr=' + aCoords.slice(1).join('+to:');
+    document.getElementById('apple-maps-link').href = aUrl;
+  }
+
+  // Client-side GPX generation
+  document.getElementById('generate-gpx-btn').addEventListener('click', function() {
+    let wpts = '';
+    let trkpts = '';
+    stops.forEach(function(stop) {
+      const c = getCoords(stop);
+      if (!c) return;
+      const name = stop.spot ? stop.spot.name : stop.spotId;
+      wpts += '  <wpt lat="'+c.lat+'" lon="'+c.lng+'">\n    <name>'+escXml(name)+'</name>\n    <desc>'+escXml(stop.activity||'')+'</desc>\n    <type>skate-stop</type>\n  </wpt>\n';
+      trkpts += '      <trkpt lat="'+c.lat+'" lon="'+c.lng+'"><name>'+escXml(name)+'</name></trkpt>\n';
+    });
+
+    const gpx = '<?xml version="1.0" encoding="UTF-8"?>\n' +
+      '<gpx version="1.1" creator="Skate And the City"\n' +
+      '     xmlns="http://www.topografix.com/GPX/1/1"\n' +
+      '     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n' +
+      '     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">\n' +
+      '  <metadata>\n    <name>'+escXml(routeName)+'</name>\n    <desc>'+escXml(routeDesc)+'</desc>\n' +
+      '    <author><name>Skate And the City</name></author>\n    <time>'+new Date().toISOString()+'</time>\n  </metadata>\n' +
+      wpts +
+      '  <trk>\n    <name>'+escXml(routeName)+'</name>\n    <trkseg>\n' + trkpts + '    </trkseg>\n  </trk>\n</gpx>';
+
+    const blob = new Blob([gpx], { type: 'application/gpx+xml' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = routeId + '.gpx';
+    a.click();
+    URL.revokeObjectURL(a.href);
   });
 })();
 </script>
