@@ -1,0 +1,6 @@
+[
+  {"icon": "📍", "title": "Spots", "desc": "Parks, plazas, and street spots across all 5 boroughs."},
+  {"icon": "🗺️", "title": "Routes", "desc": "Curated skate routes with GPX downloads."},
+  {"icon": "🛹", "title": "Shops", "desc": "Local skate shops — boards, gear, and vibes."},
+  {"icon": "🍕", "title": "Food", "desc": "Best eats near every skate spot."}
+]

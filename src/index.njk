@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: Skate And the City — NYC Skate Guide
+---
+<section class="text-center py-12">
+  <h1 class="text-4xl md:text-5xl font-bold text-skate-accent mb-4">Skate And the City</h1>
+  <p class="text-lg text-gray-300 max-w-xl mx-auto">Your guide to NYC skate spots, routes, shops, and the best food stops along the way.</p>
+</section>
+
+<section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+  {% for card in cards %}
+  <div class="bg-skate-surface rounded-lg p-6 border border-skate-accent/20 hover:border-skate-accent/60 transition">
+    <span class="text-3xl">{{ card.icon }}</span>
+    <h2 class="text-lg font-semibold mt-3">{{ card.title }}</h2>
+    <p class="text-sm text-gray-400 mt-1">{{ card.desc }}</p>
+  </div>
+  {% endfor %}
+</section>
