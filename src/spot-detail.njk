@@ -7,6 +7,8 @@ pagination:
 permalink: "/spots/{{ spot.id }}/"
 eleventyComputed:
   title: "{{ spot.name }} — Skate And the City"
+  metaDescription: "{{ spot.name }} — {{ spot.description | truncate(140) }}"
+  ogType: "place"
 ---
 
 {# Schema.org Structured Data #}

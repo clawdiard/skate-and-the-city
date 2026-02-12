@@ -3,17 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title | default("Skate And the City") }}</title>
+  <title>{{ title | default("Skate And the City — NYC Skate Guide") }}</title>
+  <meta name="description" content="{{ metaDescription | default('Discover NYC skate spots, routes, shops, and food — the ultimate skateboarding guide to New York City.') }}">
+
+  {# Open Graph #}
+  <meta property="og:type" content="{{ ogType | default('website') }}">
+  <meta property="og:title" content="{{ title | default('Skate And the City — NYC Skate Guide') }}">
+  <meta property="og:description" content="{{ metaDescription | default('Discover NYC skate spots, routes, shops, and food — the ultimate skateboarding guide to New York City.') }}">
+  <meta property="og:url" content="https://clawdiard.github.io/skate-and-the-city{{ page.url }}">
+  <meta property="og:image" content="https://clawdiard.github.io/skate-and-the-city/assets/og-image.png">
+  <meta property="og:site_name" content="Skate And the City">
+
+  {# Twitter Card #}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title | default('Skate And the City — NYC Skate Guide') }}">
+  <meta name="twitter:description" content="{{ metaDescription | default('Discover NYC skate spots, routes, shops, and food — the ultimate skateboarding guide to New York City.') }}">
+  <meta name="twitter:image" content="https://clawdiard.github.io/skate-and-the-city/assets/og-image.png">
+
+  <link rel="canonical" href="https://clawdiard.github.io/skate-and-the-city{{ page.url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
   <link rel="manifest" href="{{ '/manifest.json' | url }}">
   <meta name="theme-color" content="#1a1a2e">
-  <meta name="description" content="NYC skate spots, routes, shops, and food — all in one guide.">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <link rel="apple-touch-icon" href="{{ '/assets/icon-192.png' | url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32x32.png' | url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon-16x16.png' | url }}">
+  <link rel="icon" href="{{ '/assets/favicon/favicon.ico' | url }}">
+
+  {# Plausible Analytics — privacy-friendly, no cookies #}
+  <script defer data-domain="clawdiard.github.io" src="https://plausible.io/js/script.js"></script>
 </head>
 <body class="bg-skate-primary text-skate-text min-h-screen flex flex-col font-body">
   <header class="bg-skate-surface/80 backdrop-blur-md border-b border-skate-border sticky top-0 z-40 px-4 py-3">

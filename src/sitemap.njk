@@ -1,0 +1,65 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://clawdiard.github.io/skate-and-the-city/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://clawdiard.github.io/skate-and-the-city/spots/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://clawdiard.github.io/skate-and-the-city/routes/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://clawdiard.github.io/skate-and-the-city/map/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clawdiard.github.io/skate-and-the-city/shops/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clawdiard.github.io/skate-and-the-city/food/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {%- for spot in allSpots %}
+  <url>
+    <loc>https://clawdiard.github.io/skate-and-the-city/spots/{{ spot.id }}/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  {%- endfor %}
+  {%- for route in allRoutes %}
+  <url>
+    <loc>https://clawdiard.github.io/skate-and-the-city/routes/{{ route.id }}/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  {%- endfor %}
+  {%- for shop in allShops %}
+  <url>
+    <loc>https://clawdiard.github.io/skate-and-the-city/shops/{{ shop.id }}/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {%- endfor %}
+  {%- for food in allFood %}
+  <url>
+    <loc>https://clawdiard.github.io/skate-and-the-city/food/{{ food.id }}/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {%- endfor %}
+</urlset>

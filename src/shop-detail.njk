@@ -7,7 +7,31 @@ pagination:
 permalink: "/shops/{{ shop.id }}/"
 eleventyComputed:
   title: "{{ shop.name }} — Skate And the City"
+  metaDescription: "{{ shop.name }} — {{ shop.description | truncate(140) }}"
+  ogType: "place"
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{{ shop.name }}",
+  "description": "{{ shop.description | replace('"', '\\"') }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ shop.address }}",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+  }{% if shop.coordinates %},
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ shop.coordinates[0] }},
+    "longitude": {{ shop.coordinates[1] }}
+  }{% endif %}{% if shop.hours %},
+  "openingHours": "{{ shop.hours }}"{% endif %}
+}
+</script>
 
 <nav class="text-sm text-gray-400 mb-6" aria-label="Breadcrumb">
   <ol class="flex items-center gap-2">

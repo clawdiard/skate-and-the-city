@@ -7,7 +7,31 @@ pagination:
 permalink: "/food/{{ food.id }}/"
 eleventyComputed:
   title: "{{ food.name }} — Skate And the City"
+  metaDescription: "{{ food.name }} — {{ food.description | truncate(140) }}"
+  ogType: "place"
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "{{ food.name }}",
+  "description": "{{ food.description | replace('"', '\\"') }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ food.address }}",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+  }{% if food.coordinates %},
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ food.coordinates[0] }},
+    "longitude": {{ food.coordinates[1] }}
+  }{% endif %}{% if food.cuisine %},
+  "servesCuisine": "{{ food.cuisine }}"{% endif %}
+}
+</script>
 
 <nav class="text-sm text-gray-400 mb-6" aria-label="Breadcrumb">
   <ol class="flex items-center gap-2">

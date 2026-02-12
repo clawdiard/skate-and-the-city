@@ -7,6 +7,7 @@ pagination:
 permalink: "/routes/{{ route.id }}/"
 eleventyComputed:
   title: "{{ route.name }} — Skate And the City"
+  metaDescription: "{{ route.name }} — {{ route.description | truncate(140) }}"
 ---
 
 <a href="{{ '/routes/' | url }}" class="text-skate-accent text-sm hover:underline mb-4 inline-block">&larr; All Routes</a>

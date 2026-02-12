@@ -1,0 +1,26 @@
+---
+layout: base.njk
+title: "Page Not Found — Skate And the City"
+permalink: /404.html
+eleventyExcludeFromCollections: true
+metaDescription: "This page doesn't exist. Find NYC skate spots, routes, shops, and food instead."
+---
+
+<div class="flex flex-col items-center justify-center text-center py-20">
+  <p class="text-8xl mb-4">🛹</p>
+  <h1 class="font-display text-5xl text-skate-accent mb-4">404 — BAILED!</h1>
+  <p class="text-gray-400 text-lg mb-8 max-w-md">
+    This page kicked us off. It either moved, got demolished, or never existed.
+  </p>
+  <div class="flex flex-wrap gap-4 justify-center">
+    <a href="{{ '/' | url }}" class="bg-skate-accent hover:bg-skate-accent-hover text-white font-semibold px-6 py-3 rounded-lg transition">
+      Back to Home
+    </a>
+    <a href="{{ '/spots/' | url }}" class="bg-skate-surface hover:bg-skate-border text-white font-semibold px-6 py-3 rounded-lg transition">
+      Browse Spots
+    </a>
+    <a href="{{ '/map/' | url }}" class="bg-skate-surface hover:bg-skate-border text-white font-semibold px-6 py-3 rounded-lg transition">
+      Open Map
+    </a>
+  </div>
+</div>
