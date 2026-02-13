@@ -34,7 +34,7 @@ for (const spot of spots) {
     neighborhood: spot.neighborhood || '',
     borough: spot.borough || '',
     features: (spot.features || []).join(', '),
-    url: `/spots/${spot.id}/`
+    url: `/skate-and-the-city/spots/${spot.id}/`
   });
 }
 
@@ -47,7 +47,7 @@ for (const route of routes) {
     neighborhood: route.borough || '',
     borough: route.borough || '',
     features: (route.stops || []).map(s => s.spotId).join(', '),
-    url: `/routes/${route.id}/`
+    url: `/skate-and-the-city/routes/${route.id}/`
   });
 }
 

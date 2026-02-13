@@ -30,7 +30,7 @@
     if (loaded) return;
     loaded = true;
     const [indexRes, fuseModule] = await Promise.all([
-      fetch('/search-index.json').then(r => r.json()),
+      fetch('/skate-and-the-city/search-index.json').then(r => r.json()),
       import('https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.mjs')
     ]);
     searchData = indexRes;
