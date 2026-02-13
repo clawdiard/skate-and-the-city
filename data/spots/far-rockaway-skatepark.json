@@ -8,7 +8,7 @@
   "borough": "Queens",
   "neighborhood": "Far Rockaway",
   "type": "park",
-  "status": "open",
+  "status": "active",
   "difficulty": 2,
   "features": [
     "mini ramp",

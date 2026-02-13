@@ -8,7 +8,7 @@
   "borough": "Brooklyn",
   "neighborhood": "Sunset Park",
   "type": "street",
-  "status": "open",
+  "status": "active",
   "difficulty": 2,
   "features": [
     "banks",

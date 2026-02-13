@@ -8,7 +8,7 @@
   "borough": "Queens",
   "neighborhood": "Springfield Gardens",
   "type": "street",
-  "status": "open",
+  "status": "active",
   "difficulty": 2,
   "features": [
     "ledges",
