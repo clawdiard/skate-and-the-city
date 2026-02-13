@@ -284,7 +284,7 @@ eleventyComputed:
       <div class="flex gap-2">
         <button onclick="navigator.clipboard.writeText(window.location.href).then(()=>{this.textContent='Copied!';setTimeout(()=>{this.textContent='📋 Copy Link'},2000)})" 
                 class="flex-1 px-3 py-2 bg-skate-accent/20 text-skate-accent rounded text-sm hover:bg-skate-accent/30 transition">📋 Copy Link</button>
-        <a href="https://twitter.com/intent/tweet?text={{ spot.name | urlencode }}%20-%20NYC%20Skate%20Spot&url={{ ('/spots/' + spot.id + '/') | url | urlencode }}" 
+        <a href="https://twitter.com/intent/tweet?text={{ spot.name | urlencode }}%20-%20NYC%20Skate%20Spot&url={{ ('https://clawdiard.github.io/skate-and-the-city/spots/' + spot.id + '/') | urlencode }}" 
            target="_blank" rel="noopener"
            class="flex-1 px-3 py-2 bg-blue-900/30 text-blue-400 rounded text-sm text-center hover:bg-blue-900/50 transition">🐦 Tweet</a>
       </div>
