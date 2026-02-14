@@ -7,7 +7,7 @@
     "neighborhood": "City Hall",
     "borough": "Manhattan",
     "features": "banks, ledges, manual pads, stairs",
-    "url": "/spots/brooklyn-banks/"
+    "url": "/skate-and-the-city/spots/brooklyn-banks/"
   },
   {
     "type": "spot",
@@ -17,7 +17,7 @@
     "neighborhood": "East Village",
     "borough": "Manhattan",
     "features": "flat ground, benches, manual pads, curbs",
-    "url": "/spots/tompkins-square-park/"
+    "url": "/skate-and-the-city/spots/tompkins-square-park/"
   },
   {
     "type": "spot",
@@ -27,7 +27,7 @@
     "neighborhood": "Lower East Side",
     "borough": "Manhattan",
     "features": "bowl, quarter pipes, ledges, rails, flat bars",
-    "url": "/spots/les-skatepark/"
+    "url": "/skate-and-the-city/spots/les-skatepark/"
   },
   {
     "type": "spot",
@@ -37,7 +37,7 @@
     "neighborhood": "Chelsea",
     "borough": "Manhattan",
     "features": "mini ramp, quarter pipes, rails, ledges",
-    "url": "/spots/chelsea-piers/"
+    "url": "/skate-and-the-city/spots/chelsea-piers/"
   },
   {
     "type": "spot",
@@ -47,7 +47,7 @@
     "neighborhood": "NoHo",
     "borough": "Manhattan",
     "features": "flat ground, ledges, marble benches, manual pads",
-    "url": "/spots/astor-place/"
+    "url": "/skate-and-the-city/spots/astor-place/"
   },
   {
     "type": "spot",
@@ -57,7 +57,7 @@
     "neighborhood": "Civic Center",
     "borough": "Manhattan",
     "features": "granite ledges, flat ground, stairs, gaps",
-    "url": "/spots/federal-plaza/"
+    "url": "/skate-and-the-city/spots/federal-plaza/"
   },
   {
     "type": "spot",
@@ -67,7 +67,7 @@
     "neighborhood": "Bay Ridge",
     "borough": "Brooklyn",
     "features": "bowl, snake run, ledges, rails, quarter pipes",
-    "url": "/spots/owls-head/"
+    "url": "/skate-and-the-city/spots/owls-head/"
   },
   {
     "type": "spot",
@@ -77,7 +77,7 @@
     "neighborhood": "Williamsburg",
     "borough": "Brooklyn",
     "features": "ledges, rails, flat bars, manual pads, quarter pipes",
-    "url": "/spots/mccarren-skatepark/"
+    "url": "/skate-and-the-city/spots/mccarren-skatepark/"
   },
   {
     "type": "spot",
@@ -87,7 +87,7 @@
     "neighborhood": "DUMBO",
     "borough": "Brooklyn",
     "features": "ledges, flat ground, banks, curbs",
-    "url": "/spots/dumbo-spot/"
+    "url": "/skate-and-the-city/spots/dumbo-spot/"
   },
   {
     "type": "spot",
@@ -97,7 +97,7 @@
     "neighborhood": "Prospect Park",
     "borough": "Brooklyn",
     "features": "flat ground, smooth paths, gentle slopes",
-    "url": "/spots/prospect-park/"
+    "url": "/skate-and-the-city/spots/prospect-park/"
   },
   {
     "type": "spot",
@@ -107,7 +107,7 @@
     "neighborhood": "Flushing",
     "borough": "Queens",
     "features": "bowl, rails, ledges, quarter pipes, stairs",
-    "url": "/spots/flushing-meadows/"
+    "url": "/skate-and-the-city/spots/flushing-meadows/"
   },
   {
     "type": "spot",
@@ -117,7 +117,7 @@
     "neighborhood": "Rockaway Beach",
     "borough": "Queens",
     "features": "bowl, snake run, pool coping, deep end, extensions",
-    "url": "/spots/rockaway-beach/"
+    "url": "/skate-and-the-city/spots/rockaway-beach/"
   },
   {
     "type": "spot",
@@ -127,7 +127,7 @@
     "neighborhood": "Astoria",
     "borough": "Queens",
     "features": "ledges, rails, quarter pipes, manual pads",
-    "url": "/spots/astoria-park/"
+    "url": "/skate-and-the-city/spots/astoria-park/"
   },
   {
     "type": "spot",
@@ -137,7 +137,7 @@
     "neighborhood": "Concourse",
     "borough": "Bronx",
     "features": "bowl, pool coping, spine, hips, deep transitions, street section",
-    "url": "/spots/mullaly-skatepark/"
+    "url": "/skate-and-the-city/spots/mullaly-skatepark/"
   },
   {
     "type": "spot",
@@ -147,7 +147,7 @@
     "neighborhood": "Mott Haven",
     "borough": "Bronx",
     "features": "ledges, rails, quarter pipes, flat bars",
-    "url": "/spots/river-park-skatepark/"
+    "url": "/skate-and-the-city/spots/river-park-skatepark/"
   },
   {
     "type": "spot",
@@ -157,7 +157,7 @@
     "neighborhood": "Stapleton",
     "borough": "Staten Island",
     "features": "ledges, rails, quarter pipes, manual pads, flat bars",
-    "url": "/spots/stapleton-skatepark/"
+    "url": "/skate-and-the-city/spots/stapleton-skatepark/"
   },
   {
     "type": "spot",
@@ -167,7 +167,7 @@
     "neighborhood": "Chelsea",
     "borough": "Manhattan",
     "features": "bowl, ledges, rails, stairs, banks, flat bars",
-    "url": "/spots/pier-62/"
+    "url": "/skate-and-the-city/spots/pier-62/"
   },
   {
     "type": "spot",
@@ -177,7 +177,7 @@
     "neighborhood": "East Williamsburg",
     "borough": "Brooklyn",
     "features": "ledges, rails, quarter pipes, manual pads",
-    "url": "/spots/cooper-park/"
+    "url": "/skate-and-the-city/spots/cooper-park/"
   },
   {
     "type": "spot",
@@ -187,7 +187,7 @@
     "neighborhood": "Washington Heights",
     "borough": "Manhattan",
     "features": "banks, ledges, stairs, gaps",
-    "url": "/spots/washington-heights-spot/"
+    "url": "/skate-and-the-city/spots/washington-heights-spot/"
   },
   {
     "type": "spot",
@@ -197,7 +197,7 @@
     "neighborhood": "Red Hook",
     "borough": "Brooklyn",
     "features": "DIY ramps, concrete transitions, ledges, creative obstacles",
-    "url": "/spots/red-hook-diy/"
+    "url": "/skate-and-the-city/spots/red-hook-diy/"
   },
   {
     "type": "spot",
@@ -207,7 +207,7 @@
     "neighborhood": "Midtown East",
     "borough": "Manhattan",
     "features": "banks, ledges, flat ground, stairs",
-    "url": "/spots/midtown-banks/"
+    "url": "/skate-and-the-city/spots/midtown-banks/"
   },
   {
     "type": "spot",
@@ -217,7 +217,207 @@
     "neighborhood": "Hunts Point",
     "borough": "Bronx",
     "features": "DIY ramps, flat bars, manual pads, creative features",
-    "url": "/spots/hunts-point-diy/"
+    "url": "/skate-and-the-city/spots/hunts-point-diy/"
+  },
+  {
+    "type": "spot",
+    "id": "freshkills-skatepark",
+    "name": "Freshkills Skatepark",
+    "description": "Modern skatepark built on the transformed Freshkills landfill site. Clean concrete with a mix of transition and street features.",
+    "neighborhood": "Travis",
+    "borough": "Staten Island",
+    "features": "bowl, rails, quarter pipes, manual pad",
+    "url": "/skate-and-the-city/spots/freshkills-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "faber-park-spot",
+    "name": "Faber Park Banks",
+    "description": "Mellow banks and smooth ledges in a quiet park setting. Low-key spot that rarely gets crowded.",
+    "neighborhood": "Port Richmond",
+    "borough": "Staten Island",
+    "features": "banks, ledges, flat ground",
+    "url": "/skate-and-the-city/spots/faber-park-spot/"
+  },
+  {
+    "type": "spot",
+    "id": "midland-beach-park",
+    "name": "Midland Beach Skatepark",
+    "description": "Beachside skatepark with ocean breezes and a solid mix of street and transition elements.",
+    "neighborhood": "Midland Beach",
+    "borough": "Staten Island",
+    "features": "mini ramp, rails, hubba, pyramid",
+    "url": "/skate-and-the-city/spots/midland-beach-park/"
+  },
+  {
+    "type": "spot",
+    "id": "south-beach-diy",
+    "name": "South Beach DIY",
+    "description": "Gritty DIY spot under the expressway overpass. Raw concrete and creative obstacles built by locals.",
+    "neighborhood": "South Beach",
+    "borough": "Staten Island",
+    "features": "DIY quarter pipe, bank-to-wall, jersey barriers, flat bars",
+    "url": "/skate-and-the-city/spots/south-beach-diy/"
+  },
+  {
+    "type": "spot",
+    "id": "maloof-skatepark",
+    "name": "Maloof Skatepark",
+    "description": "World-class skatepark designed by California Skateparks. Deep bowl, flowing snake run, and technical street section.",
+    "neighborhood": "Flushing",
+    "borough": "Queens",
+    "features": "bowl, snake run, ledges, stairs, handrails",
+    "url": "/skate-and-the-city/spots/maloof-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "far-rockaway-skatepark",
+    "name": "Far Rockaway Skatepark",
+    "description": "Beachfront skatepark steps from the Atlantic Ocean. Chill vibes with a good mix of features for all levels.",
+    "neighborhood": "Far Rockaway",
+    "borough": "Queens",
+    "features": "mini ramp, fun box, rails, manual pad, quarter pipe",
+    "url": "/skate-and-the-city/spots/far-rockaway-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "pelham-bay-skatepark",
+    "name": "Pelham Bay Skatepark",
+    "description": "Solid neighborhood park near Pelham Bay Park with a good flow layout and smooth concrete.",
+    "neighborhood": "Pelham Bay",
+    "borough": "Bronx",
+    "features": "bowl, rails, ledges, bank, pyramid",
+    "url": "/skate-and-the-city/spots/pelham-bay-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "poe-park-banks",
+    "name": "Poe Park Banks",
+    "description": "Natural banks and granite ledges in the park surrounding the Edgar Allan Poe Cottage. Smooth ground for flatground tricks.",
+    "neighborhood": "Fordham",
+    "borough": "Bronx",
+    "features": "banks, ledges, stairs, flat ground",
+    "url": "/skate-and-the-city/spots/poe-park-banks/"
+  },
+  {
+    "type": "spot",
+    "id": "riverside-skatepark",
+    "name": "Riverside Skatepark",
+    "description": "Riverside Park's hidden gem — a well-maintained skatepark overlooking the Hudson River.",
+    "neighborhood": "Upper West Side",
+    "borough": "Manhattan",
+    "features": "bowl, mini ramp, ledges, flat bars, bank",
+    "url": "/skate-and-the-city/spots/riverside-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "coleman-playground",
+    "name": "Coleman Playground Skatepark",
+    "description": "Uptown skatepark in Washington Heights with a tight but fun layout. Strong local scene.",
+    "neighborhood": "Washington Heights",
+    "borough": "Manhattan",
+    "features": "mini ramp, quarter pipe, ledges, manual pad",
+    "url": "/skate-and-the-city/spots/coleman-playground/"
+  },
+  {
+    "type": "spot",
+    "id": "columbus-park-spot",
+    "name": "Columbus Park Benches",
+    "description": "Smooth marble benches and granite ledges in the heart of Chinatown. Classic NYC street skating.",
+    "neighborhood": "Chinatown",
+    "borough": "Manhattan",
+    "features": "benches, ledges, flat ground, manual pads",
+    "url": "/skate-and-the-city/spots/columbus-park-spot/"
+  },
+  {
+    "type": "spot",
+    "id": "harlem-banks",
+    "name": "Harlem River Park Banks",
+    "description": "Steep banks along the Harlem River with raw street spots scattered throughout. Not for beginners.",
+    "neighborhood": "Harlem",
+    "borough": "Manhattan",
+    "features": "banks, ledges, gaps, stairs",
+    "url": "/skate-and-the-city/spots/harlem-banks/"
+  },
+  {
+    "type": "spot",
+    "id": "industry-city-spot",
+    "name": "Industry City Banks",
+    "description": "Repurposed industrial complex with butter-smooth ground, mellow banks, and endless ledge lines.",
+    "neighborhood": "Sunset Park",
+    "borough": "Brooklyn",
+    "features": "banks, ledges, smooth ground, loading docks",
+    "url": "/skate-and-the-city/spots/industry-city-spot/"
+  },
+  {
+    "type": "spot",
+    "id": "greenpoint-skatepark",
+    "name": "Greenpoint Skatepark",
+    "description": "Compact but well-designed park in the heart of Greenpoint. Strong local scene and good vibes.",
+    "neighborhood": "Greenpoint",
+    "borough": "Brooklyn",
+    "features": "bowl, mini ramp, rails, hubba, flat bar",
+    "url": "/skate-and-the-city/spots/greenpoint-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "bed-stuy-diy",
+    "name": "Bed-Stuy DIY Spot",
+    "description": "Community-built DIY spot under the J/M tracks. Raw, creative, and constantly evolving.",
+    "neighborhood": "Bedford-Stuyvesant",
+    "borough": "Brooklyn",
+    "features": "DIY quarter pipe, bank, flat bar, manual pad, jersey barriers",
+    "url": "/skate-and-the-city/spots/bed-stuy-diy/"
+  },
+  {
+    "type": "spot",
+    "id": "coney-island-skatepark",
+    "name": "Coney Island Skatepark",
+    "description": "Boardwalk-adjacent skatepark with ocean views. Skate, then hit the beach or grab a Nathan's dog.",
+    "neighborhood": "Coney Island",
+    "borough": "Brooklyn",
+    "features": "bowl, mini ramp, rails, ledges, fun box",
+    "url": "/skate-and-the-city/spots/coney-island-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "the-cube-astor",
+    "name": "The Cube (Astor Place)",
+    "description": "The iconic Alamo cube sculpture plaza — ultra-smooth ground perfect for flatground sessions and filming.",
+    "neighborhood": "East Village",
+    "borough": "Manhattan",
+    "features": "flat ground, manual pads, benches",
+    "url": "/skate-and-the-city/spots/the-cube-astor/"
+  },
+  {
+    "type": "spot",
+    "id": "bronx-river-skatepark",
+    "name": "Bronx River Skatepark",
+    "description": "Spacious skatepark along the Bronx River Greenway. Room to ride with a diverse set of features.",
+    "neighborhood": "Bronx River",
+    "borough": "Bronx",
+    "features": "bowl, rails, quarter pipe, pyramid, ledges",
+    "url": "/skate-and-the-city/spots/bronx-river-skatepark/"
+  },
+  {
+    "type": "spot",
+    "id": "springfield-park-spot",
+    "name": "Springfield Park Spot",
+    "description": "Southeast Queens hidden gem with smooth ledges and natural banks throughout the park.",
+    "neighborhood": "Springfield Gardens",
+    "borough": "Queens",
+    "features": "ledges, banks, stairs, flat ground",
+    "url": "/skate-and-the-city/spots/springfield-park-spot/"
+  },
+  {
+    "type": "spot",
+    "id": "williamsburg-bridge-spot",
+    "name": "Williamsburg Bridge Banks",
+    "description": "Raw street spot under the Williamsburg Bridge approach. Steep banks and crusty ledges — not for the faint of heart.",
+    "neighborhood": "Williamsburg",
+    "borough": "Brooklyn",
+    "features": "banks, ledges, gaps, rough ground",
+    "url": "/skate-and-the-city/spots/williamsburg-bridge-spot/"
   },
   {
     "type": "route",
@@ -227,7 +427,7 @@
     "neighborhood": "Manhattan",
     "borough": "Manhattan",
     "features": "brooklyn-banks, les-skatepark, tompkins-square-park, astor-place",
-    "url": "/routes/og-manhattan/"
+    "url": "/skate-and-the-city/routes/og-manhattan/"
   },
   {
     "type": "route",
@@ -237,7 +437,7 @@
     "neighborhood": "Manhattan / Brooklyn",
     "borough": "Manhattan / Brooklyn",
     "features": "dumbo-spot, brooklyn-banks, federal-plaza",
-    "url": "/routes/brooklyn-bridge-to-banks/"
+    "url": "/skate-and-the-city/routes/brooklyn-bridge-to-banks/"
   },
   {
     "type": "route",
@@ -247,6 +447,56 @@
     "neighborhood": "Brooklyn",
     "borough": "Brooklyn",
     "features": "mccarren-skatepark, cooper-park, red-hook-diy",
-    "url": "/routes/williamsburg-to-bushwick/"
+    "url": "/skate-and-the-city/routes/williamsburg-to-bushwick/"
+  },
+  {
+    "type": "route",
+    "id": "queens-quest",
+    "name": "Queens Quest",
+    "description": "Explore Queens' diverse skate scene — from Flushing Meadows' world-class park to the beachfront vibes of Rockaway. This borough has way more than people think.",
+    "neighborhood": "Queens",
+    "borough": "Queens",
+    "features": "flushing-meadows-skatepark, maloof-skatepark, far-rockaway-skatepark, rockaway-beach-skatepark",
+    "url": "/skate-and-the-city/routes/queens-quest/"
+  },
+  {
+    "type": "route",
+    "id": "beach-day",
+    "name": "Beach Day",
+    "description": "Sun, sand, and skateboarding — hit the coastal parks from Brooklyn to Queens. Pack sunscreen and a towel.",
+    "neighborhood": "Multi-borough",
+    "borough": "Multi-borough",
+    "features": "coney-island-skatepark, rockaway-beach-skatepark, far-rockaway-skatepark",
+    "url": "/skate-and-the-city/routes/beach-day/"
+  },
+  {
+    "type": "route",
+    "id": "rainy-day-options",
+    "name": "Rainy Day Options",
+    "description": "When it's pouring, you don't stop skating — you get creative. Hit the covered spots and DIY havens that work in the wet.",
+    "neighborhood": "Multi-borough",
+    "borough": "Multi-borough",
+    "features": "south-beach-diy, williamsburg-bridge-spot, bed-stuy-diy",
+    "url": "/skate-and-the-city/routes/rainy-day-options/"
+  },
+  {
+    "type": "route",
+    "id": "full-borough-blitz",
+    "name": "The Full Borough Blitz",
+    "description": "The ultimate NYC skate marathon — hit all five boroughs in one epic day. This is a full-day commitment and a badge of honor.",
+    "neighborhood": "All boroughs",
+    "borough": "All boroughs",
+    "features": "stapleton-skatepark, brooklyn-banks, mccarren-skatepark, flushing-meadows-skatepark, mullaly-skatepark",
+    "url": "/skate-and-the-city/routes/full-borough-blitz/"
+  },
+  {
+    "type": "route",
+    "id": "culture-and-kickflips",
+    "name": "Culture & Kickflips",
+    "description": "NYC isn't just about spots — it's about the culture around them. This route pairs great skate spots with museums, galleries, and cultural landmarks.",
+    "neighborhood": "Manhattan",
+    "borough": "Manhattan",
+    "features": "columbus-park-spot, federal-plaza, the-cube-astor, chelsea-piers-skatepark",
+    "url": "/skate-and-the-city/routes/culture-and-kickflips/"
   }
 ]
