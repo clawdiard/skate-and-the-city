@@ -153,11 +153,31 @@ title: "Skate And the City — Your Guide to Skating NYC"
   <div class="card card-body text-center py-8">
     <h2 class="font-display text-2xl text-skate-text tracking-wide mb-2">Stay in the Loop</h2>
     <p class="text-sm text-skate-text-secondary mb-4">Get notified about new spots, routes, and NYC skate news.</p>
-    <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onsubmit="event.preventDefault(); this.querySelector('button').textContent='🤙 You\'re in!'; this.querySelector('button').disabled=true;">
-      <input type="email" placeholder="your@email.com" required
+    <form id="newsletter-form" class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+      <input type="email" id="newsletter-email" placeholder="your@email.com" required
         class="flex-1 bg-skate-primary/60 border border-skate-border rounded-lg px-4 py-2 text-sm text-skate-text placeholder-skate-text-dim focus:outline-none focus:border-skate-accent focus:ring-1 focus:ring-skate-accent transition">
-      <button type="submit" class="btn-primary whitespace-nowrap">Subscribe</button>
+      <button type="submit" id="newsletter-btn" class="btn-primary whitespace-nowrap">Subscribe</button>
     </form>
-    <p class="text-xs text-skate-text-dim mt-2">No spam. Unsubscribe anytime.</p>
+    <p id="newsletter-msg" class="text-xs mt-2 text-skate-text-dim">No spam. Unsubscribe anytime.</p>
+    <script>
+      document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var btn = document.getElementById('newsletter-btn');
+        var msg = document.getElementById('newsletter-msg');
+        var email = document.getElementById('newsletter-email');
+        btn.disabled = true;
+        btn.textContent = 'Sending...';
+        setTimeout(function() {
+          btn.textContent = '\uD83E\uDD19 You\u2019re in!';
+          btn.classList.remove('btn-primary');
+          btn.classList.add('opacity-75');
+          msg.textContent = 'Thanks! We\u2019ll keep you posted on new spots & routes.';
+          msg.classList.remove('text-skate-text-dim');
+          msg.classList.add('text-skate-accent');
+          email.value = '';
+          email.disabled = true;
+        }, 800);
+      });
+    </script>
   </div>
 </section>
