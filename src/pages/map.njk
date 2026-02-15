@@ -203,6 +203,16 @@ permalink: /map/
     cb.addEventListener('change', applyFilters);
   });
 
+  // Apply URL query params (e.g. ?borough=Brooklyn)
+  const urlParams = new URLSearchParams(window.location.search);
+  const boroughParam = urlParams.get('borough');
+  if (boroughParam) {
+    document.querySelectorAll('.filter-borough').forEach(cb => {
+      cb.checked = cb.value.toLowerCase() === boroughParam.toLowerCase();
+    });
+    applyFilters();
+  }
+
   // Locate me
   document.getElementById('locateBtn').addEventListener('click', () => {
     if (!navigator.geolocation) return alert('Geolocation not supported');
